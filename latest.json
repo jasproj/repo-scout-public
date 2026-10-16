@@ -1,16 +1,114 @@
 {
- "date": "2026-10-15",
- "since": "2026-10-12",
+ "date": "2026-10-16",
+ "since": "2026-10-13",
  "stats": {
   "queries": 94,
-  "raw": 442,
-  "new": 1
+  "raw": 429,
+  "new": 24
  },
  "profiles": {
   "ft": {
    "label": "Florida / National Teleprompter + PrompterQ",
    "revenue_line": "Gig bookings ($700-2K each), PrompterQ software, B2B lead gen",
-   "candidates": []
+   "candidates": [
+    {
+     "repo": "cmusphinx/pocketsphinx",
+     "url": "https://github.com/cmusphinx/pocketsphinx",
+     "description": "A small speech recognizer",
+     "stars": 4351,
+     "forks": 728,
+     "language": "C",
+     "license": "NOASSERTION",
+     "created": "2014-04-07",
+     "pushed": "2026-10-13",
+     "topics": [
+      "c",
+      "python",
+      "speech-recognition"
+     ],
+     "lane": "active",
+     "query": "speech scroller OR autocue",
+     "stars_per_day": 1.0,
+     "score": 12,
+     "keyword_hits": [
+      "speech"
+     ],
+     "flags": [
+      "no-license"
+     ],
+     "readme_excerpt": "PocketSphinx 5.1.1\n=====================\n\nThis is PocketSphinx, one of Carnegie Mellon University's open source large\nvocabulary, speaker-independent continuous speech recognition engines.\n\nThough the algorithms and models implemented by PocketSphinx are now\nquite old (dating back to the 1970s in some cases!) they are still\nuseful in many applications due to their compactness and efficiency.\n\nThe version number is strangely large because there was a \"release\"\nthat people are using called 5prealpha, and we will use proper\n[semantic versioning](https://semver.org/) from now on.\n\n**Please see the LICENSE file for terms of use.**\n\nInstallation\n------------\n\nWe now use CMake for building, which should give reasonable results\nacross Linux and Windows.  Not certain about Mac OS X because I don't\nhave one of those.  In addition, the audio library, which never really\nbuilt or worked correctly on any platform at all, has simply been\nremoved.\n\nThere is no longer any dependency on SphinxBase.  There is no\nSphinxBase anymore.  This is not the SphinxBase you're looking for.\nAll your SphinxBase are belong to us.\n\nThere are some other dependencies that you may find useful in order to\nuse the example code (though they are not strictly necessary to build\nand install).  On Debian GNU/Linux and its derivatives (such as\nRaspberry Pi OS, Ubuntu, etc), you can install them with:\n\n    sudo apt install \\\n        ffmpeg \\\n        libasound2-dev \\\n        libportaudio2 \\\n        libportaudiocpp0 \\\n        libpulse-dev \\\n        libsox-fmt-all \\\n        portaudio19-dev \\\n        sox\n\nTo install the Python module in a virtual environment (replace\n`~/ve_pocketsphinx` with the virtual environment you wish to create),\nfrom the top level directory:\n\n```\npython3 -m venv ~/ve_pocketsphinx\n. ~/ve_pocketsphinx/bin/activate\npip install .\n```\n\nTo install the C library and bindings (assuming you have access to\n/usr/local - if not, use `-DCMAKE_INSTALL_PREFIX` to set a different\nprefix in the first `cmake` command below):\n\n```\ncmake -S . -B build\ncmake --build build\ncmake --build build --target install\n```\n\nUsage\n-----\n\nThe `pocketsphinx` command-line program reads single-channel 16-bit\nPCM audio from standard input or one or more files, and attempts to\nrecognize speech in it using the default acoustic and language model.\nIt accepts a large number of options which you probably don't care\nabout, a *command* which defaults to `live`, and one or more inputs\n(except in `align` mode), or `-` to read f",
+     "readme_score": 6
+    },
+    {
+     "repo": "phucnguyentvp1/frameweaver",
+     "url": "https://github.com/phucnguyentvp1/frameweaver",
+     "description": "Local video workspace for AI scene generation, timeline editing, speech analysis, narration, subtitles, audio mixing, and media management.",
+     "stars": 34,
+     "forks": 23,
+     "language": "Python",
+     "license": "MIT",
+     "created": "2026-10-14",
+     "pushed": "2026-10-16",
+     "topics": [
+      "2d-animation",
+      "ai-video",
+      "chrome-extension",
+      "facebook-reels",
+      "fastapi",
+      "google-flow",
+      "local-first",
+      "react",
+      "stickman",
+      "storytelling",
+      "text-to-speech",
+      "tiktok-video-maker",
+      "timeline-editor",
+      "video-editing",
+      "video-editor",
+      "video-news",
+      "youtube-shorts"
+     ],
+     "lane": "new",
+     "query": "speech scroller OR autocue",
+     "stars_per_day": 17.0,
+     "score": 7,
+     "keyword_hits": [
+      "speech"
+     ],
+     "flags": [],
+     "readme_excerpt": "<p align=\"center\">\n  <img src=\"docs/images/frameweaver_banner.svg\" width=\"880\" alt=\"FrameWeaver \u2014 weave scenes, voices, and sound\" />\n</p>\n\n<p align=\"center\">\n  <a href=\"LICENSE\"><img src=\"https://img.shields.io/badge/code-MIT-2563eb\" alt=\"Code: MIT\" /></a>\n  <img src=\"https://img.shields.io/badge/status-preview-f59e0b\" alt=\"Preview release\" />\n  <img src=\"https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white\" alt=\"Python 3.12\" />\n  <img src=\"https://img.shields.io/badge/Node.js-24-339933?logo=nodedotjs&logoColor=white\" alt=\"Node.js 24\" />\n  <img src=\"https://img.shields.io/badge/Chrome-MV3-4285F4?logo=googlechrome&logoColor=white\" alt=\"Chrome Manifest V3\" />\n</p>\n\n<p align=\"center\">\n  <a href=\"README.vi.md\">Ti\u1ebfng Vi\u1ec7t</a> \u00b7\n  <a href=\"#quick-start\">Quick start</a> \u00b7\n  <a href=\"#documentation\">Documentation</a> \u00b7\n  <a href=\"https://github.com/phucnguyentvp1/frameweaver/releases\">Downloads</a> \u00b7\n  <a href=\"https://github.com/phucnguyentvp1/frameweaver/issues\">Report an issue</a>\n</p>\n\n# FrameWeaver\n\n**A local video workspace for scenes, narration, audio, and timeline editing.**\n\nFrameWeaver brings a React dashboard, Python backend, and Chrome extension into\none workflow. Plan scenes, reuse character references, generate through your own\nGoogle Flow session, prepare narration, and assemble clips with FFmpeg.\n\nDeveloped and maintained by [phucnguyentvp1](https://github.com/phucnguyentvp1),\nFrameWeaver combines scene production with a broader editing workspace: layered\ntimelines, media libraries, speech analysis, narration, subtitles, and saved exports.\nThe project is currently available as a preview release.\n\n## Creator showcase\n\n**YouTube Shorts. Reels. Illustrated stories. Stickman explainers. 2D characters \u2014 and more.**\n\nTurn a story into scenes, add narration and subtitles, then shape the result in\nthe timeline. These demo previews were shared by the FrameWeaver maintainer.\n\n<table>\n  <tr>\n    <th width=\"33%\">Illustrated moral stories</th>\n    <th width=\"33%\">Stickman storytelling</th>\n    <th width=\"33%\">2D family stories</th>\n  </tr>\n  <tr>\n    <td align=\"center\" valign=\"top\"><a href=\"docs/images/showcase/karma-story-short.png\"><img src=\"docs/images/showcase/karma-story-short.png\" width=\"220\" alt=\"Vertical illustrated story with a turtle scene, title, and Vietnamese subtitles\" /></a></td>\n    <td align=\"center\" valign=\"top\"><a href=\"docs/images/showcase/stickman-family-short.png\"><img src=\"docs/images/showcase/stickman-family-short",
+     "readme_score": 5
+    },
+    {
+     "repo": "kuxiaowo/wechat-asr-bridge",
+     "url": "https://github.com/kuxiaowo/wechat-asr-bridge",
+     "description": "ASR bridge exposing Weixin voice input as a programmable speech transcription API on Windows",
+     "stars": 16,
+     "forks": 6,
+     "language": "Python",
+     "license": "MIT",
+     "created": "2026-10-13",
+     "pushed": "2026-10-16",
+     "topics": [
+      "asr",
+      "frida",
+      "speech-recognition",
+      "wechat",
+      "windows"
+     ],
+     "lane": "new",
+     "query": "speech scroller OR autocue",
+     "stars_per_day": 5.3,
+     "score": 4,
+     "keyword_hits": [
+      "speech",
+      "voice"
+     ],
+     "flags": [],
+     "readme_excerpt": "# ASR Bridge\n\n\u5c06\u5fae\u4fe1\u684c\u9762\u7aef\u3001\u5fae\u4fe1\u8f93\u5165\u6cd5\u548c\u8c46\u5305\u7f51\u9875\u7248\u8bed\u97f3\u8bc6\u522b\u6574\u5408\u6210\u4e00\u4e2a Windows \u5e94\u7528\u53ca OpenAI \u517c\u5bb9\u7684\u672c\u673a\u97f3\u9891\u8f6c\u5199\u63a5\u53e3\u3002\u97f3\u9891\u53d1\u9001\u5230\u6240\u9009\u540e\u7aef\u7684\u670d\u52a1\u7aef\uff0c\u4e0d\u53d1\u9001\u7ed9 OpenAI\u3002\n\n[English](README.en.md) \u00b7 [MIT License](LICENSE) \u00b7 [\u63a5\u53e3\u6587\u6863](docs/api.html) \u00b7 [\u7a97\u53e3\u7248\u4f7f\u7528\u8bf4\u660e](docs/PORTABLE.md)\n\n## \u7a97\u53e3\u7248\n\n\u4f7f\u7528\u4e0e\u6e90\u7801\u7248\u672c\u5bf9\u5e94\u7684 `WeChatASRBridge-0.3.1-windows-x64-portable.zip`\uff0c\u89e3\u538b\u6574\u4e2a\u6587\u4ef6\u5939\u5e76\u8fd0\u884c `WeChatASRBridge.exe`\u3002\u672c\u5730\u6784\u5efa\u4ea7\u7269\u5728 `dist/`\uff1bGitHub Releases \u7684\u6700\u65b0\u6b63\u5f0f\u53d1\u5e03\u7248\u672c\u53ef\u80fd\u65e9\u4e8e\u5f53\u524d\u6e90\u7801\u3002\n\n- **\u9996\u9875**\uff1a\u670d\u52a1\u72b6\u6001\u3001\u4e09\u4e2a\u72ec\u7acb\u5e76\u53d1\u6c60\u3001Base URL\u3001model \u548c\u63a5\u53e3\u6587\u6863\u5165\u53e3\u3002\u6bcf\u4e2a\u5c0f\u683c\u4ee3\u8868\u4e00\u4e2a\u5e76\u53d1\u540d\u989d\uff0c\u5360\u7528\u663e\u793a\u7eff\u8272\uff0c\u7a7a\u95f2\u65e0\u586b\u8272\u3002\n- **\u624b\u52a8\u8f6c\u5199**\uff1a\u9009\u62e9 model\u3001\u9009\u62e9\u97f3\u9891\u6216\u793a\u4f8b\u97f3\u9891\u3001\u8bc6\u522b\u3001\u590d\u5236\u6216\u4fdd\u5b58\u6587\u5b57\u3002\n- **\u8bbe\u7f6e**\uff1a\u7aef\u53e3\u3001\u672c\u5730 API Key \u548c\u4e09\u4e2a\u540e\u7aef\u5404\u81ea\u7684\u5e76\u53d1\u6570\u3002\u6bcf\u4e2a\u6a21\u578b\u9ed8\u8ba4\u5e76\u53d1 4\uff0c\u53ef\u5206\u522b\u8bbe\u7f6e\u6b63\u6574\u6570\uff1b\u4e09\u4e2a\u6a21\u578b\u5408\u8ba1\u6700\u591a\u8fd0\u884c 8 \u4e2a\u8bf7\u6c42\uff0c\u8d85\u51fa\u672c\u6c60\u6216\u603b\u989d\u5ea6\u7684\u8bf7\u6c42\u6392\u961f\u3002\u9996\u9875\u663e\u793a\u603b\u5360\u7528\u548c\u5404\u6c60\u5360\u7528\u3002\u8fd9\u4e9b\u914d\u7f6e\u4e0d\u662f\u4e0a\u6e38\u7a33\u5b9a\u6027\u4fdd\u8bc1\uff0c\u65e7\u7248\u5df2\u4fdd\u5b58\u7684\u81ea\u5b9a\u4e49\u503c\u4f1a\u4fdd\u7559\u3002\n- \u5173\u95ed\u7a97\u53e3\u540e\u9a7b\u7559\u6258\u76d8\uff1b\u6b63\u5e38\u9000\u51fa\u4f1a\u7b49\u5f85\u8bf7\u6c42\u548c\u539f\u751f\u4f1a\u8bdd\u6e05\u7406\u3002\u53ea\u505c\u6b62\u672c\u5e94\u7528\u542f\u52a8\u7684\u670d\u52a1\u3002\n\n![\u7a97\u53e3\u7248\u9996\u9875](docs/portable-preview.png)\n\n## \u6a21\u578b\u8def\u7531\n\n| model | \u540e\u7aef | \u6761\u4ef6 |\n|---|---|---|\n| `wechat-voice` | \u5fae\u4fe1\u684c\u9762\u7aef | \u5fae\u4fe1 4.1.13.65 \u5df2\u767b\u5f55\uff0c\u8d26\u53f7\u7684 iLink/Opus \u80fd\u529b\u53ef\u7528 |\n| `wetype-voice` | \u5fae\u4fe1\u8f93\u5165\u6cd5 | \u5df2\u9a8c\u8bc1\u7684\u5fae\u4fe1\u8f93\u5165\u6cd5 3.0.0.34 \u6b63\u5728\u8fd0\u884c |\n| `doubao-voice` | \u8c46\u5305\u7f51\u9875\u7248\u533f\u540d\u4f1a\u8bdd | \u80fd\u6b63\u5e38\u8bbf\u95ee\u8c46\u5305\u7f51\u9875\u53ca\u8bed\u97f3\u7f51\u5173\uff0c\u65e0\u9700\u6d4f\u89c8\u5668\u767b\u5f55 |\n\n\u5fae\u4fe1\u548c\u8f93\u5165\u6cd5\u6267\u884c\u5df2\u9002\u914d\u6a21\u5757\u7684\u6307\u7eb9\u6838\u9a8c\uff0c\u7248\u672c\u4e0d\u5339\u914d\u65f6\u62d2\u7edd\u539f\u751f\u8c03\u7528\uff1b\u4e0d\u9700\u8981\u540c\u65f6\u6ee1\u8db3\u6240\u6709\u540e\u7aef\u7684\u8fd0\u884c\u6761\u4ef6\u624d\u80fd\u542f\u52a8\u5e94\u7528\u3002\u67d0\u4e2a\u540e\u7aef\u4e0d\u53ef\u7528\u65f6\uff0c\u5176\u4ed6\u540e\u7aef\u4ecd\u53ef\u4f7f\u7528\u3002\u8c46\u5305\u4f7f\u7528\u666e\u901a\u6e38\u5ba2\u521d\u59cb\u5316\uff0c\u4e0d\u8bfb\u53d6 Chrome/Edge \u767b\u5f55\u4fe1\u606f\uff0c\u4e5f\u4e0d\u4fdd\u5b58\u6d4f\u89c8\u5668 Cookie\u3002\n\n\u539f\u751f\u5ba2\u6237\u7aef\u4e0e\u79c1\u6709\u7f51\u9875\u534f\u8bae\u53ef\u80fd\u53d8\u5316\uff0c\u5f53\u524d\u5b9e\u73b0\u4e0d\u80fd\u4fdd\u8bc1\u4efb\u610f\u7248\u672c\u6216\u957f\u671f\u7a33\u5b9a\u8fd0\u884c\u3002\u6bcf\u6c60\u81ea\u5b9a\u4e49\u503c\u4e0d\u4f1a\u7a81\u7834\u603b\u8ba1 8 \u8def\u7684\u8fd0\u884c\u4e0a\u9650\uff0c\u4e5f\u4e0d\u4f1a\u63d0\u9ad8\u4e0a\u6e38\u9650\u989d\u3002\u5927\u5e76\u53d1\u6c60\u7684\u683c\u5b50\u5206\u7ec4\u663e\u793a\uff0c\u663e\u793a\u5206\u9875\u4e0d\u4f1a\u51cf\u5c11\u5b9e\u9645\u914d\u7f6e\u5bb9\u91cf\u3002\n\n## \u4ece\u6e90\u7801\u8fd0\u884c\n\nWindows x64\uff0c\u4f7f\u7528 Python 3.11 conda \u73af\u5883\uff1a\n\n```powershell\npowershell -NoProfile -ExecutionPolicy Bypass -File .\\setup.ps1\n.\\env\\python.exe desktop.py\n```\n\n\u4ec5\u542f\u52a8 HTTP \u670d\u52a1\uff1a\n\n```powershell\n.\\env\\python.exe server.py --port 8765 `\n  --wechat-concurrency 4 --wetype-concurrency 4 --doubao-concurrency 4\n```\n\n\u4e5f\u53ef\u4f7f\u7528 `start.ps1 -Background`\uff1b\u4e09\u4e2a\u5e76\u53d1\u53c2\u6570\u5206\u522b\u4e3a `-WechatConcurrency`\u3001`-WetypeConcurrency`\u3001`-DoubaoConcurrency`\u3002\u505c\u6b62\u4f7f\u7528 `stop.ps1 -Port 8765`\u3002\u5355\u540e\u7aef\u8bca\u65ad\u53ef\u4f7f\u7528 `server.py --backend wechat|wetype|doubao`\uff1b\u5355\u540e\u7aef\u540c\u6837\u4f7f\u7528\u5bf9\u5e94\u7684\u6b63\u5f0f model \u540d\u79f0\u3002\n\n## \u63a5\u5165\u5176\u4ed6\u7a0b\u5e8f\n\n| \u53c2\u6570 | \u503c |\n|---|---|\n| Base URL | `http://127.0.0.1:8765/v1` |\n| model | \u4e0a\u8868\u4e2d\u7684\u8def\u7531\u6807\u8bc6 |\n| API Key | \u672a\u542f\u7528\u672c\u5730\u9274\u6743\u65f6\u4efb\u610f\u503c\u6216\u7559\u7a7a\u5747\u88ab\u5ffd\u7565\uff1b\u542f\u7528\u540e\u586b\u8bbe\u7f6e\u4e2d\u7684\u5bc6\u94a5 |\n| \u8f6c\u5199 | `POST /v1/audio/transcriptions`\uff0cmultipart \u8868\u5355 |\n| \u6a21\u578b\u5217\u8868 | `GET /v1/models` |\n| \u72b6\u6001\u53ca\u5e76\u53d1\u6c60 | `GET /health`\uff0c\u53ea\u8bfb\uff0c\u4e0d\u63d0\u4ea4\u8bc6\u522b |\n| HTML \u63a5\u53e3\u6587\u6863 | `http://127.0.0.1:8765/docs`\uff0c\u4e5f\u53ef\u79bb\u7ebf\u6253\u5f00 `docs/api.html` |\n\n```python\nfrom openai import OpenAI\n\nclient = OpenAI(base_url=\"http://127.0.0.1:8765/v1\", api_key=\"local\",\n                timeout=180, max_retries=0)\nwith open(\"audio.wav\", \"rb\") as audio:\n    result = client.audio.transcriptions.create(\n        model=\"doubao-voice\", file=audio, response_format=\"json\")\nprint(result.text)\n```\n\n\u5355\u4e2a\u4e0a\u4f20\u6587\u4ef6\u6700\u5927 25 MiB\uff0c\u5b8c\u6574\u89e3\u7801\u540e\u5728\u5185\u5b58\u4e2d\u8f6c\u5199\u3002\u652f\u6301 `json` \u548c UTF-8 `text`\uff1b`stream=false`\u3001`temperature=0` \u4ec5\u4f5c\u4e3a\u517c\u5bb9\u9ed8\u8ba4\u503c\u3002`language`\u3001`prompt`\u3001\u5b57\u5e55\u3001\u9010\u8bcd\u65f6\u95f4\u6233\u3001\u8bf4\u8bdd\u4eba\u5206\u79bb\u53ca\u6d41\u5f0f\u54cd\u5e94\u5c1a\u672a\u5b9e\u73b0\uff0c\u4f20\u5165\u65f6\u660e\u786e\u8fd4\u56de\u9519\u8bef\u3002\n\n\u9ed8\u8ba4\u53ea\u76d1\u542c `127.0.0.1`\u3002\u4f7f\u7528 `--host` \u66b4\u9732\u975e\u672c\u673a\u5730\u5740\u524d\u5fc5\u987b\u8bbe\u7f6e `WECHAT_API_KEY`\u3002\u5728\u8bbe\u7f6e\u4e2d\u52fe\u9009\u300c",
+     "readme_score": 1
+    }
+   ]
   },
   "wander": {
    "label": "Wander Network / KWST / WTPA tour-affiliate sites",
@@ -22,26 +120,536 @@
    "revenue_line": "Fast-rising, cutting-edge repos that could seed a NEW sellable product, service or SaaS. Judge on time-to-first-dollar.",
    "candidates": [
     {
-     "repo": "risingpower/claude-phone",
-     "url": "https://github.com/risingpower/claude-phone",
-     "description": "A desk phone line between you and your Claude Code sessions",
-     "stars": 51,
-     "forks": 6,
-     "language": "Python",
+     "repo": "Yeachan-Heo/oh-my-claudecode",
+     "url": "https://github.com/Yeachan-Heo/oh-my-claudecode",
+     "description": "Teams-first Multi-agent orchestration for Claude Code",
+     "stars": 39953,
+     "forks": 3582,
+     "language": "TypeScript",
      "license": "MIT",
-     "created": "2026-10-13",
-     "pushed": "2026-10-14",
-     "topics": [],
-     "lane": "new",
+     "created": "2026-01-09",
+     "pushed": "2026-10-16",
+     "topics": [
+      "agentic-coding",
+      "ai-agents",
+      "automation",
+      "claude",
+      "claude-code",
+      "multi-agent-systems",
+      "oh-my-opencode",
+      "opencode",
+      "parallel-execution",
+      "vibe-coding"
+     ],
+     "lane": "active",
      "query": "claude code",
-     "stars_per_day": 25.5,
-     "score": 21,
+     "stars_per_day": 142.7,
+     "score": 54,
      "keyword_hits": [
+      "agent",
+      "agentic",
+      "claude",
+      "automation"
+     ],
+     "flags": [],
+     "readme_excerpt": "English | [\ud55c\uad6d\uc5b4](README.ko.md) | [\u4e2d\u6587](README.zh.md) | [\u65e5\u672c\u8a9e](README.ja.md) | [Espa\u00f1ol](README.es.md) | [Ti\u1ebfng Vi\u1ec7t](README.vi.md) | [Portugu\u00eas](README.pt.md)\n\n# oh-my-claudecode\n\n[![npm version](https://img.shields.io/npm/v/oh-my-claude-sisyphus?color=cb3837)](https://www.npmjs.com/package/oh-my-claude-sisyphus)\n[![npm downloads](https://img.shields.io/npm/dm/oh-my-claude-sisyphus?color=blue)](https://www.npmjs.com/package/oh-my-claude-sisyphus)\n[![GitHub stars](https://img.shields.io/github/stars/Yeachan-Heo/oh-my-claudecode?style=flat&color=yellow)](https://github.com/Yeachan-Heo/oh-my-claudecode/stargazers)\n[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)\n[![Sponsor](https://img.shields.io/badge/Sponsor-\u2764\ufe0f-red?style=flat&logo=github)](https://github.com/sponsors/Yeachan-Heo)\n[![Discord](https://img.shields.io/discord/1452487457085063218?color=5865F2&logo=discord&logoColor=white&label=Discord)](https://discord.gg/wSyUQYfhAw)\n\n> **For Codex users:** Check out [oh-my-codex](https://github.com/Yeachan-Heo/oh-my-codex) \u2014 the same orchestration experience for OpenAI Codex CLI.\n\n> **Liked OmC but found it a bit overkill? Try [gajae-code](https://github.com/Yeachan-Heo/gajae-code).**\n> Keeps Claude OAuth as-is while being faster, cheaper, simpler, and more powerful \u2014 with an SDK-based integration path built for OpenClaw, Hermes, Grokbot, and similar agent runtimes.\n\n**Multi-agent orchestration for Claude Code. Zero learning curve.**\n\n_Don't learn Claude Code. Just use OMC._\n\n[Get Started](#quick-start) \u2022 [Documentation](https://yeachan-heo.github.io/oh-my-claudecode-website) \u2022 [CLI Reference](https://yeachan-heo.github.io/oh-my-claudecode-website/docs/#cli-reference) \u2022 [Workflows](https://yeachan-heo.github.io/oh-my-claudecode-website/docs/#workflows) \u2022 [Migration Guide](docs/MIGRATION.md) \u2022 [Discord](https://discord.gg/wSyUQYfhAw)\n\n---\n\n## Core Maintainers\n\n| Role           | Name        | GitHub                                         |\n| -------------- | ----------- | ---------------------------------------------- |\n| Creator & Lead | Yeachan Heo | [@Yeachan-Heo](https://github.com/Yeachan-Heo) |\n\n## Ambassadors\n\n| Name       | GitHub                                           |\n| ---------- | ------------------------------------------------ |\n| Sigrid Jin | [@sigridjineth](https://github.com/sigridjineth) |\n\n## Document Specialists\n\n| Name    | GitHub                                 |\n| ------- | ------",
+     "readme_score": 33
+    },
+    {
+     "repo": "DayuanJiang/next-ai-draw-io",
+     "url": "https://github.com/DayuanJiang/next-ai-draw-io",
+     "description": "Draw and edit draw.io diagrams by chatting with an AI. Web app, desktop app, and an MCP server for Claude Code, Cursor, Codex and VS Code.",
+     "stars": 36274,
+     "forks": 3853,
+     "language": "TypeScript",
+     "license": "Apache-2.0",
+     "created": "2025-03-23",
+     "pushed": "2026-10-16",
+     "topics": [
+      "ai",
+      "architecture-diagram",
+      "claude-code",
+      "diagram-generator",
+      "diagrams",
+      "draw-io",
+      "drawio",
+      "electron",
+      "flowchart",
+      "llm",
+      "mcp",
+      "mcp-server",
+      "nextjs"
+     ],
+     "lane": "active",
+     "query": "mcp server",
+     "stars_per_day": 63.4,
+     "score": 47,
+     "keyword_hits": [
+      "mcp",
+      "claude",
+      "llm"
+     ],
+     "flags": [],
+     "readme_excerpt": "<div align=\"center\">\n\n# Next AI Draw.io\n\n**Draw and edit draw.io diagrams by chatting with an AI.**\n\nEnglish | [\u4e2d\u6587](./docs/cn/README_CN.md) | [\u65e5\u672c\u8a9e](./docs/ja/README_JA.md)\n\n[![TrendShift](https://trendshift.io/api/badge/repositories/15449)](https://next-ai-drawio.jiang.jp/)\n\n[![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)\n[![Sponsor](https://img.shields.io/badge/Sponsor-\u2764-ea4aaa)](https://github.com/sponsors/DayuanJiang)\n\n[**Live Demo**](https://next-ai-drawio.jiang.jp/) \u00b7 [**Desktop App**](https://github.com/DayuanJiang/next-ai-draw-io/releases) \u00b7 [**MCP Server**](#in-your-ai-agent-mcp)\n\n</div>\n\nhttps://github.com/user-attachments/assets/66b9f12f-219f-4d62-acc0-0725e6850eec\n\nDescribe a diagram in a sentence and the AI draws it on a real draw.io canvas. Edit it by hand like any draw.io file, or select a few shapes and tell the AI what to change. Every AI change is a version you can compare, restore or undo, and the result exports as `.drawio`, `.png` or `.svg`.\n\nAvailable as a web app, a desktop app for Windows, macOS and Linux, and an MCP server for AI agents such as Claude Code, Cursor and VS Code.\n\n## Highlights\n\n**Draw**\n\n-   Architecture diagrams, flowcharts, sequence diagrams and more from one sentence, with built-in AWS, Azure, GCP and Kubernetes icon libraries\n-   Connectors can carry a flowing animation\n-   Upload a screenshot or a sketch and the AI redraws it; upload PDF, Markdown, code and other text files and get a diagram of their content\n\n**Edit**\n\n-   Edit by chat: changes stream onto the canvas and the shapes the AI just changed are highlighted\n-   Ask about a selection: select shapes on the canvas and the AI changes only those\n-   Versions and undo: every AI change is a version card with a thumbnail; compare it with the canvas, restore it or undo it, and Ctrl+Z on the canvas also takes back an AI change in one step\n-   It is a normal draw.io diagram: double-click to rename, drag, restyle, use several pages, and export as `.drawio`, `.png`, `.svg` or `.drawio.svg` at any time\n\n**Use**\n\n-   25 model providers, including an OpenAI-compatible preset for any other URL; enter your own API key in the browser and it stays on your machine\n-   Models that reason show their thinking\n-   Dark mode; the interface is available in English, Simplified Chinese, Traditional Chinese and Japanese\n\n## Examples\n\n<div align=\"center\">\n<table width=\"100%\">\n  <tr>\n    <td colspan=\"2\" v",
+     "readme_score": 30
+    },
+    {
+     "repo": "ApodexAI/FrontierAgent",
+     "url": "https://github.com/ApodexAI/FrontierAgent",
+     "description": "\ud83e\udde9 FrontierAgent, our agent framework, open-sourced alongside it \u2014 native command-line TUI, ReAct and Agent Team modes, one command on macOS and Linux, no preinstall, no hard Docker dependency.",
+     "stars": 5279,
+     "forks": 300,
+     "language": "Python",
+     "license": "Apache-2.0",
+     "created": "2026-08-22",
+     "pushed": "2026-10-16",
+     "topics": [
+      "agent-orchestration",
+      "agentic-ai",
+      "agentic-framework",
+      "ai-agents",
+      "harness",
+      "multi-agent",
+      "terminal-agent",
+      "tui"
+     ],
+     "lane": "active",
+     "query": "agent framework",
+     "stars_per_day": 96.0,
+     "score": 43,
+     "keyword_hits": [
+      "agent",
+      "agentic",
+      "docker"
+     ],
+     "flags": [],
+     "readme_excerpt": "<div align=\"center\">\n  <picture>\n    <img src=\"./assets/apodex_logo.jpeg\" width=\"30%\" alt=\"Apodex\">\n  </picture>\n</div>\n<hr>\n<br>\n\n<div align=\"center\">\n  <a href=\"https://www.apodex.ai\"><img alt=\"Online Service\" src=\"https://img.shields.io/badge/\ud83e\udd16%20Online_Service-Apodex_1.1-1783ff\"/></a>\n  <a href=\"https://www.apodex.com/\"><img alt=\"Homepage\" src=\"https://img.shields.io/badge/Homepage-Apodex_AI-white\"/></a>\n  <a href=\"https://platform.apodex.ai\"><img alt=\"Try Apodex API\" src=\"https://img.shields.io/badge/Try_Apodex_1.1-API_Platform-1783ff\"/></a>\n  <br>\n  <a href=\"https://huggingface.co/collections/apodex\"><img alt=\"Hugging Face\" src=\"https://img.shields.io/badge/\ud83e\udd17%20Hugging_Face-Apodex_AI-ffc107\"/></a>\n  <a href=\"https://discord.gg/TDJA59TCng\"><img alt=\"Discord\" src=\"https://img.shields.io/badge/Discord-Apodex_AI-5865F2\"/></a>\n  <a href=\"https://x.com/Apodex_AI\"><img alt=\"X\" src=\"https://img.shields.io/badge/X-@Apodex__AI-000000?logo=x&logoColor=white\"/></a>\n  <a href=\"LICENSE\"><img alt=\"License\" src=\"https://img.shields.io/badge/License-Apache_2.0-blue\"/></a>\n</div>\n<br>\n<p align=\"center\">\n  <a href=\"https://trendshift.io/repositories/182526?utm_source=trendshift-badge&amp;utm_medium=badge&amp;utm_campaign=badge-trendshift-182526\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"https://trendshift.io/api/badge/trendshift/repositories/182526/daily?language=Python\" alt=\"ApodexAI%2FFrontierAgent | Trendshift\" width=\"250\" height=\"55\"/></a>\n</p>\n<p align=\"center\">\n  <b><a href=\"https://www.apodex.com/blog/apodex-1.1-scaling-agentic-intelligence-for-complex-work\">Tech Blog</a></b> \u00b7\n  <b><a href=\"https://arxiv.org/abs/2608.23283\">Tech Report</a></b>\n</p>\n\n# FrontierAgent\n\nFrontierAgent is an open-source agent runtime, terminal product, and evaluation\nsuite for long-horizon research and file-based work. The `frontier-agent` TUI\nships two native workflows:\n\n- **ReAct** \u2014 one stateful agent researches, reads files, writes deliverables,\n  runs commands, and iterates in a task-scoped sandbox.\n- **Agent Team** \u2014 a coordinator maintains a task board, delegates independent\n  work to parallel sub-agents, collects their reports, and synthesizes the result.\n\nThe same workflow engine powers the benchmark runner used to evaluate Apodex\nmodels. The framework, tools, workflows, and evaluation layer remain separate,\nso each can be reused independently.\n\n> [!IMPORTANT]\n> ### \ud83d\ude80 Try FrontierAgent on the Apodex API \u2014 free for the next two weeks!\n>\n> **No model hosting required",
+     "readme_score": 18
+    },
+    {
+     "repo": "aeonfun/aeon",
+     "url": "https://github.com/aeonfun/aeon",
+     "description": "The most autonomous AI agent framework: runs unattended on GitHub Actions, self-healing skills, drives Claude Code, Grok, Codex & more. No approval loops. Configure once, forget forever.",
+     "stars": 775,
+     "forks": 285,
+     "language": "JavaScript",
+     "license": "MIT",
+     "created": "2026-03-04",
+     "pushed": "2026-10-16",
+     "topics": [
+      "agent-framework",
+      "agents",
+      "ai",
+      "ai-agents",
+      "anthropic",
+      "automation",
+      "autonomous-agents",
+      "claude",
+      "claude-code",
+      "devops",
+      "github-actions",
+      "harness",
+      "llm",
+      "mcp"
+     ],
+     "lane": "active",
+     "query": "llm automation",
+     "stars_per_day": 3.4,
+     "score": 42,
+     "keyword_hits": [
+      "mcp",
+      "agent",
+      "claude",
+      "llm",
+      "automation"
+     ],
+     "flags": [],
+     "readme_excerpt": "<p align=\"center\">\n  <img src=\"../docs/assets/hero-animated.svg\" alt=\"AEON - the most autonomous agent framework. 86 skills across 9 harnesses (Claude Code, Grok, Codex, Pi, Vibe, Kimi, fx, Cursor, Hermes), running unattended on GitHub Actions: it ships features to your repos, privately discloses real vulnerabilities, deploys live apps, runs deep research, and writes new skills for itself. Keywords: autonomous AI agent, agent framework, GitHub Actions automation, self-improving agent, multi-agent orchestration, LLM skills, cron agent.\" width=\"100%\" />\n</p>\n\n<p align=\"center\">\n  <strong>Star us&nbsp;\u2764\ufe0f&nbsp;\u2192</strong>&nbsp;&nbsp;\n  <a href=\"https://www.aeon.fun/connect\"><img src=\"../docs/assets/btn-run.svg\" alt=\"Run now: start your Aeon agent in the browser with Aeon Connect\" height=\"34\" align=\"absmiddle\"></a>&nbsp;&nbsp;\n  <a href=\"https://github.com/aeonfun/aeon/stargazers\"><img src=\"../docs/assets/btn-star.svg\" alt=\"Star Aeon on GitHub\" height=\"34\" align=\"absmiddle\"></a>&nbsp;&nbsp;\n  <a href=\"https://www.aeon.fun\"><img src=\"../docs/assets/btn-site.svg\" alt=\"aeon.fun\" height=\"34\" align=\"absmiddle\"></a>&nbsp;&nbsp;\n  <a href=\"https://www.aeon.fun/docs\"><img src=\"../docs/assets/btn-docs.svg\" alt=\"Aeon docs\" height=\"34\" align=\"absmiddle\"></a>&nbsp;&nbsp;\n  <a href=\"https://x.com/aeonframework\"><img src=\"../docs/assets/btn-x.svg\" alt=\"@aeonframework on X\" height=\"34\" align=\"absmiddle\"></a>&nbsp;&nbsp;\n  <a href=\"https://bankr.bot/discover/0xbf8e8f0e8866a7052f948c16508644347c57aba3\"><img src=\"../docs/assets/btn-bankr.svg\" alt=\"$aeon on Bankr\" height=\"34\" align=\"absmiddle\"></a>\n</p>\n\n<p align=\"center\">\n  Give it a direction and it ships the work: features, vulnerability disclosures, live apps, deep research - and new skills for itself.<br/><br/>\n  <strong>No approval loops. No babysitting. Configure once, forget forever.</strong>\n</p>\n\n> **\u25b6 Start in your browser:** **[www.aeon.fun/connect](https://www.aeon.fun/connect)** - sign in with GitHub, connect a model, pick skills. No clone, no terminal.\n>\n> **\ud83e\udd16 Using a coding agent?** Point it here: **read https://www.aeon.fun/skills/aeon.md and follow the instructions to set up your Aeon agent.**\n>\n> **Already have an agent?** Drive it from ChatGPT, Claude or Cursor: add **https://www.aeon.fun/connect/mcp** as a connector and sign in with GitHub.\n\n<div align=\"center\">\n\n[![stars](https://img.shields.io/github/stars/aeonfun/aeon?style=flat-square&label=stars&color=F4EFE1&labelColor=0d0c0a&logo=github&logoColor=F4EFE1)",
+     "readme_score": 33
+    },
+    {
+     "repo": "anthropics/claude-plugins-official",
+     "url": "https://github.com/anthropics/claude-plugins-official",
+     "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+     "stars": 39709,
+     "forks": 4356,
+     "language": "Python",
+     "license": "Apache-2.0",
+     "created": "2025-11-20",
+     "pushed": "2026-10-16",
+     "topics": [
+      "claude-code",
+      "mcp",
+      "skills"
+     ],
+     "lane": "active",
+     "query": "claude code",
+     "stars_per_day": 120.3,
+     "score": 40,
+     "keyword_hits": [
+      "mcp",
       "claude"
      ],
      "flags": [],
-     "readme_excerpt": "# claude-phone\n\nA desk phone becomes the line between you and your Claude Code sessions.\n\n**Came from Instagram?** [Watch it in action](https://www.instagram.com/reel/DeY8JPmszXs/), then follow the setup below to build your own.\n\n> **Mac only (Apple Silicon, M1 or later).** It relies on macOS throughout: iTerm2 scripting to type into\n> sessions, the `say` voices, the keychain and launchd. There are no Windows, Linux or Intel Mac instructions.\n\n- **Claude rings you:** a session calls the `call_<name>` MCP tool (`call_sam` for `owner_name = \"Sam\"`). The phone rings with `repo/branch` as caller ID; the spoken answer comes back as the tool result.\n- **Claude announces:** `notify_<name>` rings, reads a short announcement and hangs up.\n- **Transfers:** `transfer_call` puts you through to another session when you ask the wrong one.\n- **You ring Claude:** every live session has an extension (301-399). Dial it, speak, hang up; the words are typed into that session's iTerm2 tab and submitted.\n- **Voicemail:** unanswered questions light the message LED. Press Message, answer each one; answers are typed into the asking sessions.\n\nEverything runs locally on one Mac: Asterisk (the phone exchange), whisper.cpp (speech to text), macOS `say`\nor ElevenLabs (text to speech) and a small Python daemon. Your voice never leaves the Mac; the only things sent out\nare text to ElevenLabs, if you choose it, and missed-call pushes, if you set them up. Why each piece is built the way it is: [docs/build-notes.md](docs/build-notes.md).\n\n## What you need\n\n- An Apple Silicon Mac with [iTerm2](https://iterm2.com) and [Homebrew](https://brew.sh); Claude Code runs in iTerm2 tabs.\n- A SIP desk phone on the same network as the Mac, plugged into the router with a network cable.\n  Built and tested on a **Yealink T31P**; [docs/t31p-setup.md](docs/t31p-setup.md) walks through it.\n  The T31P is powered over the network cable (PoE), and second-hand ones often come without a power supply:\n  without a PoE switch or injector, buy the Yealink 5 V power adapter as well.\n  Other SIP phones should work but are untested; per-repo ringtones and the live session list are Yealink features.\n- No desk phone yet? [Linphone](https://linphone.org) (free, Mac or mobile) works for trying everything out.\n- Python 3.12+, Xcode command line tools (to build Asterisk), and about 1 GB of disk for the speech model.\n- No accounts or subscriptions. ElevenLabs (nicer voices) and ntfy (missed-call pushes) are optional.\n\n## Dial ",
-     "readme_score": 25
+     "readme_excerpt": "# Claude Code Plugins Directory\n\nA curated directory of high-quality plugins for Claude Code.\n\n> **\u26a0\ufe0f Important:** Make sure you trust a plugin before installing, updating, or using it. Anthropic does not control what MCP servers, files, or other software are included in plugins and cannot verify that they will work as intended or that they won't change. See each plugin's homepage for more information.\n\n## Structure\n\n- **`/plugins`** - Internal plugins developed and maintained by Anthropic\n- **`/external_plugins`** - Third-party plugins from partners and the community\n\n## Installation\n\nPlugins can be installed directly from this marketplace via Claude Code's plugin system.\n\nTo install, run `/plugin install {plugin-name}@claude-plugins-official`\n\nor browse for the plugin in `/plugin > Discover`\n\n## Contributing\n\n### Internal Plugins\n\nInternal plugins are developed by Anthropic team members. See `/plugins/example-plugin` for a reference implementation.\n\n### External Plugins\n\nThird-party partners can submit plugins for inclusion in the marketplace. External plugins must meet quality and security standards for approval. To submit a new plugin, use the [plugin directory submission form](https://clau.de/plugin-directory-submission).\n\n## Plugin Structure\n\nEach plugin follows a standard structure:\n\n```\nplugin-name/\n\u251c\u2500\u2500 .claude-plugin/\n\u2502   \u2514\u2500\u2500 plugin.json      # Plugin metadata (required)\n\u251c\u2500\u2500 .mcp.json            # MCP server configuration (optional)\n\u251c\u2500\u2500 commands/            # Slash commands (optional)\n\u251c\u2500\u2500 agents/              # Agent definitions (optional)\n\u251c\u2500\u2500 skills/              # Skill definitions (optional)\n\u2514\u2500\u2500 README.md            # Documentation\n```\n\n## Plugin names are immutable\n\nThe `name` field in a marketplace entry is an **immutable slug**. Once a plugin has been published, its `name` must not change \u2014 users have it installed under that slug, and renaming it breaks their install with a `plugin-not-found` error.\n\n- To change how a plugin is labeled in the UI, set or update `displayName` instead.\n- If a rename is genuinely unavoidable, add an entry to the top-level `renames` map in `.claude-plugin/marketplace.json` so existing installs auto-migrate:\n\n```json\n\"renames\": {\n  \"old-name\": \"new-name\"\n}\n```\n\nThe Claude Code plugin loader reads this map and transparently rewrites the old slug to the new one on the user's next sync.\n\n## Skill-bundle plugins\n\nWhen a plugin's source repository ships skills (`SKILL.md` files) without a `.claude-plugin/plugin.json` m",
+     "readme_score": 15
+    },
+    {
+     "repo": "omnara-ai/omnara",
+     "url": "https://github.com/omnara-ai/omnara",
+     "description": "The open-source managed agent platform. A self-hostable alternative to Claude Managed Agents and OpenAI's Agents API.",
+     "stars": 2926,
+     "forks": 238,
+     "language": "Go",
+     "license": "Apache-2.0",
+     "created": "2025-07-09",
+     "pushed": "2026-10-16",
+     "topics": [
+      "agent-infrastructure",
+      "agent-platform",
+      "agent-runtime",
+      "agents-api",
+      "ai-infrastructure",
+      "cloud-agents",
+      "durable-agents",
+      "durable-execution",
+      "managed-agents"
+     ],
+     "lane": "active",
+     "query": "self-hosted alternative",
+     "stars_per_day": 6.3,
+     "score": 40,
+     "keyword_hits": [
+      "agent",
+      "claude",
+      "alternative to",
+      "api"
+     ],
+     "flags": [],
+     "readme_excerpt": "<p align=\"center\">\n  <a href=\"https://www.omnara.com\">\n    <picture>\n      <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://raw.githubusercontent.com/omnara-ai/omnara/main/frontend/apps/web/public/omnara-logo-white.png\">\n      <img alt=\"Omnara\" src=\"https://raw.githubusercontent.com/omnara-ai/omnara/main/frontend/apps/web/public/omnara-logo-black.png\" width=\"212\">\n    </picture>\n  </a>\n</p>\n\n<h1 align=\"center\">The open-source managed agent platform</h1>\n\n<p align=\"center\">A self-hostable alternative to Claude Managed Agents and OpenAI's Agents API.</p>\n\n<p align=\"center\">\n  <a href=\"LICENSE\"><img alt=\"License: Apache 2.0\" src=\"https://img.shields.io/github/license/omnara-ai/omnara\"></a>\n  <a href=\"https://www.npmjs.com/package/@omnara/sdk\"><img alt=\"npm: @omnara/sdk\" src=\"https://img.shields.io/npm/v/@omnara/sdk?label=%40omnara%2Fsdk\"></a>\n  <a href=\"https://discord.gg/Dc46sYk6e3\"><img alt=\"Discord\" src=\"https://img.shields.io/badge/Discord-join-5865F2?logo=discord&logoColor=white\"></a>\n</p>\n\n<p align=\"center\">\n  <a href=\"https://www.omnara.com\">Website</a> \u00b7\n  <a href=\"https://docs.omnara.com/quickstart\">Quickstart</a> \u00b7\n  <a href=\"https://docs.omnara.com/introduction\">Docs</a> \u00b7\n  <a href=\"https://docs.omnara.com/api/overview\">API</a> \u00b7\n  <a href=\"https://docs.omnara.com/changelog\">Changelog</a> \u00b7\n  <a href=\"https://discord.gg/Dc46sYk6e3\">Discord</a>\n</p>\n\nOmnara is an open-source managed agent platform. Use the API to run AI agents\non any model and any machine, with tools, secrets, permissions, and streaming\nbuilt in. Self-host it for free under Apache 2.0, or use\n[Omnara Cloud](https://app.omnara.com).\n\n## Quickstart\n\n### Omnara Cloud\n\nSign in at [app.omnara.com](https://app.omnara.com). Your first project comes\nwith a model provider (`omnara-openrouter`) and a pool of managed sandboxes\n(`default-pool`), so this config runs as is. Save it as `agent.yaml`:\n\n```yaml\nversion: v1\ninstruction: |\n  You are an engineering assistant. Use your machine to run commands.\nmodel:\n  provider_config: omnara-openrouter\n  name: anthropic/claude-fable-5.1\nmachine_sources:\n  - machine_pool_name: default-pool\n```\n\nLaunch it with the CLI (Node.js 22 or newer). If you're not logged in, the\nfirst command opens your browser to sign in.\n\n```sh\nnpx omnara agents launch --file agent.yaml \\\n  --name \"Machine assistant\" \\\n  --message \"Report this machine's operating system and free disk space.\"\n```\n\nChat with the agent in your terminal with `npx omnara agents chat <agen",
+     "readme_score": 35
+    },
+    {
+     "repo": "Leonxlnx/earshot",
+     "url": "https://github.com/Leonxlnx/earshot",
+     "description": "Ears for coding agents: let AI hear, review and make sound. CPU-only, open source.",
+     "stars": 149,
+     "forks": 8,
+     "language": "Python",
+     "license": "MIT",
+     "created": "2026-10-15",
+     "pushed": "2026-10-16",
+     "topics": [
+      "ai-agents",
+      "audio",
+      "claude-code",
+      "mcp",
+      "sound-design"
+     ],
+     "lane": "new",
+     "query": "ai agent",
+     "stars_per_day": 149.0,
+     "score": 38,
+     "keyword_hits": [
+      "mcp",
+      "agent",
+      "claude"
+     ],
+     "flags": [],
+     "readme_excerpt": "# earshot\n\n**Ears for coding agents.**\n\n<!-- launch video -->\n[**Watch the 22 s launch film**](https://github.com/Leonxlnx/earshot/releases/tag/v0.1.0) - every sound in it was made\nin code by `earshot forge`; no recordings, no music track.\n\n![Frames from the launch film](docs/media/launch_frames.png)\n\nAI coding agents can now write the code that renders a film, a product demo or a game. They still cannot hear what\nthey made. They cannot tell a premium key press from a cheap one, notice that a hit lands 80 ms after the cut, or\nhear that the music swells in the wrong place.\n\nearshot turns sound into evidence an agent can reason about: what a file sounds like in words, how well it fits a\ndescription, the best moment inside a long recording, whether it is a real recording or code-synthesized, a\nsecond-by-second listening transcript of a whole film, an annotated picture of it, and a scorecard against\nprofessional launch films. It runs locally on CPU, as a CLI, a Python API and an MCP server.\n\nWith ears, an agent can also **make its own sounds in code** and improve them by listening (`earshot forge`, below).\n\n```\n$ earshot describe enter.ogg\n  0.56 s short transient (attack 3 ms, decays in 190 ms). Sounds most like: a single mechanical keyboard key press\n  (z +5.4), a soft key release click (z +3.6) ... [clear reading]. peak -0.1 dBFS, brightness 1.5 kHz ...\n\n$ earshot match key.ogg \"a deep thocky mechanical keyboard press\" --alts \"a clicky blue switch keyboard\" \"a mouse click\"\n  -> strong (z +3.7; would rank #2 among 322 vocabulary descriptions) ...\n\n$ earshot find keys.ogg \"a single mechanical key press\" --top 4\n  0:03.94-0:04.19 (0.24 s stroke, z +4.1 strong); 0:10.60-0:10.86 ...\n\n$ earshot critique film.mp4\n  VERDICT: close - 21 of 23 scored metrics in range ... FIX FIRST: 1. [major] nothing reaches body level until 0:01.01 ...\n```\n\n## What it does\n\n| command | what an agent gets |\n|---|---|\n| `describe FILE` | what it sounds like: calibrated tags (z) with the closest alternative readings, AudioSet labels, measurements |\n| `match FILE QUERY [--alts ...]` | how well a description fits: cosine, z among the vocabulary, a verdict (strong / plausible / weak / no match) with held-out evidence |\n| `rank QUERY PATHS...` | many candidate files sorted by a description (pick the best download) |\n| `find FILE QUERY` | the best moments inside a long recording, as sample trims (start / end seconds) |\n| `compare FILE --refs DIR` / `ab A B` | nearest reference recordings an",
+     "readme_score": 18
+    },
+    {
+     "repo": "alvinreal/awesome-openclaw",
+     "url": "https://github.com/alvinreal/awesome-openclaw",
+     "description": "A curated list of the best OpenClaw resources: official projects, skills, plugins, dashboards, deployment tooling, memory systems, and guides.",
+     "stars": 742,
+     "forks": 126,
+     "language": null,
+     "license": "CC0-1.0",
+     "created": "2026-03-27",
+     "pushed": "2026-10-15",
+     "topics": [
+      "ai",
+      "ai-agents",
+      "automation",
+      "awesome",
+      "awesome-list",
+      "llm",
+      "openclaw",
+      "plugins",
+      "resources",
+      "self-hosted"
+     ],
+     "lane": "active",
+     "query": "llm automation",
+     "stars_per_day": 3.7,
+     "score": 38,
+     "keyword_hits": [
+      "agent",
+      "llm",
+      "automation",
+      "self-hosted"
+     ],
+     "flags": [],
+     "readme_excerpt": "<div align=\"center\">\n\n<img src=\"./media/hero-black.png\" alt=\"Awesome OpenClaw \u2014 projects, memory, dashboards, security and runtimes for OpenClaw\" width=\"100%\">\n\n<p><i>A curated list of projects for the <a href=\"https://github.com/openclaw/openclaw\">OpenClaw</a> ecosystem. Individual skills are listed <a href=\"https://clawisthelaw.com/openclaw-skills\">separately</a>.</i></p>\n\n<p>\n  <a href=\"https://github.com/sindresorhus/awesome\"><img src=\"https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg\" alt=\"Awesome\"></a>\n  <img src=\"https://img.shields.io/badge/Ecosystem-OpenClaw-2563eb?style=flat-square\" alt=\"OpenClaw Ecosystem\">\n  <img src=\"https://img.shields.io/badge/Contributions-Welcome-16a34a?style=flat-square\" alt=\"Contributions Welcome\">\n  <a href=\"./LICENSE\"><img src=\"https://img.shields.io/badge/License-CC0-6b7280?style=flat-square\" alt=\"CC0 License\"></a>\n</p>\n\n<p><b>If this list saves you time, consider giving the repo a star.</b></p>\n\n<p><a href=\"https://clawisthelaw.com\"><b>Browse it on clawisthelaw.com</b></a> \u00b7 <a href=\"./CONTRIBUTING.md\">Contributing Guide</a> \u00b7 <a href=\"./LICENSE\">License</a></p>\n\n</div>\n\n---\n\n<a id=\"contents\"></a>\n\n## \ud83d\udccb Contents\n\n- [\ud83c\udfdb\ufe0f Official Resources](#official-resources)\n- [\ud83e\uddf0 Skill Registries](#skills-registries)\n- [\ud83c\udf9b\ufe0f Dashboards & Control Centers](#dashboards-control-centers)\n- [\ud83d\ude80 Deployment & Operations](#deployment-operations)\n- [\ud83e\udd16 Models & Providers](#models-providers)\n- [\ud83e\udde0 Memory & Context Systems](#memory-context-systems)\n- [\ud83d\udee1\ufe0f Security & Safety](#security-safety)\n- [\ud83d\udd0c Plugins & Channel Integrations](#plugins-channel-integrations)\n- [\u26a1 Alternative Clients & Runtimes](#alternative-clients-runtimes)\n- [\ud83c\udf93 Learning Resources](#learning-resources)\n\n<a id=\"official-resources\"></a>\n## \ud83c\udfdb\ufe0f Official Resources\n\n- [openclaw/openclaw](https://github.com/openclaw/openclaw) ![GitHub Repo stars](https://img.shields.io/github/stars/openclaw/openclaw?style=social) - The core OpenClaw project.\n- [openclaw.ai](https://openclaw.ai) - Official website.\n- [docs.openclaw.ai](https://docs.openclaw.ai) - Official documentation.\n- [openclaw/lobster](https://github.com/openclaw/lobster) ![GitHub Repo stars](https://img.shields.io/github/stars/openclaw/lobster?style=social) - Official workflow shell for composing tools and resumable automations.\n- [openclaw/openclaw-windows-node](https://github.com/openclaw/openclaw-windows-node) ![GitHub Repo stars](https://img.shields.io/github/stars/openclaw/opencl",
+     "readme_score": 45
+    },
+    {
+     "repo": "getzep/graphiti",
+     "url": "https://github.com/getzep/graphiti",
+     "description": "Build Real-Time Knowledge Graphs for AI Agents",
+     "stars": 31810,
+     "forks": 3274,
+     "language": "Python",
+     "license": "Apache-2.0",
+     "created": "2024-08-08",
+     "pushed": "2026-10-15",
+     "topics": [
+      "agents",
+      "graph",
+      "llms",
+      "rag"
+     ],
+     "lane": "active",
+     "query": "rag",
+     "stars_per_day": 39.8,
+     "score": 38,
+     "keyword_hits": [
+      "agent",
+      "llm"
+     ],
+     "flags": [],
+     "readme_excerpt": "<p align=\"center\">\n  <a href=\"https://www.getzep.com/\">\n    <img src=\"https://github.com/user-attachments/assets/119c5682-9654-4257-8922-56b7cb8ffd73\" width=\"150\" alt=\"Zep Logo\">\n  </a>\n</p>\n\n<h1 align=\"center\">\nGraphiti\n</h1>\n<h2 align=\"center\">A Framework for Building Temporal Knowledge Graphs</h2>\n\n<div align=\"center\">\n\n[![Lint](https://github.com/getzep/Graphiti/actions/workflows/lint.yml/badge.svg?style=flat)](https://github.com/getzep/Graphiti/actions/workflows/lint.yml)\n[![Unit Tests](https://github.com/getzep/Graphiti/actions/workflows/unit_tests.yml/badge.svg)](https://github.com/getzep/Graphiti/actions/workflows/unit_tests.yml)\n[![MyPy Check](https://github.com/getzep/Graphiti/actions/workflows/typecheck.yml/badge.svg)](https://github.com/getzep/Graphiti/actions/workflows/typecheck.yml)\n\n[![GitHub Repo stars](https://img.shields.io/github/stars/getzep/graphiti)](https://github.com/getzep/graphiti/stargazers)\n[![arXiv](https://img.shields.io/badge/arXiv-2501.13956-b31b1b.svg?style=flat)](https://arxiv.org/abs/2501.13956)\n[![Release](https://img.shields.io/github/v/release/getzep/graphiti?style=flat&label=Release&color=limegreen)](https://github.com/getzep/graphiti/releases)\n\n</div>\n<div align=\"center\">\n\n<a href=\"https://trendshift.io/repositories/12986\" target=\"_blank\"><img src=\"https://trendshift.io/api/badge/repositories/12986\" alt=\"getzep%2Fgraphiti | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=\"55\"/></a>\n\n</div>\n\n> [!NOTE]\n> **We're Hiring!** Build context graphs that power reliable, personalized, fast production AI agents.\n> Come build with us \u2014 we're hiring Engineers and Developer Relations folks. [View open roles](https://www.getzep.com/careers/).\n\n\u2b50 *Help us reach more developers and grow the Graphiti community. Star this repo!*\n\n&nbsp;\n\nGraphiti is a framework for building and querying temporal context graphs for AI agents. Unlike static knowledge graphs,\nGraphiti's context graphs track how facts change over time, maintain provenance to source data, and support both\nprescribed and learned ontology \u2014 making them purpose-built for agents operating on evolving, real-world data.\n\nUnlike traditional retrieval-augmented generation (RAG) methods, Graphiti continuously integrates user interactions,\nstructured and unstructured enterprise data, and external information into a coherent, queryable graph. The framework\nsupports incremental data updates, efficient retrieval, and precise historical queries without requiring comple",
+     "readme_score": 31
+    },
+    {
+     "repo": "labring/FastGPT",
+     "url": "https://github.com/labring/FastGPT",
+     "description": "FastGPT is a knowledge-based platform built on the LLMs, offers a comprehensive suite of out-of-the-box capabilities such as data processing, RAG retrieval, and visual AI workflow orchestration, letting you easily develop and deploy complex question-answering systems without the need for extensive s",
+     "stars": 29841,
+     "forks": 7333,
+     "language": "TypeScript",
+     "license": "NOASSERTION",
+     "created": "2023-02-23",
+     "pushed": "2026-10-16",
+     "topics": [
+      "agent",
+      "claude",
+      "deepseek",
+      "llm",
+      "mcp",
+      "nextjs",
+      "openai",
+      "qwen",
+      "rag",
+      "workflow"
+     ],
+     "lane": "active",
+     "query": "rag",
+     "stars_per_day": 22.4,
+     "score": 35,
+     "keyword_hits": [
+      "mcp",
+      "agent",
+      "claude",
+      "llm",
+      "workflow"
+     ],
+     "flags": [
+      "no-license"
+     ],
+     "readme_excerpt": "<div align=\"center\">\n\n<a href=\"https://fastgpt.io/?source=github&utm_source=github&utm_medium=referral&utm_campaign=github_home&utm_content=logo\"><img src=\"/.github/imgs/logo.svg\" width=\"120\" height=\"120\" alt=\"fastgpt logo\"></a>\n\n# FastGPT\n\n<p align=\"center\">\n  <a href=\"./README_en.md\">English</a> |\n  <a href=\"./README.md\">\u7b80\u4f53\u4e2d\u6587</a> |\n  <a href=\"./README_id.md\">Bahasa Indonesia</a> |\n  <a href=\"./README_th.md\">\u0e44\u0e17\u0e22</a> |\n  <a href=\"./README_vi.md\">Ti\u1ebfng Vi\u1ec7t</a> |\n  <a href=\"./README_ja.md\">\u65e5\u672c\u8a9e</a>\n</p>\n\nFastGPT \u662f\u4e00\u4e2a AI Agent \u6784\u5efa\u5e73\u53f0\uff0c\u63d0\u4f9b\u5f00\u7bb1\u5373\u7528\u7684\u6570\u636e\u5904\u7406\u3001\u6a21\u578b\u8c03\u7528\u7b49\u80fd\u529b\uff0c\u540c\u65f6\u53ef\u4ee5\u901a\u8fc7 Flow \u53ef\u89c6\u5316\u8fdb\u884c\u5de5\u4f5c\u6d41\u7f16\u6392\uff0c\u4ece\u800c\u5b9e\u73b0\u590d\u6742\u7684\u5e94\u7528\u573a\u666f\u3002\n\n</div>\n\n<p align=\"center\">\n  <a href=\"https://fastgpt.io/?source=github&utm_source=github&utm_medium=referral&utm_campaign=github_home&utm_content=cloud_badge\">\n    <img height=\"21\" src=\"https://img.shields.io/badge/\u5728\u7ebf\u4f7f\u7528-d4eaf7?style=flat-square&logo=spoj&logoColor=7d09f1\" alt=\"cloud\">\n  </a>\n  <a href=\"https://doc.fastgpt.io/guide/getting-started\">\n    <img height=\"21\" src=\"https://img.shields.io/badge/\u76f8\u5173\u6587\u6863-7d09f1?style=flat-square\" alt=\"document\">\n  </a>\n  <a href=\"https://doc.fastgpt.io/self-host/dev\">\n    <img height=\"21\" src=\"https://img.shields.io/badge/\u672c\u5730\u5f00\u53d1-%23d4eaf7?style=flat-square&logo=xcode&logoColor=7d09f1\" alt=\"development\">\n  </a>\n  <a href=\"/#-%E7%9B%B8%E5%85%B3%E9%A1%B9%E7%9B%AE\">\n    <img height=\"21\" src=\"https://img.shields.io/badge/\u76f8\u5173\u9879\u76ee-7d09f1?style=flat-square\" alt=\"project\">\n  </a>\n</p>\n\nhttps://github.com/labring/FastGPT/assets/15308462/7d3a38df-eb0e-4388-9250-2409bd33f6d4\n\n## \u5feb\u901f\u5f00\u59cb\n\n\u53ef\u4ee5\u901a\u8fc7 Docker \u5feb\u901f\u542f\u52a8 FastGPT\uff0c\u5728\u7ec8\u7aef\u8f93\u5165\u4ee5\u4e0b\u547d\u4ee4\uff0c\u6839\u636e\u5f15\u5bfc\u5b8c\u6210\u8f93\u5165\u5373\u53ef\u62c9\u53d6\u914d\u7f6e\u3002\n\n```bash\n# \u8f93\u5165\u547d\u4ee4\u62c9\u53d6\u914d\u7f6e\u6587\u4ef6\nbash <(curl -fsSL https://doc.fastgpt.io/deploy/install.sh)\n# \u542f\u52a8\ndocker compose up -d\n```\n\n\u5b8c\u5168\u542f\u52a8\u540e\uff0c\u53ef\u901a\u8fc7 `http://localhost:3000` \u8bbf\u95ee FastGPT\uff0c\u9ed8\u8ba4\u8d26\u53f7\u4e3a `root`\uff0c\u5bc6\u7801\u4e3a `1234`\u3002\n\n\u5982\u679c\u4f60\u9047\u5230\u95ee\u9898\uff0c\u53ef\u4ee5[\u67e5\u770b\u5b8c\u6574 Docker \u90e8\u7f72\u6559\u7a0b](https://doc.fastgpt.io/self-host/deploy/docker)\n\n## \ud83d\udef8 \u4f7f\u7528\u65b9\u5f0f\n\n- **\u4e91\u670d\u52a1\u7248\u672c**  \n  \u5982\u679c\u4f60\u4e0d\u9700\u8981\u79c1\u6709\u5316\u90e8\u7f72\uff0c\u53ef\u4ee5\u76f4\u63a5\u4f7f\u7528\u6211\u4eec\u63d0\u4f9b\u7684\u4e91\u670d\u52a1\u7248\u672c\uff0c\u5730\u5740\u4e3a\uff1a[fastgpt.io](https://fastgpt.io/?source=github&utm_source=github&utm_medium=referral&utm_campaign=github_home&utm_content=cloud_service_link)\n\n- **\u793e\u533a\u81ea\u6258\u7ba1\u7248\u672c**  \n  \u53ef\u4ee5\u4f7f\u7528[Docker](https://doc.fastgpt.io/self-host/deploy/docker)\u5feb\u901f\u90e8\u7f72\uff0c\u4e5f\u53ef\u4ee5\u4f7f\u7528[Sealos Cloud](https://doc.fastgpt.io/self-host/deploy/sealos) \u6765\u4e00\u952e\u90e8\u7f72FastGPT\u3002\n\n- **\u5546\u4e1a\u7248**  \n  \u5982\u679c\u4f60\u9700\u8981\u66f4\u5b8c\u6574\u7684\u529f\u80fd\uff0c\u6216\u6df1\u5ea6\u7684\u670d\u52a1\u652f\u6301\uff0c\u53ef\u4ee5\u9009\u62e9\u6211\u4eec\u7684[\u5546\u4e1a\u7248](https://doc.fastgpt.io/guide/version/commercial)\u3002\u6211\u4eec\u9664\u4e86\u63d0\u4f9b\u5b8c\u6574\u7684\u8f6f\u4ef6\u5916\uff0c\u8fd8\u63d0\u4f9b\u76f8\u5e94\u7684\u573a\u666f\u843d\u5730\u8f85\u5bfc\uff0c\u5177\u4f53\u53ef\u63d0\u4ea4[\u5546\u4e1a\u54a8\u8be2](https://fastgpt.cn/zh/contact?source=github&utm_source=github&utm_medium=referral&utm_campaign=github_home&utm_content=commercial_consultation)\n\n## \ud83d\udca1 \u6838\u5fc3\u529f\u80fd\n\n|                ",
+     "readme_score": 17
+    },
+    {
+     "repo": "haris-musa/excel-mcp-server",
+     "url": "https://github.com/haris-musa/excel-mcp-server",
+     "description": "Excel MCP server: let AI (Claude, Cursor, Codex) create and edit Excel files with charts, PivotTables, slicers and formulas. No Excel required.",
+     "stars": 4244,
+     "forks": 475,
+     "language": "Python",
+     "license": "MIT",
+     "created": "2025-02-12",
+     "pushed": "2026-10-16",
+     "topics": [
+      "ai",
+      "automation",
+      "charts",
+      "claude",
+      "cursor",
+      "excel",
+      "formulas",
+      "llm",
+      "mcp",
+      "mcp-server",
+      "model-context-protocol",
+      "openpyxl",
+      "pivot-table",
+      "python",
+      "spreadsheet",
+      "stdio",
+      "streamable-http",
+      "toolcalling",
+      "vba",
+      "xlsx"
+     ],
+     "lane": "active",
+     "query": "llm automation",
+     "stars_per_day": 6.9,
+     "score": 33,
+     "keyword_hits": [
+      "mcp",
+      "claude",
+      "llm",
+      "automation"
+     ],
+     "flags": [],
+     "readme_excerpt": "<!-- mcp-name: io.github.haris-musa/excel-mcp-server -->\n<p align=\"center\">\n  <picture>\n    <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://raw.githubusercontent.com/haris-musa/excel-mcp-server/main/assets/logo-dark.png\">\n    <img src=\"https://raw.githubusercontent.com/haris-musa/excel-mcp-server/main/assets/logo.png\" alt=\"Excel MCP Server\" width=\"420\">\n  </picture>\n</p>\n\n<p align=\"center\">\n  <a href=\"https://pypi.org/project/excel-mcp-server/\"><img src=\"https://img.shields.io/pypi/v/excel-mcp-server.svg\" alt=\"PyPI version\"></a>\n  <a href=\"https://pypi.org/project/excel-mcp-server/\"><img src=\"https://img.shields.io/pypi/pyversions/excel-mcp-server.svg\" alt=\"Python versions\"></a>\n  <a href=\"https://pepy.tech/project/excel-mcp-server\"><img src=\"https://static.pepy.tech/badge/excel-mcp-server\" alt=\"Downloads\"></a>\n  <a href=\"https://github.com/haris-musa/excel-mcp-server/actions/workflows/ci.yml\"><img src=\"https://github.com/haris-musa/excel-mcp-server/actions/workflows/ci.yml/badge.svg\" alt=\"CI\"></a>\n  <a href=\"LICENSE\"><img src=\"https://img.shields.io/badge/License-MIT-yellow.svg\" alt=\"License: MIT\"></a>\n</p>\n\n<p align=\"center\">\n  <a href=\"https://trendshift.io/repositories/13975\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"https://trendshift.io/api/badge/repositories/13975\" alt=\"haris-musa%2Fexcel-mcp-server | Trendshift\" width=\"250\" height=\"55\"/></a>\n</p>\n\n# Excel MCP Server\n\nAn open-source [Model Context Protocol](https://modelcontextprotocol.io) (MCP) server that lets\nClaude, Cursor, VS Code Copilot, Codex and other AI clients create, read and edit Excel files:\ncharts, PivotTables, formulas, tables and more. It is built on `openpyxl`, needs **no Microsoft\nExcel**, and runs on Windows, macOS and Linux.\n\n**Install and try it at [excelmcpserver.com](https://excelmcpserver.com)**, or see\n[Quick start](#quick-start) below.\n\n## Features\n\n**Charts and PivotTables**\n- Create Excel charts with AI: column, bar, line, area, pie, doughnut, radar, scatter and\n  bubble, with combos, secondary axes, trendlines and error bars\n- The Excel 2016 chart types: waterfall, histogram, Pareto, box and whisker, treemap, sunburst\n  and funnel\n- Real PivotTables that Excel refreshes (grouping, calculated fields, \"show values as\",\n  layouts, filters), plus slicers and timelines for PivotTables and tables\n- Sparklines (line, column, win/loss)\n\n**Formulas and dynamic arrays**\n- Formulas are calculated without Excel by a built-in engine (about 260 functions, check",
+     "readme_score": 18
+    },
+    {
+     "repo": "abhinavxd/libredesk",
+     "url": "https://github.com/abhinavxd/libredesk",
+     "description": "Open-source, self-hosted customer support desk in a single binary. A lightweight alternative to Intercom, Zendesk, Chatwoot.",
+     "stars": 3038,
+     "forks": 312,
+     "language": "Go",
+     "license": "AGPL-3.0",
+     "created": "2024-05-12",
+     "pushed": "2026-10-16",
+     "topics": [
+      "ai-agent",
+      "chat-widget",
+      "customer-service",
+      "customer-success",
+      "customer-support",
+      "customer-support-automation",
+      "golang",
+      "helpcenter",
+      "helpdesk",
+      "intercom",
+      "knowledge-base",
+      "livechat",
+      "omnichannel",
+      "self-hosted",
+      "support",
+      "ticketing-system",
+      "vue",
+      "zendesk"
+     ],
+     "lane": "active",
+     "query": "self-hosted alternative",
+     "stars_per_day": 3.4,
+     "score": 30,
+     "keyword_hits": [
+      "agent",
+      "automation",
+      "self-hosted",
+      "alternative to"
+     ],
+     "flags": [
+      "copyleft:agpl-3.0"
+     ],
+     "readme_excerpt": "<a href=\"https://zerodha.tech\"><img src=\"https://zerodha.tech/static/images/github-badge.svg\" align=\"right\" alt=\"Zerodha Tech Badge\" /></a>\n\n<br>\n<picture>\n  <source\n    media=\"(prefers-color-scheme: dark)\"\n    srcset=\"https://s3.ap-south-1.amazonaws.com/libredesk.io/libredesk_white.png?v=2\">\n  <source\n    media=\"(prefers-color-scheme: light)\"\n    srcset=\"https://s3.ap-south-1.amazonaws.com/libredesk.io/libredesk_black.png?v=3\">\n  <img\n    alt=\"LibreDesk\"\n    src=\"https://s3.ap-south-1.amazonaws.com/libredesk.io/libredesk_white.png?v=4\"\n    width=\"250\">\n</picture>\n\n<br> Open source, self-hosted customer support software for email, live chat, and WhatsApp. Distributed as a single binary.\n\n![image](https://libredesk.io/hero-dark.png?v=1)\n\n\nVisit [libredesk.io](https://libredesk.io) for more info. Check out the [**live demo**](https://demo.libredesk.io/).\n\n## Features\n\n### Inbox and channels\n\n- **Shared inbox:** Handle email, live chat, and WhatsApp conversations in one place.\n- **Live chat:** Add a real-time chat widget to your website.\n- **WhatsApp:** Connect a number through the Meta Cloud API.\n- **Inbox organization:** Use teams, tags, custom statuses, custom attributes, snoozing, and search.\n\n### Help center and AI\n\n- **Help center:** Publish a searchable, multilingual knowledge base.\n- **AI assistant:** Answer live chat questions using your knowledge base and hand conversations to an agent when needed.\n- **Agent copilot:** Draft replies, summarize conversations, and find answers without leaving the inbox.\n\n### Workflow and reporting\n\n- **Automations:** Tag, assign, and route conversations using rules you define.\n- **Macros:** Send saved replies and apply conversation actions in one step.\n- **Auto assignment:** Distribute incoming conversations by agent capacity or your own criteria.\n- **SLA management:** Set response targets and get notified about conversations at risk of breaching them.\n- **CSAT and analytics:** Collect customer ratings and track response times, resolution rates, and agent activity.\n\n### Administration and integrations\n\n- **Permissions and SSO:** Create roles with per-action permissions and sign in through Google, Microsoft, or another OIDC provider.\n- **Activity logs:** Review actions performed by agents and admins.\n- **API and webhooks:** Connect LibreDesk to other systems and workflows.\n\nSee [libredesk.io](https://libredesk.io) for the full feature set, or try the [live demo](https://demo.libredesk.io/).\n\n\n## Installation\n\n### Railw",
+     "readme_score": 16
+    },
+    {
+     "repo": "genkit-ai/genkit",
+     "url": "https://github.com/genkit-ai/genkit",
+     "description": "Open-source framework for building agentic apps in JavaScript, Go, Dart, and Python, built and used in production by Google",
+     "stars": 6524,
+     "forks": 865,
+     "language": "TypeScript",
+     "license": "Apache-2.0",
+     "created": "2024-04-29",
+     "pushed": "2026-10-16",
+     "topics": [
+      "agents",
+      "ai",
+      "embedders",
+      "genkit",
+      "llm",
+      "multimodal",
+      "rag",
+      "vector-database"
+     ],
+     "lane": "active",
+     "query": "agent framework",
+     "stars_per_day": 7.2,
+     "score": 30,
+     "keyword_hits": [
+      "agent",
+      "agentic",
+      "llm"
+     ],
+     "flags": [],
+     "readme_excerpt": "![Genkit logo](docs/resources/genkit-logo-dark.png#gh-dark-mode-only 'Genkit')\n![Genkit logo](docs/resources/genkit-logo.png#gh-light-mode-only 'Genkit')\n\n[Genkit](https://genkit.dev) is an open-source framework for building full-stack AI-powered applications, built and used in production by Google's Firebase. It provides SDKs for multiple programming languages with varying levels of stability:\n\n- **JavaScript/TypeScript**: Production-ready with full feature support\n- **Go**: Production-ready with full feature support\n- **Python (Beta)**: Wide feature support approaching production-readiness\n- **Dart (Preview)**: Early development with core functionality\n\nIt offers a unified interface for integrating AI models from providers like [Google](https://genkit.dev/docs/plugins/google-genai), [OpenAI](https://genkit.dev/docs/plugins/openai), [Anthropic](https://thefireco.github.io/genkit-plugins/docs/plugins/genkitx-anthropic), [Ollama](https://genkit.dev/docs/plugins/ollama/), and more. Rapidly build and deploy production-ready chatbots, automations, and recommendation systems using streamlined APIs for multimodal content, structured outputs, tool calling, and agentic workflows.\n\n> **Building with a coding agent? Install the Genkit skill first.**\n>\n> ```bash\n> npx skills add genkit-ai/skills --skill developing-genkit-js      # JavaScript/TypeScript\n> npx skills add genkit-ai/skills --skill developing-genkit-go      # Go\n> npx skills add genkit-ai/skills --skill developing-genkit-python  # Python\n> npx skills add genkit-ai/skills --skill developing-genkit-dart    # Dart\n> ```\n>\n> It teaches your agent the current Genkit APIs and common gotchas.\n> Source and manual install: [genkit-ai/skills](https://github.com/genkit-ai/skills).\n\nGet started with just a few lines of code:\n\n```ts\nimport { genkit } from 'genkit';\nimport { googleAI } from '@genkit-ai/google-genai';\n\nconst ai = genkit({ plugins: [googleAI()] });\n\nconst { text } = await ai.generate({\n    model: googleAI.model('gemini-flash-latest'),\n    prompt: 'What is the meaning of life?'\n});\n```\n\n## Explore & build with Genkit\n\nPlay with AI sample apps, with visualizations of the Genkit code that powers\nthem, at no cost to you.\n\n[Explore Genkit by Example](https://examples.genkit.dev)\n\n## Key capabilities\n\n<table>\n  <tr>\n    <td><strong>Broad AI model support</strong></td>\n    <td>Use a unified interface to integrate with hundreds of models from providers like <a href=\"https://genkit.dev/docs/plugins/google-genai\">",
+     "readme_score": 18
+    },
+    {
+     "repo": "vercel/eve",
+     "url": "https://github.com/vercel/eve",
+     "description": "The Open Framework for Building Agents",
+     "stars": 5576,
+     "forks": 615,
+     "language": "TypeScript",
+     "license": "Apache-2.0",
+     "created": "2026-06-16",
+     "pushed": "2026-10-16",
+     "topics": [
+      "agent",
+      "framework",
+      "harness",
+      "javascript",
+      "markdown",
+      "sandbox",
+      "typescript",
+      "vercel",
+      "workflows"
+     ],
+     "lane": "active",
+     "query": "agent framework",
+     "stars_per_day": 45.7,
+     "score": 29,
+     "keyword_hits": [
+      "agent",
+      "workflow"
+     ],
+     "flags": [],
+     "readme_excerpt": "<div align=\"center\">\n  <a href=\"https://eve.dev/\">\n    <picture>\n      <source media=\"(prefers-color-scheme: dark)\" srcset=\".github/assets/eve.svg\">\n      <img alt=\"eve logo\" src=\".github/assets/eve.svg\" height=\"128\">\n    </picture>\n  </a>\n  <h1>eve</h1>\n\n<a href=\"https://vercel.com\"><img alt=\"Vercel logo\" src=\"https://img.shields.io/badge/MADE%20BY%20Vercel-000000.svg?style=for-the-badge&logo=Vercel&labelColor=000\"></a>\n<a href=\"https://www.npmjs.com/package/eve\"><img alt=\"NPM version\" src=\"https://img.shields.io/npm/v/eve.svg?style=for-the-badge&labelColor=000000\"></a>\n<a href=\"https://github.com/vercel/eve/blob/main/LICENSE\"><img alt=\"License\" src=\"https://img.shields.io/npm/l/eve.svg?style=for-the-badge&labelColor=000000\"></a>\n<a href=\"https://github.com/vercel/eve/discussions\"><img alt=\"Join the community on GitHub\" src=\"https://img.shields.io/badge/Join%20the%20community-blueviolet.svg?style=for-the-badge&logo=Github&labelColor=000000&logoWidth=20\"></a>\n\n</div>\n\n[eve](https://eve.dev/) is a filesystem-first framework for durable AI agents. Core agent capabilities live in\nconventional locations, so projects are easier to inspect, extend, and operate.\n\n## The filesystem is the authoring interface\n\nA typical eve agent has this structure:\n\n```text\nmy-agent/\n\u2514\u2500\u2500 agent/\n    \u251c\u2500\u2500 agent.ts            # Optional: model and runtime config\n    \u251c\u2500\u2500 instructions.md     # Required: the always-on system prompt\n    \u251c\u2500\u2500 tools/              # Optional: typed functions the model can call\n    \u2502   \u2514\u2500\u2500 get_weather.ts\n    \u251c\u2500\u2500 skills/             # Optional: procedures loaded on demand\n    \u2502   \u2514\u2500\u2500 plan_a_trip.md\n    \u251c\u2500\u2500 channels/           # Optional: message channels (HTTP, Slack, Discord)\n    \u2502   \u2514\u2500\u2500 slack.ts\n    \u2514\u2500\u2500 schedules/          # Optional: recurring cron jobs\n        \u2514\u2500\u2500 weekly_recap.ts\n```\n\nRead the [documentation](https://eve.dev/docs) for the full project layout and guides.\n\n## Quick start\n\n```bash\nnpx eve@latest init my-agent\n```\n\nThis creates a new `my-agent` directory, installs its dependencies, initializes Git, and starts\nthe interactive terminal UI. The generated agent uses `openai/gpt-6-luna-fast` with high reasoning.\n\nTo start with another AI Gateway model, pass its model ID:\n\n```bash\nnpx eve@latest init my-agent --model openai/gpt-5.6-terra\n```\n\nPassing `--model` without `--reasoning` uses the provider's default reasoning. Pass `--reasoning` to set it explicitly.\n\nTo add eve to an existing project, pass a path:\n\n```bash\ncd myapp\nnpx eve@latest init .\n``",
+     "readme_score": 8
+    },
+    {
+     "repo": "Beingpax/VoiceInk",
+     "url": "https://github.com/Beingpax/VoiceInk",
+     "description": "The best open-source alternative to Superwhisper & Wispr Flow. Voice-to-text app for macOS with no subscription",
+     "stars": 6825,
+     "forks": 955,
+     "language": "Swift",
+     "license": "NOASSERTION",
+     "created": "2024-10-20",
+     "pushed": "2026-10-16",
+     "topics": [
+      "macos",
+      "macos-app",
+      "swift"
+     ],
+     "lane": "active",
+     "query": "open source alternative to",
+     "stars_per_day": 9.4,
+     "score": 27,
+     "keyword_hits": [
+      "alternative to",
+      "open-source alternative",
+      "subscription",
+      "voice"
+     ],
+     "flags": [
+      "no-license"
+     ],
+     "readme_excerpt": "<div align=\"center\">\n  <img src=\"VoiceInk/Assets.xcassets/AppIcon.appiconset/256-mac.png\" width=\"180\" height=\"180\" />\n  <h1>VoiceInk</h1>\n  <p>Voice to text app for macOS to transcribe what you say to text almost instantly</p>\n\n  [![License](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)\n  ![Platform](https://img.shields.io/badge/platform-macOS%2015.0%2B-brightgreen)\n  [![GitHub release (latest by date)](https://img.shields.io/github/v/release/Beingpax/VoiceInk)](https://github.com/Beingpax/VoiceInk/releases)\n  ![GitHub all releases](https://img.shields.io/github/downloads/Beingpax/VoiceInk/total)\n  ![GitHub stars](https://img.shields.io/github/stars/Beingpax/VoiceInk?style=social)\n  <p>\n    <a href=\"https://tryvoiceink.com\">Website</a> \u2022\n    <a href=\"https://www.youtube.com/@tryvoiceink\">YouTube</a>\n  </p>\n\n  <a href=\"https://tryvoiceink.com\">\n    <img src=\"https://img.shields.io/badge/Download%20Now-Latest%20Version-blue?style=for-the-badge&logo=apple\" alt=\"Download VoiceInk\" width=\"250\"/>\n  </a>\n</div>\n\n---\n\nVoiceInk is a native macOS application that transcribes what you say to text almost instantly. You can find all the information and download the app from [here](https://tryvoiceink.com). \n\n![VoiceInk Mac App](https://github.com/user-attachments/assets/12367379-83e7-48a6-b52c-4488a6a04bba)\n\nAfter dedicating the past 5 months to developing this app, I've decided to open source it for the greater good. \n\nMy goal is to make it **the most efficient and privacy-focused voice-to-text solution for macOS** that is a joy to use. While the source code is now open for experienced developers to build and contribute, purchasing a license helps support continued development and gives you access to automatic updates, priority support, and upcoming features.\n\n## Features\n\n- \ud83c\udf99\ufe0f **Accurate Transcription**: Local AI models that transcribe your voice to text with 99% accuracy, almost instantly\n- \ud83d\udd12 **Privacy First**: 100% offline processing ensures your data never leaves your device\n- \u26a1 **Modes**: Intelligent app detection automatically applies your perfect pre-configured settings based on the app/ URL you're on\n- \ud83e\udde0 **Context Aware**: Smart AI that understands your screen content and adapts to the context\n- \ud83c\udfaf **Global Shortcuts**: Configurable keyboard or mouse shortcuts for quick recording and push-to-talk functionality\n- \ud83d\udcdd **Personal Dictionary**: Train the AI to understand your unique terminology with custom words, indus",
+     "readme_score": 5
     }
    ]
   }
