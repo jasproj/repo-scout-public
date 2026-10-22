@@ -1,93 +1,90 @@
-# Repo Scout — 2026-10-21
+# Repo Scout — 2026-10-22
 
-Window: since 2026-10-18 · queries 164 · raw 459 · trending 50 · awesome-list adds 0 · new scored 34
+Window: since 2026-10-19 · queries 164 · raw 466 · trending 50 · awesome-list adds 0 · new scored 32
 
 ## PrompterQ (teleprompter software)
 
-- **[openclaw/openclaw](https://github.com/openclaw/openclaw)** · 30 pts · ★392645 · 1186.2★/day · MIT · trending
-  - The AI that really does things. Any OS. Any Platform. The lobster way. 🦞 
-  - hits: obs
-- **[abus-aikorea/voice-pro](https://github.com/abus-aikorea/voice-pro)** · 28 pts · ★13293 · 16.3★/day · GPL-3.0 · trending ⚠ copyleft:gpl-3.0
-  - Gradio WebUI for creators and developers, featuring key TTS (Edge-TTS, kokoro) and zero-shot Voice Cloning (E2 & F5-TTS, CosyVoice), with Whisper audio processing, YouTube download, Demucs vocal isolation, and multilingual translation.
-  - hits: speech, voice, whisper, script
-- **[emdash-cms/emdash](https://github.com/emdash-cms/emdash)** · 24 pts · ★13846 · 68.2★/day · MIT · trending
-  - EmDash is a full-stack TypeScript CMS based on Astro; the spiritual successor to WordPress
-  - hits: script
-- **[inclusionAI/Ming-3.0-tts](https://github.com/inclusionAI/Ming-3.0-tts)** · 23 pts · ★126 · 63.0★/day · MIT · new
-  - Ming-3.0-tts is an open-source TTS model family with 0.5B dense and 7.9B-A1.3B MoE variants, supporting multilingual speech, voice cloning, voice design, and natural-language control.
+- **[sirioberati/YouTube-AI-Video-Editing-System](https://github.com/sirioberati/YouTube-AI-Video-Editing-System)** · 36 pts · ★29 · 29.0★/day · MIT · new
+  - Open-source YouTube AI video editing system: Eyeline teleprompter, editing agents, JSON, Claude Design, animation and motion graphics.
+  - hits: teleprompter, prompter
+- **[supabase/supabase](https://github.com/supabase/supabase)** · 21 pts · ★113243 · 44.1★/day · Apache-2.0 · trending
+  - The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.
+  - hits: websocket
+- **[snakers4/silero-vad](https://github.com/snakers4/silero-vad)** · 19 pts · ★10499 · 4.9★/day · MIT · active
+  - Silero VAD: pre-trained enterprise-grade Voice Activity Detector
   - hits: speech, voice
-- **[nateshmbhat/pyttsx3](https://github.com/nateshmbhat/pyttsx3)** · 16 pts · ★2534 · 0.7★/day · MPL-2.0 · active
-  - Offline Text To Speech synthesis for python
+- **[Tencent-Hunyuan/AuK](https://github.com/Tencent-Hunyuan/AuK)** · 19 pts · ★1540 · 24.1★/day · NOASSERTION · active ⚠ no-license
+  - AuK: An Open-Source Foundational Model for Speech Generation and Editing
   - hits: speech
-- **[RHVoice/RHVoice](https://github.com/RHVoice/RHVoice)** · 15 pts · ★1851 · 0.3★/day · GPL-2.0 · active ⚠ copyleft:gpl-2.0
-  - a free and open source speech synthesizer for Russian and other languages
+- **[strelov1/freehire](https://github.com/strelov1/freehire)** · 16 pts · ★2680 · 19.6★/day · MIT · trending
+  - freehire — the open-source search engine for job seekers
+  - hits: obs
+- **[shaobeichen/dsh-pocket](https://github.com/shaobeichen/dsh-pocket)** · 15 pts · ★2219 · 32.6★/day · GPL-2.0 · trending ⚠ copyleft:gpl-2.0
+  - 把 DeepSeek Harness 装进你的口袋：电脑上跑 dsh web，手机扫码即同步访问（局域网 + 公网，实时同屏）Put DeepSeek Harness in your pocket: run dsh web on your computer and access it synchronously by scanning a QR code on your phone (LAN + public network, real‑time screen mirroring)
+  - hits: mirror
+- **[Saganaki22/ComfyUI-Ming-3-tts](https://github.com/Saganaki22/ComfyUI-Ming-3-tts)** · 12 pts · ★19 · 9.5★/day · MIT · new
+  - Native ComfyUI port of Ming-3.0-tts, supporting 0.5B and Tiny 9B speech generation.
   - hits: speech, voice
-- **[nodejs/node](https://github.com/nodejs/node)** · 13 pts · ★122480 · 28.2★/day · NOASSERTION · trending ⚠ no-license
-  - Node.js JavaScript runtime ✨🐢🚀✨
+- **[NomaDamas/CozyClay](https://github.com/NomaDamas/CozyClay)** · 9 pts · ★901 · 10.5★/day · AGPL-3.0 · trending ⚠ copyleft:agpl-3.0
+  - Open source previs software in the browser: block a scene, pose characters, author camera moves and cuts, then take the same shots to an AI video model.
   - hits: script
 
 ## National Teleprompter (business: marketing, website, clients)
 
-- **[AgriciDaniel/claude-seo](https://github.com/AgriciDaniel/claude-seo)** · 35 pts · ★19502 · 76.2★/day · MIT · trending
-  - Universal SEO skill for Claude Code. 26 sub-skills + 19 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, agent readiness (Lighthouse Agentic Browsing, WebMCP, llms.txt), backlinks, local SEO, e-commerce, international SEO, Google APIs, and PDF/Excel reporting. 9 optional extensions for l
-  - hits: local seo
+- **[hugohe3/ppt-master](https://github.com/hugohe3/ppt-master)** · 28 pts · ★65672 · 207.8★/day · MIT · trending
+  - AI turns documents or topics into real, native PowerPoint decks—with native shapes, transitions and animations, data-backed charts and tables on demand, audio narration from speaker notes, and support for your own .pptx templates. · by Hugo He
+  - hits: speaker
 
 ## Wander Network / KWST / WTPA tour-affiliate sites
 
-- **[OpenClaudia/openclaudia-skills](https://github.com/OpenClaudia/openclaudia-skills)** · 31 pts · ★718 · 2.8★/day · MIT · active
-  - 77 open-source marketing skills for Claude Code, Codex, and other AI coding agents. SEO, content, email, ads, analytics, and growth.
-  - hits: seo
-- **[ansvisor/ansvisor](https://github.com/ansvisor/ansvisor)** · 18 pts · ★152 · 0.9★/day · MIT · active
-  - Open-source AI Search Intelligence Platform — track, analyze, and improve AI visibility, citations, prompts, competitors, and content opportunities across ChatGPT, Claude, Gemini, Google AI Overviews, Google AI Mode, Perplexity, Grok, and Microsoft Copilot.
-  - hits: seo, geo
-- **[nuxt-content/nuxt-llms](https://github.com/nuxt-content/nuxt-llms)** · 10 pts · ★171 · 0.3★/day · MIT · active
-  - Automatically generates /llms.txt markdown documentation for your Nuxt application.
-  - hits: llms.txt
+- **[aleksandr-alhoff/seo-landing](https://github.com/aleksandr-alhoff/seo-landing)** · 27 pts · ★172 · 3.1★/day · MIT · active
+  - SEO Landing: Give your AI coding agent the capabilities of a senior Technical SEO engineer.  An agent skill for building high-performance, technically optimized SEO landing pages. Turn an AI coding agent into a technical SEO specialist.  Build and improve landing pages with: • 🚀 100/100 Google PageS
+  - hits: seo, core web vitals
 
 ## New-project opportunities (diversification)
 
-- **[rmyndharis/OpenWA](https://github.com/rmyndharis/OpenWA)** · 50 pts · ★16040 · 61.5★/day · MIT · trending
-  - Free, Open Source, Self-Hosted WhatsApp API Gateway
-  - hits: automation, self-hosted, api, whatsapp
-- **[anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins)** · 42 pts · ★30959 · 114.2★/day · Apache-2.0 · trending
-  - Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork
-  - hits: claude
-- **[simular-ai/Agent-S](https://github.com/simular-ai/Agent-S)** · 41 pts · ★12668 · 17.1★/day · Apache-2.0 · active
-  - Agent S: an open agentic framework that uses computers like a human
-  - hits: agent, agentic, llm, automation
-- **[ScrapeGraphAI/Scrapegraph-ai](https://github.com/ScrapeGraphAI/Scrapegraph-ai)** · 40 pts · ★32066 · 32.1★/day · MIT · trending
-  - Python scraper based on AI
-  - hits: llm, api, scraper, scraping
-- **[tinyfish-io/agentql](https://github.com/tinyfish-io/agentql)** · 37 pts · ★1491 · 1.5★/day · MIT · active
-  - AgentQL is a suite of tools for connecting your AI to the web. Featuring a query language and Playwright integrations for interacting with elements and extracting data quickly, precisely, and at scale. Includes REST API, Python and JavaScript SDKs, browser debugger.
-  - hits: agent, automation, api, scraping, browser
-- **[shy3130/tick-stock-panel](https://github.com/shy3130/tick-stock-panel)** · 33 pts · ★6204 · 49.6★/day · MIT · trending
-  - TSP自托管、零运维的 A 股「自建策略 + 监控 + 回测」量化工作台  | LLM能力驱使策略定制+个股分析+复盘 | 自由接入第三方数据源与个性化扩展数据 | 个人开源
-  - hits: agent, llm, api
-- **[dominikmartn/harp](https://github.com/dominikmartn/harp)** · 33 pts · ★436 · 436.0★/day · AGPL-3.0 · new ⚠ copyleft:agpl-3.0
-  - Run many Claude Code and Codex agents side by side, in one sidebar that tells you which one needs you. An unofficial fork of Warp.
-  - hits: agent, claude
-- **[qianshuixia/shrimpreel](https://github.com/qianshuixia/shrimpreel)** · 33 pts · ★52 · 52.0★/day · MIT · new
-  - Open-source template for "one photo → AI video that follows a viral template" SaaS sites, one site per trending keyword. Cloudflare Workers + D1/R2/KV/Queues, TanStack Start + Hono, Google sign-in, credit packs (Waffo/Dodo), fal.ai video generation, admin console.
-  - hits: saas, boilerplate, video
-- **[gojko/lights-on-software-factory](https://github.com/gojko/lights-on-software-factory)** · 30 pts · ★72 · 72.0★/day · MIT · new
-  - Lights-on software factory boilerplate for Claude Code. Based on the setup developed for Votito.
-  - hits: claude, boilerplate
-- **[Umair/stalemap](https://github.com/Umair/stalemap)** · 30 pts · ★53 · 26.5★/day · MIT · new
-  - Tell your coding agent which dependencies changed after its training cutoff. Diffs types and changelogs, writes a short block into AGENTS.md / CLAUDE.md.
+- **[cheaper-inference/OmniRoute](https://github.com/cheaper-inference/OmniRoute)** · 54 pts · ★79611 · 317.2★/day · MIT · active
+  - Never stop coding. Free MIT AI gateway: one endpoint, 375 providers (150+ free), 1,400+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop
   - hits: mcp, agent, claude, llm
-- **[abdiraimov-otabek/dashboard-design-skill](https://github.com/abdiraimov-otabek/dashboard-design-skill)** · 29 pts · ★90 · 90.0★/day · MIT · new
-  - A Claude Code skill for clean, honest dashboard UI: KPI tiles, charts, date pickers, ranked lists, states, layouts and a screenshot QA pass. Distilled from 127 shipped dashboards.
+- **[ai-job-search-dev/ai-job-search](https://github.com/ai-job-search-dev/ai-job-search)** · 47 pts · ★63194 · 289.9★/day · MIT · active
+  - The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.
   - hits: agent, claude
-- **[vllm-project/vllm](https://github.com/vllm-project/vllm)** · 28 pts · ★94633 · 70.1★/day · Apache-2.0 · trending
-  - A high-throughput and memory-efficient inference and serving engine for LLMs
-  - hits: llm
-- **[ServiceNow/BrowserGym](https://github.com/ServiceNow/BrowserGym)** · 27 pts · ★1408 · 1.4★/day · NOASSERTION · active ⚠ no-license
-  - 🌎💪 BrowserGym, a Gym environment for web task automation
-  - hits: agent, llm, automation, browser
-- **[czg86389-hub/muse2api](https://github.com/czg86389-hub/muse2api)** · 22 pts · ★508 · 19.5★/day · MIT · active
-  - 把 Muse(muse.ai) 逆向封装为 OpenAI 兼容接口，支持对话、文生图、文生视频/图生视频、多账号池轮转与 48h 自动续期。OpenAI-compatible API for Muse.ai with Chat, Image & Video generation.
-  - hits: api, video
-- **[pmarket-14/polymarket-ai-trading-codex-and-claude-bot](https://github.com/pmarket-14/polymarket-ai-trading-codex-and-claude-bot)** · 19 pts · ★68 · 68.0★/day · no license · new ⚠ no-license
-  - polymarket tools
-  - hits: claude, llm
+- **[Anil-matcha/open-duet](https://github.com/Anil-matcha/open-duet)** · 45 pts · ★5956 · 4.8★/day · Apache-2.0 · active
+  - Open-source, self-hosted alternative to Claude Duet: AI coworkers (named agents) with instructions, memory, routines, their own isolated computer, and your approval before they act. Also an alternative to OpenAI Dots, Meta Muse, Grok Bot, Manus Cue and ChatGPT agent.
+  - hits: agent, agentic, claude, self-hosted, alternative to
+- **[tashfeenahmed/freellmapi](https://github.com/tashfeenahmed/freellmapi)** · 44 pts · ★39201 · 213.0★/day · MIT · trending
+  - 7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.
+  - hits: llm, api
+- **[ItzCrazyKns/Vane](https://github.com/ItzCrazyKns/Vane)** · 41 pts · ★37628 · 40.6★/day · MIT · trending
+  - Vane is an AI-powered answering engine.
+  - hits: agent, llm, self-hosted
+- **[tradesdontlie/tradingview-mcp](https://github.com/tradesdontlie/tradingview-mcp)** · 39 pts · ★6908 · 33.4★/day · NOASSERTION · active ⚠ no-license
+  - AI-assisted TradingView chart analysis — connect Claude Code to your TradingView Desktop for personal workflow automation
+  - hits: mcp, claude, automation, workflow
+- **[refly-ai/refly](https://github.com/refly-ai/refly)** · 37 pts · ★7535 · 7.7★/day · NOASSERTION · active ⚠ no-license
+  - The first open-source agent skills builder. Define skills by vibe workflow, run on Claude Code, Cursor, Codex & more. Build Clawdbot 🦞· APIs for Lovable · Bots for Slack & Lark/Feishu · Skills are infrastructure, not prompts.
+  - hits: agent, claude, automation, workflow, api
+- **[Intent-Lab/VisionClaw](https://github.com/Intent-Lab/VisionClaw)** · 33 pts · ★2595 · 10.1★/day · NOASSERTION · active ⚠ no-license
+  - Real-time AI assistant for Meta Ray-Ban smart glasses -- voice + vision + agentic actions via Gemini Live and OpenClaw
+  - hits: agent, agentic, voice
+- **[giselles-ai/giselle](https://github.com/giselles-ai/giselle)** · 32 pts · ★559 · 0.7★/day · Apache-2.0 · active
+  - Giselle: AI App Builder. Open Source.
+  - hits: agent, agentic, workflow
+- **[Zackriya-Solutions/meetily](https://github.com/Zackriya-Solutions/meetily)** · 31 pts · ★32033 · 48.2★/day · MIT · active
+  - Privacy first, AI meeting assistant with 4x faster Parakeet/Whisper live transcription, speaker diarization, and Ollama summarization built on Rust. 100% local processing. no cloud required. Meetily (Meetly Ai - https://meetily.ai) is the #1 Self-hosted, Open-source Ai meeting note taker for macOS &
+  - hits: llm, self-hosted
+- **[kukemc/bili-cli](https://github.com/kukemc/bili-cli)** · 31 pts · ★60 · 20.0★/day · MIT · new
+  - 为 AI Agent 设计的哔哩哔哩命令行工具：扫码登录、看视频、评论、私信、发动态、投稿，全部 JSON 输出
+  - hits: mcp, agent, claude, llm, automation
+- **[xmanrui/dsh-im](https://github.com/xmanrui/dsh-im)** · 30 pts · ★2306 · 33.4★/day · MIT · trending
+  - 通过扫码或机器人凭据把IM机器人接入DeepSeek Harness（支持飞书、微信、钉钉、企业微信、QQ、Slack、Telegram、Discord和WhatsApp）。 Connect IM bots to DeepSeek Harness via QR code or credentials (9 channels).
+  - hits: agent, whatsapp
+- **[helloianneo/ian-xhs-carousel](https://github.com/helloianneo/ian-xhs-carousel)** · 29 pts · ★203 · 203.0★/day · MIT · new
+  - 把文章、案例或笔记排成 3:4 小红书图文 | 1080×1440 | 20 个母版 | 浅色 / 深色 | Claude Code Skill
+  - hits: agent, claude
+- **[h9-tec/ai-roadmap-2026](https://github.com/h9-tec/ai-roadmap-2026)** · 29 pts · ★95 · 95.0★/day · CC-BY-4.0 · new
+  - AI Roadmap 2026: a beginner's path through Foundations, LLM Engineering, Agents, Evaluation, and Production, with verified free resources and a mini-project per layer
+  - hits: agent, llm
+- **[llm-xiaoye/douyin-to-obsidian](https://github.com/llm-xiaoye/douyin-to-obsidian)** · 22 pts · ★95 · 47.5★/day · MIT · new
+  - A portable /dy skill for cc-connect + Claude Code: Douyin videos, image posts and collections to Obsidian, with local ASR/OCR and private configuration.
+  - hits: claude, llm, video
