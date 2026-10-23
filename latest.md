@@ -1,90 +1,144 @@
-# Repo Scout — 2026-10-22
+# Repo Scout — 2026-10-23
 
-Window: since 2026-10-19 · queries 164 · raw 466 · trending 50 · awesome-list adds 0 · new scored 32
+Window: since 2026-10-20 · queries 164 · raw 452 · trending 53 · awesome-list adds 137 · new scored 173
 
 ## PrompterQ (teleprompter software)
 
-- **[sirioberati/YouTube-AI-Video-Editing-System](https://github.com/sirioberati/YouTube-AI-Video-Editing-System)** · 36 pts · ★29 · 29.0★/day · MIT · new
-  - Open-source YouTube AI video editing system: Eyeline teleprompter, editing agents, JSON, Claude Design, animation and motion graphics.
-  - hits: teleprompter, prompter
-- **[supabase/supabase](https://github.com/supabase/supabase)** · 21 pts · ★113243 · 44.1★/day · Apache-2.0 · trending
-  - The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.
-  - hits: websocket
-- **[snakers4/silero-vad](https://github.com/snakers4/silero-vad)** · 19 pts · ★10499 · 4.9★/day · MIT · active
-  - Silero VAD: pre-trained enterprise-grade Voice Activity Detector
+- **[getopenscreen/openscreen](https://github.com/getopenscreen/openscreen)** · 25 pts · ★4808 · 21.6★/day · MIT · awesome:punkpeye/awesome-mcp-servers
+  - Record your screen, ship a demo. Free and open-source, GPU-accelerated, no watermarks, no subscriptions. Windows, macOS, Linux. Actively maintained.
+  - hits: speech, whisper, script
+- **[JMS1717/ming-voice](https://github.com/JMS1717/ming-voice)** · 24 pts · ★117 · 58.5★/day · MIT · new
+  - Low-latency local speech-to-speech voice assistant with Ming-3.0-audio-tiny on AMD Radeon GPUs (ROCm on WSL2)
   - hits: speech, voice
-- **[Tencent-Hunyuan/AuK](https://github.com/Tencent-Hunyuan/AuK)** · 19 pts · ★1540 · 24.1★/day · NOASSERTION · active ⚠ no-license
-  - AuK: An Open-Source Foundational Model for Speech Generation and Editing
+- **[modelscope/modelscope](https://github.com/modelscope/modelscope)** · 19 pts · ★9185 · 5.9★/day · Apache-2.0 · active
+  - ModelScope: bring the notion of Model-as-a-Service to life.
   - hits: speech
-- **[strelov1/freehire](https://github.com/strelov1/freehire)** · 16 pts · ★2680 · 19.6★/day · MIT · trending
-  - freehire — the open-source search engine for job seekers
-  - hits: obs
-- **[shaobeichen/dsh-pocket](https://github.com/shaobeichen/dsh-pocket)** · 15 pts · ★2219 · 32.6★/day · GPL-2.0 · trending ⚠ copyleft:gpl-2.0
-  - 把 DeepSeek Harness 装进你的口袋：电脑上跑 dsh web，手机扫码即同步访问（局域网 + 公网，实时同屏）Put DeepSeek Harness in your pocket: run dsh web on your computer and access it synchronously by scanning a QR code on your phone (LAN + public network, real‑time screen mirroring)
-  - hits: mirror
-- **[Saganaki22/ComfyUI-Ming-3-tts](https://github.com/Saganaki22/ComfyUI-Ming-3-tts)** · 12 pts · ★19 · 9.5★/day · MIT · new
-  - Native ComfyUI port of Ming-3.0-tts, supporting 0.5B and Tiny 9B speech generation.
-  - hits: speech, voice
-- **[NomaDamas/CozyClay](https://github.com/NomaDamas/CozyClay)** · 9 pts · ★901 · 10.5★/day · AGPL-3.0 · trending ⚠ copyleft:agpl-3.0
-  - Open source previs software in the browser: block a scene, pose characters, author camera moves and cuts, then take the same shots to an AI video model.
+- **[mrdoob/three.js](https://github.com/mrdoob/three.js)** · 14 pts · ★116813 · 19.3★/day · MIT · trending
+  - JavaScript 3D Library.
   - hits: script
+- **[remotion-dev/remotion](https://github.com/remotion-dev/remotion)** · 13 pts · ★66529 · 28.8★/day · NOASSERTION · trending ⚠ no-license
+  - 🎥      Make videos programmatically with React
+  - hits: script
+- **[sena-labs/replicate-mcp-server](https://github.com/sena-labs/replicate-mcp-server)** · 13 pts · ★4 · 0.0★/day · MIT · awesome:punkpeye/awesome-mcp-servers
+  - A universal, cross-platform MCP server that gives any MCP client — Claude Desktop, the claude.ai web app (Connectors), Cursor, Cline / Continue in VS Code, or your own application — native access to the full Replicate catalog: image generation, video, music, speech, upscaling, segmentation, LLMs, vo
+  - hits: speech, voice
+- **[AmrDab/clawdcursor](https://github.com/AmrDab/clawdcursor)** · 12 pts · ★406 · 1.7★/day · MIT · awesome:punkpeye/awesome-mcp-servers
+  - Local MCP server that gives any AI agent safe desktop control on Windows, macOS and Linux. Reads the screen as text and structure (accessibility + OCR) and acts by element name, with screenshots as the last resort. Multi-monitor aware, verifies every action, one safety gate.
+  - hits: script
+- **[nhost/nhost](https://github.com/nhost/nhost)** · 11 pts · ★9365 · 4.5★/day · MIT · awesome:punkpeye/awesome-mcp-servers
+  - The Open Source Firebase Alternative with GraphQL.
+  - hits: script
+- **[spicyapi-ai/spicy-mcp](https://github.com/spicyapi-ai/spicy-mcp)** · 7 pts · ★1 · 0.1★/day · MIT · awesome:punkpeye/awesome-mcp-servers
+  - Official SpicyAPI MCP server: let Claude, Cursor and Codex generate images, videos, speech and music with 200+ models through an unrestricted AI API, with a USD quote before every paid step.
+  - hits: speech, script
+- **[ParserBee/parserbee-mcp](https://github.com/ParserBee/parserbee-mcp)** · 5 pts · ★0 · 0.0★/day · MIT · awesome:punkpeye/awesome-mcp-servers
+  - MCP server for ParserBee: extract data from invoices, receipts and other documents in any MCP client
+  - hits: voice
+- **[abm9111/chamber](https://github.com/abm9111/chamber)** · 4 pts · ★3 · 0.0★/day · MIT · awesome:punkpeye/awesome-mcp-servers
+  - Checks that the numbers, capitalised names, and file names in a claim occur in the indexed note. Local, no model. It does not judge meaning. MIT.
+  - hits: obs, script
+- **[lets-order-some-fries/loreweave](https://github.com/lets-order-some-fries/loreweave)** · 4 pts · ★0 · 0.0★/day · MIT · awesome:punkpeye/awesome-mcp-servers
+  - Temporal knowledge engine for markdown vaults — graph + bitemporal facts + agent memory over MCP. Local, model-free, benchmarked: 95.9% R@5 on LongMemEval (all 500).
+  - hits: obs, script
+- **[PGHQdev/OpenScreenShot](https://github.com/PGHQdev/OpenScreenShot)** · 4 pts · ★86 · 0.8★/day · MIT · awesome:punkpeye/awesome-mcp-servers
+  - OpenScreenShot is a privacy-first, free, open-source screenshot extension -- zero data leaves your device, no account needed, no telemetry, no third-party services.
+  - hits: script
+- **[polymatx/opsgate](https://github.com/polymatx/opsgate)** · 3 pts · ★1 · 0.0★/day · MIT · awesome:punkpeye/awesome-mcp-servers
+  - The safety gate between AI agents and your servers. An MCP server for structured, policy-checked, audited infrastructure operations.
+  - hits: obs
+- **[cirwel/unitares](https://github.com/cirwel/unitares)** · 2 pts · ★5 · 0.0★/day · Apache-2.0 · awesome:punkpeye/awesome-mcp-servers
+  - Accountability infrastructure for long-running AI agents. Self-hosted MCP server: identity, claims and evidence, review, outcomes, and reconstruction across agent runtimes.
+  - hits: obs
 
 ## National Teleprompter (business: marketing, website, clients)
 
-- **[hugohe3/ppt-master](https://github.com/hugohe3/ppt-master)** · 28 pts · ★65672 · 207.8★/day · MIT · trending
-  - AI turns documents or topics into real, native PowerPoint decks—with native shapes, transitions and animations, data-backed charts and tables on demand, audio narration from speaker notes, and support for your own .pptx templates. · by Hugo He
-  - hits: speaker
+- **[arif-js/opensdr-mcp](https://github.com/arif-js/opensdr-mcp)** · 14 pts · ★0 · 0.0★/day · MIT · awesome:punkpeye/awesome-mcp-servers
+  - OpenSDR: open-source AI SDR (sales development rep) for Claude & MCP
+  - hits: prospecting, apollo
+- **[Wism-Corp/scrupp-mcp-server](https://github.com/Wism-Corp/scrupp-mcp-server)** · 8 pts · ★0 · 0.0★/day · MIT · awesome:punkpeye/awesome-mcp-servers
+  - MCP server for Scrupp — export LinkedIn, Sales Navigator and Apollo searches, find decision makers, find and verify work emails
+  - hits: apollo
+- **[Misar-AI/misarmail-mcp](https://github.com/Misar-AI/misarmail-mcp)** · 6 pts · ★1 · 0.0★/day · MIT · awesome:punkpeye/awesome-mcp-servers
+  - MisarMail MCP server — 54 tools for email, campaigns, contacts, automations, A/B testing, and deliverability. Works with Claude, Cursor, VS Code, Windsurf, ChatGPT & any MCP client.
+  - hits: deliverability
+- **[koraykutlu/kut](https://github.com/koraykutlu/kut)** · 4 pts · ★1 · 0.1★/day · MIT · awesome:punkpeye/awesome-mcp-servers
+  - Your personal network, only on your computer: a local-first, PIN-locked personal CRM with a photo map, contact log, promises, introduction paths and a weekly digest. No account, no cloud, plain Markdown. · Kişisel ilişki ağın, yalnız senin bilgisayarında.
+  - hits: crm
+- **[OtaKit/otakit](https://github.com/OtaKit/otakit)** · 4 pts · ★51 · 0.3★/day · MIT · awesome:punkpeye/awesome-mcp-servers
+  - Push updates directly to your Capacitor app without app store reviews.
+  - hits: reviews
+- **[Blackman99/postsleuth](https://github.com/Blackman99/postsleuth)** · 3 pts · ★0 · 0.0★/day · MIT · awesome:punkpeye/awesome-mcp-servers
+  - Why isn't Postfix delivering? Queue, qshape, mail log and SPF/DKIM/DMARC/PTR diagnosis as a CLI and read-only MCP server.
+  - hits: deliverability
+- **[Downshift/Rivalize-MCP](https://github.com/Downshift/Rivalize-MCP)** · 3 pts · ★0 · 0.0★/day · MIT · awesome:punkpeye/awesome-mcp-servers
+  - MCP server for competitive intelligence: competitor teardowns, pricing, ads, reviews and momentum for AI agents. Read-only by default.
+  - hits: reviews
+- **[kimjooyoon/gooo-go-ports](https://github.com/kimjooyoon/gooo-go-ports)** · 3 pts · ★1 · 0.1★/day · BSD-3-Clause · awesome:punkpeye/awesome-mcp-servers
+  - Independently checked Go API ports and original Gooo policy programs for coding agents, with stdio MCP, native CLI previews, source bindings and replayable results.
+  - hits: reviews
 
 ## Wander Network / KWST / WTPA tour-affiliate sites
 
-- **[aleksandr-alhoff/seo-landing](https://github.com/aleksandr-alhoff/seo-landing)** · 27 pts · ★172 · 3.1★/day · MIT · active
-  - SEO Landing: Give your AI coding agent the capabilities of a senior Technical SEO engineer.  An agent skill for building high-performance, technically optimized SEO landing pages. Turn an AI coding agent into a technical SEO specialist.  Build and improve landing pages with: • 🚀 100/100 Google PageS
-  - hits: seo, core web vitals
+- **[Ryze-AI-Adgent/open-seo-mcp-skills](https://github.com/Ryze-AI-Adgent/open-seo-mcp-skills)** · 59 pts · ★6608 · 120.1★/day · MIT · active
+  - Free SEO MCP server + open-source SEO and GEO skills for Claude: keyword research, rank tracking, audits, backlinks, AI visibility on your real GSC/GA4/ads data. claude mcp add ryze --transport http https://connector.get-ryze.ai/mcp
+  - hits: seo, gsc, backlink, keyword research, geo
+- **[zwznco/camberstack-mcp](https://github.com/zwznco/camberstack-mcp)** · 12 pts · ★0 · 0.0★/day · MIT · awesome:punkpeye/awesome-mcp-servers
+  - Hosted Google Ads + Search Console MCP server: build Search, Performance Max, Display and YouTube campaigns, research keywords, and make only the changes you approve, with undo.
+  - hits: search console
+- **[Venut-Technologies/serato-dj-mcp](https://github.com/Venut-Technologies/serato-dj-mcp)** · 9 pts · ★1 · 0.0★/day · MIT · awesome:punkpeye/awesome-mcp-servers
+  - Ask Claude or any AI assistant about your Serato DJ library: harmonic search by BPM and Camelot key, crate browsing, duplicate and missing-file audits, and new crates built with a preview before anything is written. Local, macOS. Not affiliated with Serato.
+  - hits: affiliate
+- **[rmb/omniforce-mcp](https://github.com/rmb/omniforce-mcp)** · 3 pts · ★0 · 0.0★/day · MIT · awesome:punkpeye/awesome-mcp-servers
+  - Model Context Protocol (MCP) server for OmniForce — GEO & AI-search visibility
+  - hits: geo
+- **[AmadeusBio-ai/Molecular_Animation](https://github.com/AmadeusBio-ai/Molecular_Animation)** · 3 pts · ★2 · 0.1★/day · Apache-2.0 · awesome:hesreallyhim/awesome-claude-code
+  - Molecular and protein animation in Blender: an open-source Python pipeline that turns a brief and PDB/mmCIF or AlphaFold structures into labelled MP4/WebM science films, with literature-rate thermal motion, per-beat evidence levels and an AI-agent workflow (Claude Code + Blender MCP).
+  - hits: geo
 
 ## New-project opportunities (diversification)
 
-- **[cheaper-inference/OmniRoute](https://github.com/cheaper-inference/OmniRoute)** · 54 pts · ★79611 · 317.2★/day · MIT · active
-  - Never stop coding. Free MIT AI gateway: one endpoint, 375 providers (150+ free), 1,400+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop
+- **[can1357/oh-my-pi](https://github.com/can1357/oh-my-pi)** · 54 pts · ★36331 · 122.7★/day · MIT · active
+  - ⌥ Coding agent with the IDE wired in. Built by Stencil Labs.
   - hits: mcp, agent, claude, llm
-- **[ai-job-search-dev/ai-job-search](https://github.com/ai-job-search-dev/ai-job-search)** · 47 pts · ★63194 · 289.9★/day · MIT · active
-  - The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.
+- **[CopilotKit/OpenBot](https://github.com/CopilotKit/OpenBot)** · 54 pts · ★6978 · 104.1★/day · MIT · trending
+  - Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.
+  - hits: mcp, agent, automation, browser
+- **[HKUDS/Vibe-Trading](https://github.com/HKUDS/Vibe-Trading)** · 51 pts · ★36373 · 177.4★/day · MIT · trending
+  - "Vibe-Trading: Your Personal Trading Agent"
+  - hits: mcp, agent, llm
+- **[genspark-ai/genoffice](https://github.com/genspark-ai/genoffice)** · 47 pts · ★10605 · 126.2★/day · Apache-2.0 · trending
+  - Free, open-source AI Office suite: Docs, Sheets, Slides, PDF, Markdown and HTML editors with a built-in AI agent, plus a `genoffice` CLI and agent skill so Claude Code, Codex and Cursor can create and edit real .docx/.xlsx/.pptx files locally. Bring your own key. macOS, Windows & Linux.
   - hits: agent, claude
-- **[Anil-matcha/open-duet](https://github.com/Anil-matcha/open-duet)** · 45 pts · ★5956 · 4.8★/day · Apache-2.0 · active
-  - Open-source, self-hosted alternative to Claude Duet: AI coworkers (named agents) with instructions, memory, routines, their own isolated computer, and your approval before they act. Also an alternative to OpenAI Dots, Meta Muse, Grok Bot, Manus Cue and ChatGPT agent.
-  - hits: agent, agentic, claude, self-hosted, alternative to
-- **[tashfeenahmed/freellmapi](https://github.com/tashfeenahmed/freellmapi)** · 44 pts · ★39201 · 213.0★/day · MIT · trending
-  - 7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.
-  - hits: llm, api
-- **[ItzCrazyKns/Vane](https://github.com/ItzCrazyKns/Vane)** · 41 pts · ★37628 · 40.6★/day · MIT · trending
-  - Vane is an AI-powered answering engine.
-  - hits: agent, llm, self-hosted
-- **[tradesdontlie/tradingview-mcp](https://github.com/tradesdontlie/tradingview-mcp)** · 39 pts · ★6908 · 33.4★/day · NOASSERTION · active ⚠ no-license
-  - AI-assisted TradingView chart analysis — connect Claude Code to your TradingView Desktop for personal workflow automation
-  - hits: mcp, claude, automation, workflow
-- **[refly-ai/refly](https://github.com/refly-ai/refly)** · 37 pts · ★7535 · 7.7★/day · NOASSERTION · active ⚠ no-license
-  - The first open-source agent skills builder. Define skills by vibe workflow, run on Claude Code, Cursor, Codex & more. Build Clawdbot 🦞· APIs for Lovable · Bots for Slack & Lark/Feishu · Skills are infrastructure, not prompts.
-  - hits: agent, claude, automation, workflow, api
-- **[Intent-Lab/VisionClaw](https://github.com/Intent-Lab/VisionClaw)** · 33 pts · ★2595 · 10.1★/day · NOASSERTION · active ⚠ no-license
-  - Real-time AI assistant for Meta Ray-Ban smart glasses -- voice + vision + agentic actions via Gemini Live and OpenClaw
-  - hits: agent, agentic, voice
-- **[giselles-ai/giselle](https://github.com/giselles-ai/giselle)** · 32 pts · ★559 · 0.7★/day · Apache-2.0 · active
-  - Giselle: AI App Builder. Open Source.
-  - hits: agent, agentic, workflow
-- **[Zackriya-Solutions/meetily](https://github.com/Zackriya-Solutions/meetily)** · 31 pts · ★32033 · 48.2★/day · MIT · active
-  - Privacy first, AI meeting assistant with 4x faster Parakeet/Whisper live transcription, speaker diarization, and Ollama summarization built on Rust. 100% local processing. no cloud required. Meetily (Meetly Ai - https://meetily.ai) is the #1 Self-hosted, Open-source Ai meeting note taker for macOS &
-  - hits: llm, self-hosted
-- **[kukemc/bili-cli](https://github.com/kukemc/bili-cli)** · 31 pts · ★60 · 20.0★/day · MIT · new
-  - 为 AI Agent 设计的哔哩哔哩命令行工具：扫码登录、看视频、评论、私信、发动态、投稿，全部 JSON 输出
-  - hits: mcp, agent, claude, llm, automation
-- **[xmanrui/dsh-im](https://github.com/xmanrui/dsh-im)** · 30 pts · ★2306 · 33.4★/day · MIT · trending
-  - 通过扫码或机器人凭据把IM机器人接入DeepSeek Harness（支持飞书、微信、钉钉、企业微信、QQ、Slack、Telegram、Discord和WhatsApp）。 Connect IM bots to DeepSeek Harness via QR code or credentials (9 channels).
-  - hits: agent, whatsapp
-- **[helloianneo/ian-xhs-carousel](https://github.com/helloianneo/ian-xhs-carousel)** · 29 pts · ★203 · 203.0★/day · MIT · new
-  - 把文章、案例或笔记排成 3:4 小红书图文 | 1080×1440 | 20 个母版 | 浅色 / 深色 | Claude Code Skill
-  - hits: agent, claude
-- **[h9-tec/ai-roadmap-2026](https://github.com/h9-tec/ai-roadmap-2026)** · 29 pts · ★95 · 95.0★/day · CC-BY-4.0 · new
-  - AI Roadmap 2026: a beginner's path through Foundations, LLM Engineering, Agents, Evaluation, and Production, with verified free resources and a mini-project per layer
-  - hits: agent, llm
-- **[llm-xiaoye/douyin-to-obsidian](https://github.com/llm-xiaoye/douyin-to-obsidian)** · 22 pts · ★95 · 47.5★/day · MIT · new
-  - A portable /dy skill for cc-connect + Claude Code: Douyin videos, image posts and collections to Obsidian, with local ASR/OCR and private configuration.
-  - hits: claude, llm, video
+- **[BerriAI/litellm](https://github.com/BerriAI/litellm)** · 41 pts · ★61886 · 52.3★/day · NOASSERTION · trending ⚠ no-license
+  - The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock, Azure, OpenAI, Anthropic, OpenAI, VertexAI, vLLM, Nvidia NIM]
+  - hits: mcp, llm, api
+- **[actionow-ai/vvv](https://github.com/actionow-ai/vvv)** · 39 pts · ★170 · 170.0★/day · MIT · new
+  - Build a video template once, reuse it across coding agents. Editable Remotion templates and an Agent Skill for Claude Code, Codex and 25+ agents.
+  - hits: agent, claude, video
+- **[EveryInc/compound-engineering-plugin](https://github.com/EveryInc/compound-engineering-plugin)** · 36 pts · ★25674 · 67.7★/day · MIT · trending
+  - Official Compound Engineering plugin for Claude Code, Codex, Cursor, and more
+  - hits: claude
+- **[Swih/ritoko](https://github.com/Swih/ritoko)** · 36 pts · ★1 · 0.0★/day · MIT · awesome:punkpeye/awesome-mcp-servers
+  - Resumable browser, HTTP API and MCP automation for AI agents. Replay CSV/Excel batches, verify results and hold uncertain writes for review.
+  - hits: mcp, agent, claude, automation, workflow, api, browser
+- **[edouard-claude/whatsapp-mcp](https://github.com/edouard-claude/whatsapp-mcp)** · 35 pts · ★2 · 0.1★/day · MIT · awesome:punkpeye/awesome-mcp-servers
+  - Full-featured WhatsApp MCP server: Rust MCP server + Go whatsmeow bridge. 39 tools, resources, prompts, live notifications, multi-account, full-text search, raw media for your agent.
+  - hits: mcp, agent, claude, llm, api, whatsapp
+- **[timgordontg/engrim](https://github.com/timgordontg/engrim)** · 34 pts · ★299 · 2.4★/day · MIT · awesome:punkpeye/awesome-mcp-servers
+  - The Universal Cross-Model Episodic Memory Standard. Local-first, project-scoped SQLite engine for Google Antigravity, Claude Code, Cursor, Codex CLI, GitHub Copilot CLI, and OpenCode. Zero cloud lock-in.
+  - hits: mcp, agent, claude, llm
+- **[tekspry/DotnetFastMCP](https://github.com/tekspry/DotnetFastMCP)** · 34 pts · ★7 · 0.0★/day · MIT · awesome:punkpeye/awesome-mcp-servers
+  - A lightweight .NET framework for building Model Context Protocol (MCP) servers. Integrates seamlessly with Azure AD, AWS Cognito, Auth0, OpenAI and other providers
+  - hits: mcp, model context protocol, agent, claude, llm
+- **[bowenliang123/dsh-context](https://github.com/bowenliang123/dsh-context)** · 33 pts · ★3453 · 49.3★/day · Apache-2.0 · trending
+  - The best DeepSeek Harness plugin for context insight and management, with context dashboard / browser / sidebar and context command, for context statistics, composition, breakdown, evolution details, agent teams, understanding how the context is made of, and how it evolves. 一站式 DeepSeek Harness 上下文可
+  - hits: agent, browser
+- **[Dipeshpal/capes](https://github.com/Dipeshpal/capes)** · 33 pts · ★1 · 0.0★/day · MIT · awesome:punkpeye/awesome-mcp-servers
+  - Superpowers for any AI: a free, self-hosted MCP server (Gmail, Discord, X) with a dashboard. Deploy to your own Vercel in minutes.
+  - hits: mcp, agent, claude, self-hosted, api
+- **[jrswab/axe](https://github.com/jrswab/axe)** · 30 pts · ★898 · 3.8★/day · Apache-2.0 · active
+  - A lightweight cli for running single-purpose AI agents. Define focused agents in TOML, trigger them from anywhere; pipes, git hooks, cron, or the terminal.
+  - hits: agent, llm, automation
+- **[Strategiumfinancepartner/AgentNexus](https://github.com/Strategiumfinancepartner/AgentNexus)** · 23 pts · ★1 · 0.0★/day · MIT · awesome:punkpeye/awesome-mcp-servers
+  - Continuously verified registry of the APIs, MCP servers and CLIs that AI agents call — live health checks, reliability history, and an anonymous MCP endpoint agents can connect to without a consent screen.
+  - hits: mcp, agent, agentic, llm, api
