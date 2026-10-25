@@ -1,153 +1,91 @@
-# Repo Scout — 2026-10-24
+# Repo Scout — 2026-10-25
 
-Window: since 2026-10-21 · queries 164 · raw 453 · trending 51 · awesome-list adds 117 · new scored 154
+Window: since 2026-10-22 · queries 164 · raw 443 · trending 60 · awesome-list adds 0 · new scored 35
 
 ## PrompterQ (teleprompter software)
 
-- **[OpenBMB/VoxCPM](https://github.com/OpenBMB/VoxCPM)** · 36 pts · ★40455 · 100.4★/day · Apache-2.0 · trending
-  - VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning
-  - hits: speech, voice
-- **[QuentinFuxa/WhisperLiveKit](https://github.com/QuentinFuxa/WhisperLiveKit)** · 31 pts · ★11170 · 16.6★/day · Apache-2.0 · active
-  - Real-time, local speech-to-text with streaming ASR, speaker diarization, translation, and OpenAI/Deepgram-compatible APIs.
-  - hits: speech, whisper, websocket
-- **[Renhuai123/ziwei-doushu](https://github.com/Renhuai123/ziwei-doushu)** · 19 pts · ★7146 · 40.6★/day · MIT · trending
-  - 紫微斗数开源排盘引擎 — 基于倪海厦《天纪》体系，含完整排盘算法、四化系统、格局知识库、古籍原文数据
+- **[OpenWhispr/openwhispr](https://github.com/OpenWhispr/openwhispr)** · 32 pts · ★9929 · 20.1★/day · MIT · trending
+  - Voice-to-text dictation app with local (Nvidia Parakeet/Whisper) and cloud models (BYOK). Privacy-first and available cross-platform.
+  - hits: speech, voice, whisper
+- **[louislam/uptime-kuma](https://github.com/louislam/uptime-kuma)** · 22 pts · ★92882 · 47.9★/day · MIT · trending
+  - A fancy self-hosted monitoring tool
+  - hits: websocket
+- **[makecindy/cindy](https://github.com/makecindy/cindy)** · 20 pts · ★4369 · 46.0★/day · Apache-2.0 · trending
+  - Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。
   - hits: script
-- **[albirrkarim/react-speech-highlight-demo](https://github.com/albirrkarim/react-speech-highlight-demo)** · 18 pts · ★190 · 0.1★/day · NOASSERTION · active ⚠ no-license
-  - React / Vanilla JS Text to Speech with highlighting the words and sentences that are being spoken using audio files, text to speech API, and web speech synthesis API
-  - hits: speech, web speech, script
-- **[Azure-Samples/cognitive-services-speech-sdk](https://github.com/Azure-Samples/cognitive-services-speech-sdk)** · 17 pts · ★3457 · 1.1★/day · MIT · active
-  - Sample code for the Microsoft Cognitive Services Speech SDK
-  - hits: speech
-- **[alexturkey/crisperwhisper-turkce-kelime-zamani](https://github.com/alexturkey/crisperwhisper-turkce-kelime-zamani)** · 17 pts · ★28 · 28.0★/day · Apache-2.0 · new
-  - Verbatim speech-to-text with word timestamps on a 4 GB GPU: CrisperWhisper 2.0 Turbo (CT2 int8) + wav2vec2 CTC alignment. Turkish-first, Linux/WSL2.
-  - hits: speech, whisper
-- **[praat/praat.github.io](https://github.com/praat/praat.github.io)** · 14 pts · ★2012 · 0.4★/day · no license · active ⚠ no-license
-  - Praat: Doing Phonetics By Computer
-  - hits: speech
-- **[logto-io/logto](https://github.com/logto-io/logto)** · 12 pts · ★14773 · 7.6★/day · MPL-2.0 · trending
-  - 🧑‍🚀 Authentication and authorization infrastructure for SaaS and AI apps, built on OIDC and OAuth 2.1 with multi-tenancy, SSO, and RBAC.
+- **[backnotprop/plannotator](https://github.com/backnotprop/plannotator)** · 19 pts · ★9625 · 32.0★/day · Apache-2.0 · trending
+  - Annotate and review coding agent plans and code diffs visually, share with your team, send feedback to agents with one click.
+  - hits: obs
+- **[langfuse/langfuse](https://github.com/langfuse/langfuse)** · 17 pts · ★36424 · 29.0★/day · NOASSERTION · trending ⚠ no-license
+  - 🪢 Open source agent evals & observability: Trace, evaluate, and improve LLM applications with one open platform.
+  - hits: obs
+- **[hako-mikan/sd-webui-regional-prompter](https://github.com/hako-mikan/sd-webui-regional-prompter)** · 15 pts · ★1815 · 1.4★/day · AGPL-3.0 · active ⚠ copyleft:agpl-3.0
+  - set prompt to divided region
+  - hits: prompter
+- **[vercel/ai](https://github.com/vercel/ai)** · 14 pts · ★27503 · 22.0★/day · NOASSERTION · trending ⚠ no-license
+  - The AI Toolkit for TypeScript. From the creators of Next.js, the AI SDK is a free open-source library for building AI-powered applications and agents 
   - hits: script
-- **[phonology024/babelscribe](https://github.com/phonology024/babelscribe)** · 12 pts · ★6 · 0.3★/day · MIT · awesome:punkpeye/awesome-mcp-servers
-  - Free offline speech-to-text & subtitles (SRT/VTT) in 99 languages on any GPU — AMD, NVIDIA, Intel, Apple. Whisper via whisper.cpp + MCP server for Claude, Codex, Gemini CLI.
-  - hits: speech, whisper, script
-- **[Armulee/ai-gateway-mcp](https://github.com/Armulee/ai-gateway-mcp)** · 12 pts · ★0 · 0.0★/day · MIT · awesome:punkpeye/awesome-mcp-servers
-  - The provider's own price, right inside your chat. Make video, images and voice with 400+ Vercel AI Gateway models (Veo, Kling, Seedance, Nano Banana, GPT Image) from Claude, ChatGPT or any MCP app. Your own copy, your own credits, no markup.
-  - hits: speech, voice
-- **[LetsFG/LetsFG](https://github.com/LetsFG/LetsFG)** · 9 pts · ★2189 · 9.2★/day · NOASSERTION · awesome:punkpeye/awesome-mcp-servers ⚠ no-license
-  - Agent-native flight & hotel search and booking — MCP server, CLI, and Python/JS SDKs. Every airline in the world, major booking sites and OTAs, with per-flight reliability history.
+- **[TriliumNext/Trilium](https://github.com/TriliumNext/Trilium)** · 11 pts · ★38548 · 11.2★/day · AGPL-3.0 · trending ⚠ copyleft:agpl-3.0
+  - Build your personal knowledge base with Trilium Notes
   - hits: script
-- **[FabianIMV/voice-coach-mcp](https://github.com/FabianIMV/voice-coach-mcp)** · 8 pts · ★0 · 0.0★/day · MIT · awesome:punkpeye/awesome-mcp-servers
-  - 
-  - hits: voice
-- **[roomi-fields/rtfm](https://github.com/roomi-fields/rtfm)** · 3 pts · ★26 · 0.1★/day · MIT · awesome:punkpeye/awesome-mcp-servers
-  - The open retrieval layer for AI coding agents. Indexes code, docs, legal, research, data — 24 parsers (incl. EPUB, DOCX, ODT, MIDI, audio), FTS5 + semantic search, knowledge graph. Serves surgical context via MCP. Open source, local, free.
-  - hits: obs
-- **[yagobski/agentleak](https://github.com/yagobski/agentleak)** · 3 pts · ★11 · 0.1★/day · MIT · awesome:punkpeye/awesome-mcp-servers
-  - Open-source privacy testing for AI agents. Python SDK, CLI and MCP tools to detect data leaks across tool calls, memory, inter-agent messages and logs, with redacted reports and CI gates.
-  - hits: obs
-- **[seinun-ai/maestro-career-studio](https://github.com/seinun-ai/maestro-career-studio)** · 3 pts · ★2 · 0.0★/day · Apache-2.0 · awesome:punkpeye/awesome-mcp-servers
-  - Stop rewriting your resume for every job. Give Claude, ChatGPT or Codex your career: they find jobs that fit, tailor a resume from your real history in under a minute, answer the questions and fill the application. You press Submit. Every AI edit is a diff you approve. Free, open source, lives on yo
-  - hits: obs
+- **[Neet-Nestor/Telegram-Media-Downloader](https://github.com/Neet-Nestor/Telegram-Media-Downloader)** · 9 pts · ★6295 · 3.9★/day · GPL-3.0 · trending ⚠ copyleft:gpl-3.0
+  - A script allowing you to download images and videos from Telegram web even if the group restricts downloading.
+  - hits: script
 
 ## National Teleprompter (business: marketing, website, clients)
 
-- **[Vincentwei1021/video-shotcraft](https://github.com/Vincentwei1021/video-shotcraft)** · 28 pts · ★13316 · 137.3★/day · Apache-2.0 · trending
-  - AI video skill for Claude Code & Codex — cinematic product videos with Remotion: 152 shot recipe cards, 209 motion previews, a production-ready template
-  - hits: reviews
-- **[cstamigo-droid/market-data-mcp](https://github.com/cstamigo-droid/market-data-mcp)** · 4 pts · ★0 · 0.0★/day · MIT · awesome:punkpeye/awesome-mcp-servers
-  - MCP server giving any LLM live market data: quotes, news, earnings calendar, a watchlist scanner & a composite verdict — on Finnhub's free API.
-  - hits: quote
-- **[godikemahesh/smart-job-apply-mcp](https://github.com/godikemahesh/smart-job-apply-mcp)** · 4 pts · ★1 · 0.1★/day · MIT · awesome:punkpeye/awesome-mcp-servers
-  - Autonomous MCP server that automates job applications, form auto-fill, and recruiter outreach across 8 major job portals (LinkedIn, Naukri, Indeed, Wellfound, etc.).
-  - hits: outreach
-- **[denizgursoy/kafka-mcp](https://github.com/denizgursoy/kafka-mcp)** · 3 pts · ★1 · 0.0★/day · MIT · awesome:punkpeye/awesome-mcp-servers
-  - MCP server that exposes Kafka debugging to an LLM: find messages, measure lag, unblock consumers. Read-only endpoints, previews before writes.
-  - hits: reviews
+_No new candidates._
 
 ## Wander Network / KWST / WTPA tour-affiliate sites
 
-- **[brodesigns/gsc-readonly-mcp](https://github.com/brodesigns/gsc-readonly-mcp)** · 27 pts · ★0 · 0.0★/day · MIT · awesome:punkpeye/awesome-mcp-servers
-  - Read-only MCP server for the Google Search Console API: search analytics, sitemap status, URL inspection.
-  - hits: seo, search console, gsc, sitemap
-- **[andreibesleaga/agentic-system-core](https://github.com/andreibesleaga/agentic-system-core)** · 18 pts · ★2 · 0.0★/day · Apache-2.0 · awesome:punkpeye/awesome-mcp-servers
-  - AgenticSystemCore: an open specification and reference engine that publishes knowledge Bundles for people and agents — knowledge-linkset discovery, a JSON-LD graph, llms.txt, MCP & WebMCP tools
-  - hits: json-ld, llms.txt
-- **[akalongman/nbg-rates-mcp](https://github.com/akalongman/nbg-rates-mcp)** · 10 pts · ★3 · 0.2★/day · MIT · awesome:punkpeye/awesome-mcp-servers
-  - GEL exchange rates from the National Bank of Georgia (NBG) for AI agents (MCP server). Not affiliated with NBG.
-  - hits: affiliate, geo
-- **[mavrovde/viafrei-mcp](https://github.com/mavrovde/viafrei-mcp)** · 10 pts · ★0 · 0.0★/day · Apache-2.0 · awesome:punkpeye/awesome-mcp-servers
-  - Live German traffic, rail, parking, EV charging, fuel, address and weather data in any AI assistant or agent, no API key, no sign-up. Streamable HTTP: https://mcp.viafrei.de/mcp, legacy HTTP+SSE: https://mcp.viafrei.de/sse. This repo is the stdio bridge for clients that speak neither.
-  - hits: geo
-- **[adexbn/walk-kcal](https://github.com/adexbn/walk-kcal)** · 9 pts · ★195 · 24.4★/day · MIT · awesome:punkpeye/awesome-mcp-servers
-  - 你今天还能吃多少卡，取决于你愿意走多远 —— 用步行距离换卡路里额度的吃饭决策。麦当劳官方营养值 × 周边餐厅，算你这顿还吃得下什么。
-  - hits: geo
-- **[Adeniyikayodee/ng-postcode](https://github.com/Adeniyikayodee/ng-postcode)** · 8 pts · ★6 · 0.3★/day · MIT · awesome:punkpeye/awesome-mcp-servers
-  - Validate Nigerian postcodes in Rust, Python, JavaScript, Java, PostgreSQL, DuckDB, and Polars, with MCP servers for AI agents. Covers Nigeria's NIPOST digital postcode (NDAPS): offline validation, lookup, and reverse geocoding.
-  - hits: geo
-- **[haison8x/geogebra-mcp](https://github.com/haison8x/geogebra-mcp)** · 5 pts · ★0 · 0.0★/day · MIT · awesome:punkpeye/awesome-mcp-servers
-  - MCP server that lets AI (Claude, Cursor…) draw, check and fix plane-geometry figures live on GeoGebra Calculator
-  - hits: geo
-- **[unblockingapi/mcp](https://github.com/unblockingapi/mcp)** · 4 pts · ★2 · 0.0★/day · MIT · awesome:punkpeye/awesome-mcp-servers
-  - Official MCP server for UnblockingAPI — read any web page (bot-protected, JavaScript-heavy, geo-blocked) and parse it to JSON with templates. Hosted at mcp.unblockingapi.com or run locally with npx.
-  - hits: geo
-- **[as9978/designfit](https://github.com/as9978/designfit)** · 3 pts · ★7 · 0.0★/day · MIT · awesome:punkpeye/awesome-mcp-servers
-  - Validate AI-built front-ends against their Figma design — deterministic token + geometry conformance, not pixels. MCP server + Claude Code skill.
-  - hits: geo
-- **[gridpin/gridpin](https://github.com/gridpin/gridpin)** · 3 pts · ★4 · 0.1★/day · Apache-2.0 · awesome:punkpeye/awesome-mcp-servers
-  - Offline geocoder: a country in a file. Forward and reverse geocoding with Python, CLI, DuckDB and an MCP server for AI agents. No server, no API key.
-  - hits: geo
-- **[IPGeolocation/ipgeolocation-io-mcp](https://github.com/IPGeolocation/ipgeolocation-io-mcp)** · 3 pts · ★4 · 0.0★/day · MIT · awesome:punkpeye/awesome-mcp-servers
-  - Official IPGeolocation.io MCP server: 17 tools for accurate IP geolocation, company information, ASN and network data, IP security (VPN, proxy, Tor, bot, hosting and spam detection), abuse contacts, time zones, astronomy, currency data and user-agent parsing.
-  - hits: geo
-- **[TheHiddenPandaDev/catastro_gps_mcp](https://github.com/TheHiddenPandaDev/catastro_gps_mcp)** · 3 pts · ★1 · 0.0★/day · MIT · awesome:punkpeye/awesome-mcp-servers
-  - MCP server for official land parcels from 29 European countries: reference, coordinates, address, outline, terrain, ground motion. Catastro GPS / Parcel GPS.
-  - hits: geo
+- **[younatics/MotionBook](https://github.com/younatics/MotionBook)** · 17 pts · ★1473 · 0.4★/day · MIT · active
+  - 📖 103 open-source iOS motion, transition and UI libraries, catalogued for people and agents (catalog.json + llms.txt); 59 run live in the MotionBook app
+  - hits: llms.txt
 
 ## New-project opportunities (diversification)
 
-- **[holaboss-ai/holaOS](https://github.com/holaboss-ai/holaOS)** · 52 pts · ★11427 · 52.9★/day · NOASSERTION · active ⚠ no-license
-  - Open-source agentic workspace enterprises can make their own. Connect the systems you already run — 100+ integrations, MCP, chat tools, apps, browser, local files — with shared memory. Any agent (Claude Code, Codex), any model, or BYOK. Set up in clicks, not months. Local-first: your data never leav
-  - hits: mcp, agent, agentic, claude, llm, browser
-- **[seleniumbase/SeleniumBase](https://github.com/seleniumbase/SeleniumBase)** · 44 pts · ★13137 · 2.8★/day · MIT · active
-  - 📊 Python APIs for Web Automation, Testing, and Scraping. CDP Mode launches a stealth browser that bypasses bot-detection/CAPTCHAs. Has a stealth mode for Playwright. Includes an MCP server for AI agents.
-  - hits: mcp, agent, automation, api, scraping, browser
-- **[tiliondev/fortress](https://github.com/tiliondev/fortress)** · 40 pts · ★773 · 6.8★/day · NOASSERTION · active ⚠ no-license
-  - Stealth Chromium engine that stops scrapers and browser agents from getting blocked, with one line of code change.
-  - hits: agent, automation, api, scraper, scraping, browser
-- **[alan345/AI-Fullstack-SaaS-Boilerplate](https://github.com/alan345/AI-Fullstack-SaaS-Boilerplate)** · 35 pts · ★1435 · 0.5★/day · MIT · active
-  - Fullstack SaaS Boilerplate built with tRPC, Fastify and React
-  - hits: agent, agentic, saas, boilerplate
-- **[atilaahmettaner/tradingview-mcp](https://github.com/atilaahmettaner/tradingview-mcp)** · 35 pts · ★5122 · 11.6★/day · MIT · awesome:punkpeye/awesome-mcp-servers
-  - MCP server for market analysis in AI assistants: screeners, multi-timeframe technical analysis, backtests and sentiment for crypto, stocks, forex and futures. 39 tools. Self-host free, or use the hosted version, TradingMCP.
-  - hits: mcp, claude
-- **[SECRET4422/mcp-deep-research-server](https://github.com/SECRET4422/mcp-deep-research-server)** · 34 pts · ★1 · 0.0★/day · MIT · awesome:punkpeye/awesome-mcp-servers
-  - 🔍 Non-generic Deep Research MCP — search (no API key), parallel scrape 3-8 sources, synthesize with citations, fact-check, compare, persistent memory. 8 tools, production-ready.
-  - hits: mcp, agent, claude, llm, api, scraping, production-ready
-- **[wiltodelta/remove-ai-watermarks](https://github.com/wiltodelta/remove-ai-watermarks)** · 34 pts · ★6110 · 28.7★/day · Apache-2.0 · awesome:punkpeye/awesome-mcp-servers
-  - Remove visible and invisible AI watermarks from images and video, and AI provenance metadata from images, video, and audio. Python library, CLI, and agent skill for SynthID, C2PA, EXIF, IPTC, XMP, and common generative-AI marks.
-  - hits: agent, video
-- **[aayushch/laya](https://github.com/aayushch/laya)** · 34 pts · ★754 · 4.5★/day · Apache-2.0 · active
-  - Laya is an open-source, local-first AI notification command center that aggregates Slack, Gmail, GitHub, Jira, Notion, Outlook,  Calendar (and more) notifications using local LLMs via Ollama and LM Studio. Supports cloud models via BYOK.
-  - hits: agent, llm, automation
-- **[NVIDIA/OpenShell](https://github.com/NVIDIA/OpenShell)** · 33 pts · ★19062 · 78.8★/day · Apache-2.0 · trending
-  - OpenShell is the safe, private runtime for autonomous AI agents.
+- **[ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills)** · 59 pts · ★77879 · 208.8★/day · no license · trending ⚠ no-license
+  - A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows
+  - hits: mcp, agent, claude, automation, workflow, saas
+- **[cporter202/agentic-ai-apis](https://github.com/cporter202/agentic-ai-apis)** · 48 pts · ★660 · 3.3★/day · no license · active ⚠ no-license
+  - The ultimate collection of APIs for building autonomous AI agents — 2,036 production-ready APIs across Agents, AI Models, and MCP Servers. Stop wasting weeks building infrastructure. Plug these in and ship your agent today.
+  - hits: mcp, agent, agentic, llm, automation, api, production-ready, directory
+- **[vectorize-io/hindsight](https://github.com/vectorize-io/hindsight)** · 48 pts · ★53550 · 148.8★/day · MIT · trending
+  - Hindsight: Agent Memory That Learns
+  - hits: agent, agentic
+- **[VoltAgent/awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills)** · 47 pts · ★36322 · 100.3★/day · MIT · active
+  - A curated collection of 1000+ agent skills from official dev teams and the community, compatible with Claude Code, Codex, Gemini CLI, Cursor, and more.
+  - hits: agent, claude
+- **[Shaitrish/37studio](https://github.com/Shaitrish/37studio)** · 46 pts · ★65 · 32.5★/day · MIT · new
+  - Open-source AI alternative to Buffer and Opus Clip: Claude Code makes on-brand videos, posts them to 9 platforms and drafts replies. Self-hosted, your own keys.
+  - hits: mcp, agent, claude, self-hosted, alternative to, video, docker
+- **[breakstageaxe61/genspark-claw](https://github.com/breakstageaxe61/genspark-claw)** · 45 pts · ★538 · 18.6★/day · MIT · active
+  - 🦀⚡ Community skill pack & CLI for Genspark Claw, OpenClaw & Hermes agents — 5 production-ready SKILL.md skills (deep research, reports, slides, browser automation, AI call prep), zero-dependency Node.js installer, MCP server, one-line install
+  - hits: mcp, agent, automation, browser, production-ready
+- **[AgentiLoop/Agent](https://github.com/AgentiLoop/Agent)** · 42 pts · ★649 · 2.8★/day · NOASSERTION · active ⚠ no-license
+  - Agent! now supports macOS 14.6 or later, Apple Silicon and Intel, latest release. The Best AI agent for Mac: drives any app via Accessibility, codes/builds in Xcode, automates AppleScript, JXA, Swift and SMAppService shell (user/root). 23 LLM providers, local/cloud, plus on-device Apple Intelligence
+  - hits: mcp, agent, agentic, llm, automation, workflow
+- **[Nutlope/hallmark](https://github.com/Nutlope/hallmark)** · 39 pts · ★32706 · 180.7★/day · MIT · trending
+  - Anti-AI-slop design skill for Claude Code, Cursor, and Codex.
+  - hits: claude, llm
+- **[existence-master/Sentient](https://github.com/existence-master/Sentient)** · 39 pts · ★715 · 1.2★/day · NOASSERTION · active ⚠ no-license
+  - Your personal AI assistant, running on your own computer. Long-running tasks, real memory, proactive help, voice, phones and smart glasses. Any model, local or cloud. No account.
+  - hits: mcp, agent, llm, automation, self-hosted, voice
+- **[morganlinton/BeautifulRust](https://github.com/morganlinton/BeautifulRust)** · 38 pts · ★360 · 180.0★/day · MIT · new
+  - A Claude Code plugin that teaches Claude to write idiomatic, robust Rust
+  - hits: agent, claude
+- **[aws/agent-toolkit-for-aws](https://github.com/aws/agent-toolkit-for-aws)** · 37 pts · ★3251 · 17.6★/day · Apache-2.0 · trending
+  - Official, AWS-supported MCP servers, skills, and plugins to help AI agents build on AWS
+  - hits: mcp, agent
+- **[basketikun/infinite-canvas](https://github.com/basketikun/infinite-canvas)** · 36 pts · ★9076 · 56.7★/day · MIT · trending
+  - 面向 AI 创作的开源无限画布工作台，集成 AI 生图、参考图编辑、视频生成、Agent 智能助手、画布编排、对话创作、提示词库与素材管理等能力，支持可视化创作流程与多 Agent 协同工作。兼容 OpenAI 接口生态，支持 chatgpt2api、grok2api、flow2api、newapi 等渠道接入。
+  - hits: agent, api
+- **[OpenSenseNova/SenseNova-Skills](https://github.com/OpenSenseNova/SenseNova-Skills)** · 36 pts · ★5910 · 30.5★/day · MIT · trending
+  - Modular SenseNova skills for building AI-powered office assistants and productivity workflows
+  - hits: agent, automation, workflow
+- **[agentskills/agentskills](https://github.com/agentskills/agentskills)** · 34 pts · ★26592 · 85.0★/day · Apache-2.0 · trending
+  - Specification and documentation for Agent Skills
   - hits: agent
-- **[xiaotianfotos/homerail](https://github.com/xiaotianfotos/homerail)** · 31 pts · ★998 · 9.2★/day · MIT · active
-  - Voice-first local agent orchestration runtime for auditable DAG workflows.
-  - hits: agent, workflow, voice
-- **[rootSunc/CNEquity](https://github.com/rootSunc/CNEquity)** · 30 pts · ★842 · 7.1★/day · Apache-2.0 · awesome:punkpeye/awesome-mcp-servers
-  - 中国A股（A-share / AShare / AStock）股票数据与金融数据基础设施，面向量化交易与回测。55个日更数据集：沪深股票行情、财务数据与基本面、期货数据、资金面、公告事件、指数行业、宏观与风险。行级溯源、PIT 语义、复权与历史成分内置，MCP 原生。自托管，零注册、零 API Token。China stock market data for quant research and AI agents.
-  - hits: mcp, agent, api
-- **[promptfoo/promptfoo](https://github.com/promptfoo/promptfoo)** · 29 pts · ★26362 · 20.7★/day · MIT · trending
-  - Test your prompts, agents, and RAGs. Red teaming/pentesting/vulnerability scanning for AI. Compare performance of GPT, Claude, Gemini, DeepSeek, and more. Simple declarative configs with command line and CI/CD integration.  Used by OpenAI and Anthropic.
-  - hits: agent, claude, llm
-- **[appariciojunior/video-editor-skills](https://github.com/appariciojunior/video-editor-skills)** · 28 pts · ★218 · 218.0★/day · NOASSERTION · new ⚠ no-license
-  - Skills that teach Claude Code to be a first-pass video editor in DaVinci Resolve: transcript cuts, vlog pacing, B-roll, music & SFX, clean captions, motion graphics, YouTube export. CC BY-NC 4.0 (no commercial use).
-  - hits: claude, video
-- **[SnailSploit/Claude-Red](https://github.com/SnailSploit/Claude-Red)** · 28 pts · ★8739 · 37.3★/day · MIT · trending
-  - claude-red is a curated library of offensive security skills designed for the Claude skills system. Each skill is a structured SKILL.md file that primes Claude with expert-level methodology for a specific attack surface — from SQLi to shellcode, EDR evasion to exploit development.
-  - hits: claude
-- **[Moha2005269/agentgo](https://github.com/Moha2005269/agentgo)** · 28 pts · ★2 · 0.0★/day · NOASSERTION · awesome:punkpeye/awesome-mcp-servers ⚠ no-license
-  - The browser your AI agent drives: real Chromium, compact outlines, real input, approvals and GoMini on-device. Solved 37/37 vs browser-use 35 and Playwright MCP 31.
-  - hits: mcp, agent, agentic, claude, llm, automation, browser
+- **[lillyguisnet/sam3-segmentation](https://github.com/lillyguisnet/sam3-segmentation)** · 30 pts · ★71 · 71.0★/day · MIT · new
+  - Agent skill: outline, mask and count objects in photos with Meta's SAM 3 on your own NVIDIA GPU, with review, exports and a viewer. Works with Claude Code, Codex, Cursor, Pi and other Agent Skills clients.
+  - hits: agent, claude
