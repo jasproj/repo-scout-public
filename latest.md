@@ -1,38 +1,32 @@
-# Repo Scout — 2026-10-26
+# Repo Scout — 2026-10-27
 
-Window: since 2026-10-23 · queries 164 · raw 450 · trending 58 · awesome-list adds 0 · new scored 31
+Window: since 2026-10-24 · queries 164 · raw 419 · trending 61 · awesome-list adds 0 · new scored 29
 
 ## PrompterQ (teleprompter software)
 
-- **[moeru-ai/airi](https://github.com/moeru-ai/airi)** · 37 pts · ★50738 · 73.1★/day · MIT · trending
-  - 💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.
-  - hits: voice
-- **[multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills)** · 20 pts · ★224095 · 823.9★/day · no license · trending ⚠ no-license, stale
-  - A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.
+- **[wenet-e2e/wenet](https://github.com/wenet-e2e/wenet)** · 28 pts · ★5251 · 2.4★/day · Apache-2.0 · active
+  - Production First and Production Ready End-to-End Speech Recognition Toolkit
+  - hits: speech, speech recognition, whisper
+- **[eugeniughelbur/obsidian-second-brain](https://github.com/eugeniughelbur/obsidian-second-brain)** · 22 pts · ★4964 · 22.9★/day · MIT · trending
+  - Persistent memory for Claude Code, Codex and 6 other AI agents, stored as plain markdown in your Obsidian vault. New: Crew, one shared logbook so Claude Code, Codex, Cursor and Grok Bot know what each other did. 48 commands: semantic search, self-rewriting notes, key-less research, scheduled agents.
   - hits: obs
-- **[mkiol/dsnote](https://github.com/mkiol/dsnote)** · 18 pts · ★1702 · 0.9★/day · MPL-2.0 · active
-  - Speech Note Linux app. Note taking, reading and translating with offline Speech to Text, Text to Speech and Machine translation.
-  - hits: speech
-- **[ulsklyc/yuvomi](https://github.com/ulsklyc/yuvomi)** · 15 pts · ★2023 · 9.4★/day · MIT · trending
-  - One home instead of many subscriptions. Yuvomi is a self-hosted family planner: tasks, calendar, budget, meals, shopping, health and more in one PWA on your own server or NAS. Docker, Podman, TrueNAS, Umbrel, Unraid. No tracking, MIT.
+- **[Aratako/Irodori-TTS](https://github.com/Aratako/Irodori-TTS)** · 20 pts · ★1480 · 6.1★/day · MIT · active
+  - A Flow Matching-based Text-to-Speech Model with Emoji-driven Style Control
+  - hits: speech, voice
+- **[Narcooo/inkos](https://github.com/Narcooo/inkos)** · 17 pts · ★10854 · 47.4★/day · AGPL-3.0 · trending ⚠ copyleft:agpl-3.0
+  - Story Creation AI Agent for novel, scripts, translation, interactive games, and IP content
   - hits: script
-- **[alexturkey/dubworld](https://github.com/alexturkey/dubworld)** · 15 pts · ★23 · 11.5★/day · Apache-2.0 · new
-  - Local-first AI video dubbing pipeline: transcription, translation, speech synthesis and timing alignment.
-  - hits: speech, whisper, script
-- **[maboloshi/github-chinese](https://github.com/maboloshi/github-chinese)** · 12 pts · ★36712 · 19.8★/day · GPL-3.0 · trending ⚠ copyleft:gpl-3.0
-  - GitHub 汉化插件，GitHub 中文化界面。 (GitHub Translation To Chinese)
+- **[darkzOGx/youtube-automation-agent](https://github.com/darkzOGx/youtube-automation-agent)** · 15 pts · ★4756 · 10.8★/day · MIT · trending
+  - 🎬 Open-source, self-hosted AI agent that runs a YouTube channel end to end: researches topics, writes scripts, generates narration, visuals and video, optimizes SEO, and publishes after your approval, then learns from analytics. Works with Gemini, OpenAI, OpenRouter, DeepSeek and more.
   - hits: script
-- **[ever-co/ever-gauzy](https://github.com/ever-co/ever-gauzy)** · 11 pts · ★8608 · 3.2★/day · AGPL-3.0 · trending ⚠ copyleft:agpl-3.0
-  - Ever® Gauzy™ - Open Business Management Platform (ERP/CRM/HRM/ATS/PM) - https://gauzy.co
-  - hits: voice
-- **[nightly-labs/openbot](https://github.com/nightly-labs/openbot)** · 10 pts · ★1043 · 13.9★/day · NOASSERTION · trending ⚠ no-license
-  - A local-first desktop workspace for persistent AI teammates. Run Codex, Claude, and Grok with dedicated workspaces, task queues, file sharing, browser control, and agent-to-agent collaboration.
+- **[gitroomhq/postiz-app](https://github.com/gitroomhq/postiz-app)** · 13 pts · ★38811 · 32.2★/day · AGPL-3.0 · trending ⚠ copyleft:agpl-3.0
+  - 📨 The ultimate agentic social media scheduling tool 🤖
   - hits: script
-- **[andrisgauracs/who-said-what](https://github.com/andrisgauracs/who-said-what)** · 9 pts · ★32 · 16.0★/day · no license · new ⚠ no-license
-  - macOS app: drop a podcast or video, get a transcript with every line assigned to a speaker. On-device, built on Desert Ant Labs' Who + Apple's speech transcriber.
-  - hits: speech, script
-- **[WebKit/WebKit](https://github.com/WebKit/WebKit)** · 8 pts · ★10276 · 4.8★/day · no license · trending ⚠ no-license
-  - Home of the WebKit project, the browser engine used by Safari, Mail, App Store and many other applications on macOS, iOS and Linux.
+- **[laurent22/joplin](https://github.com/laurent22/joplin)** · 13 pts · ★56901 · 15.9★/day · NOASSERTION · trending ⚠ no-license
+  - Joplin - the privacy-focused note taking app with sync capabilities for Windows, macOS, Linux, Android and iOS.
+  - hits: obs, script
+- **[babalae/bettergi-scripts-list](https://github.com/babalae/bettergi-scripts-list)** · 8 pts · ★664 · 0.9★/day · no license · trending ⚠ no-license
+  - BetterGI 的脚本仓库，内含BetterGI 的JS脚本、路径追踪、战斗策略、七圣召唤策略。
   - hits: script
 
 ## National Teleprompter (business: marketing, website, clients)
@@ -41,52 +35,57 @@ _No new candidates._
 
 ## Wander Network / KWST / WTPA tour-affiliate sites
 
-_No new candidates._
+- **[bilawalsidhu/gods-eye-view](https://github.com/bilawalsidhu/gods-eye-view)** · 26 pts · ★60536 · 476.7★/day · NOASSERTION · trending ⚠ no-license
+  - A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.
+  - hits: geo
+- **[beihaili/Get-Started-with-Web3](https://github.com/beihaili/Get-Started-with-Web3)** · 20 pts · ★614 · 0.4★/day · MIT · active ⚠ pattern:tutorial
+  - Open-source bilingual AI-native Web3 curriculum: wallets, Bitcoin, Ethereum, DeFi, L2, DAO, smart accounts, llms.txt and MCP
+  - hits: llms.txt
 
 ## New-project opportunities (diversification)
 
-- **[andyhuo520/digital-human-koubo](https://github.com/andyhuo520/digital-human-koubo)** · 49 pts · ★276 · 276.0★/day · MIT · new
-  - AI digital-human talking-head videos from one photo: Renoise MCP generation + 5 editing styles + 48 creator-grade packaging components. Agent skill for Claude Code / Codex / OpenClaw / WorkBuddy …
-  - hits: mcp, agent, claude, video
-- **[garrytan/gbrain](https://github.com/garrytan/gbrain)** · 44 pts · ★31235 · 153.1★/day · MIT · trending
-  - Garry's Opinionated OpenClaw/Hermes Agent Brain
+- **[NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector)** · 58 pts · ★22603 · 102.7★/day · Apache-2.0 · trending
+  - Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, security risks, prompt injection, data exfiltration, and supply-chain risks in Claude Code, Codex, and MCP skills before you install them.
+  - hits: mcp, agent, agentic, claude, workflow
+- **[HarnessRouter/harnessrouter](https://github.com/HarnessRouter/harnessrouter)** · 49 pts · ★3720 · 47.1★/day · Apache-2.0 · trending
+  - HarnessRouter Community Edition: the self-hosted, Apache-2.0 edition of the unified interface for agent harnesses. Run Codex, Claude Code, Hermes, PI, DSH, and more through one API, with sessions, streaming, files, cancellation, and failure handling. Implements the Unified Harness Protocol (UHP), an
+  - hits: agent, claude, llm, self-hosted, api
+- **[mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill)** · 47 pts · ★65632 · 236.9★/day · MIT · trending
+  - AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary
+  - hits: agent, claude
+- **[Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT)** · 45 pts · ★187785 · 142.2★/day · NOASSERTION · trending ⚠ no-license
+  - AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.
+  - hits: agent, agentic, claude, llm, api
+- **[alchaincyf/huashu-design](https://github.com/alchaincyf/huashu-design)** · 42 pts · ★27570 · 144.3★/day · MIT · trending
+  - Huashu Design 3.0 · 在 agent 里打一句话，拿回能交付的设计：网页 / App 原型 / 可编辑 PPTX / 动画 / 信息图 · 六个候选挑三个方向 · 84 种带样张的风格库 · 越用越懂你的外观账本与设计体检 · HTML-native design skill for Claude Code, Codex, Cursor & any agent
+  - hits: agent, claude
+- **[RekklesNA/ProxmoxMCP-Plus](https://github.com/RekklesNA/ProxmoxMCP-Plus)** · 41 pts · ★620 · 1.2★/day · MIT · active
+  - Use MCP and OpenAPI to safely control Proxmox VE VMs, LXCs, backups, and snapshots from LLMs and AI agents.
+  - hits: mcp, agent, claude, llm, automation, api
+- **[shareAI-lab/learn-claude-code](https://github.com/shareAI-lab/learn-claude-code)** · 41 pts · ★79334 · 163.6★/day · MIT · active ⚠ pattern:tutorial
+  - Bash is all you need -  A nano claude code–like 「agent harness」, built from 0 to 1
+  - hits: agent, claude, llm
+- **[indranilbanerjee/digital-marketing-pro](https://github.com/indranilbanerjee/digital-marketing-pro)** · 41 pts · ★910 · 3.5★/day · MIT · active
+  - An open-source AI based digital marketing operating system for strategy, SEO, AEO/GEO, paid media, content, CRM, and analytics - grounded in brand context, human approval, and verifiable outputs. Best for Brands, Agencies and one person campanies.
+  - hits: agent, claude, automation, crm, agency
+- **[homeassistant-ai/ha-mcp](https://github.com/homeassistant-ai/ha-mcp)** · 40 pts · ★5291 · 13.0★/day · MIT · trending
+  - The Unofficial and Awesome Home Assistant MCP Server
+  - hits: mcp, claude, llm, automation
+- **[chuspeeism/dashi-ppt-skill](https://github.com/chuspeeism/dashi-ppt-skill)** · 36 pts · ★10081 · 72.5★/day · AGPL-3.0 · trending ⚠ copyleft:agpl-3.0
+  - An AI-agent skill that generates browser-editable presentations from multiple visual themes, exportable to HTML, PDF, and PPTX.
+  - hits: agent, claude, browser
+- **[blakeandersonw/ai-app-playbook](https://github.com/blakeandersonw/ai-app-playbook)** · 35 pts · ★285 · 285.0★/day · MIT · new
+  - How to build useful, profitable apps in 2026. Clone it and point your coding agent at AGENTS.md.
   - hits: agent
-- **[browser-use/video-use](https://github.com/browser-use/video-use)** · 42 pts · ★29870 · 151.6★/day · MIT · trending
-  - Edit videos with coding agents
-  - hits: agent, browser, video
-- **[experientiallabs/experiential](https://github.com/experientiallabs/experiential)** · 40 pts · ★13061 · 105.3★/day · Apache-2.0 · trending
-  - Experiential is the open source, zero markup gateway for BYOK, self-hosted and 1000+ marketplace models. It learns from your traffic to cut costs, recommend better models, and train a specialized model you own.
-  - hits: self-hosted, marketplace
-- **[DenisSergeevitch/ex-ussr-kinship-research](https://github.com/DenisSergeevitch/ex-ussr-kinship-research)** · 39 pts · ★636 · 636.0★/day · MIT · new
-  - Evidence-first genealogy skill for AI agents (Codex, Claude Code): church books, civil, military, deportation and repression records across the former USSR. Replies in your language.
-  - hits: agent, claude
-- **[t3dotgg/tstack](https://github.com/t3dotgg/tstack)** · 37 pts · ★609 · 304.5★/day · MIT · new
-  - The agent skills I use every day. Works with Claude Code and Codex.
-  - hits: agent, claude
-- **[hevnsnt/CVEngine](https://github.com/hevnsnt/CVEngine)** · 37 pts · ★266 · 133.0★/day · GPL-3.0 · new ⚠ copyleft:gpl-3.0
-  - AI-first external attack surface assessment with continuous discovery, evidence-based vulnerability validation, and developer-agent MCP integration.
-  - hits: mcp, agent
-- **[MoonshotAI/kimi-code](https://github.com/MoonshotAI/kimi-code)** · 36 pts · ★8025 · 51.1★/day · MIT · trending
-  - Kimi Code CLI  —  The Starting Point for Next-Gen Agents
+- **[microsoft/skill-recorder](https://github.com/microsoft/skill-recorder)** · 34 pts · ★5272 · 58.6★/day · MIT · trending
+  - Desktop app that records your on-screen work session and uses the GitHub Copilot SDK to reconstruct it as an intent + ordered steps, then builds a reusable Skill or Automation for Microsoft Autopilots like Scout, Microsoft Copilot Cowork, or Copilot Studio.
+  - hits: agent, automation
+- **[CodebuffAI/freebuff](https://github.com/CodebuffAI/freebuff)** · 30 pts · ★13793 · 16.4★/day · Apache-2.0 · trending
+  - The free coding agent
   - hits: agent
-- **[JetBrains/thinkrail](https://github.com/JetBrains/thinkrail)** · 35 pts · ★2239 · 20.4★/day · Apache-2.0 · trending
-  - Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need
-  - hits: agent, agentic, workflow
-- **[HUANGCHIHHUNGLeo/claude-real-video](https://github.com/HUANGCHIHHUNGLeo/claude-real-video)** · 34 pts · ★2264 · 19.2★/day · MIT · active
-  - Let Claude (or any LLM) actually watch a video — scene-aware, deduplicated frames + transcript, from a URL or local file. Runs locally, MIT.
-  - hits: claude, llm, video
-- **[boyuchengz/canvas-mcp](https://github.com/boyuchengz/canvas-mcp)** · 33 pts · ★115 · 115.0★/day · MIT · new
-  - Read-only MCP server that connects Claude, ChatGPT and other AI assistants to Canvas LMS.
-  - hits: mcp, claude
-- **[rynfar/meridian](https://github.com/rynfar/meridian)** · 32 pts · ★2157 · 7.7★/day · no license · active ⚠ no-license
-  - Use Claude and Antigravity with Pi, OpenCode and other coding clients. Local API bridge, usage dashboard and Mac app. Antigravity preview available in 1.74.0.
-  - hits: mcp, agent, claude, llm, api
-- **[ZiChuanLan/agent-purge](https://github.com/ZiChuanLan/agent-purge)** · 29 pts · ★211 · 211.0★/day · MIT · new
-  - One persona, many coding agents. Replace or inject system prompts across codex, claude, opencode, grok, omp, hermes, pi, zcode - with a local web console.
-  - hits: agent, claude
-- **[Cattmonkey/ChaosIntelligence](https://github.com/Cattmonkey/ChaosIntelligence)** · 27 pts · ★141 · 47.0★/day · NOASSERTION · new ⚠ no-license
-  - 把智能体当函数，把想法写成程序。Agent-native functional language with a CLI, Web IDE, goal-driven bots and live UI. Source-available; no AI training.
-  - hits: agent, agentic, llm, automation, workflow
-- **[jacke-pp/ai-wallet-binance](https://github.com/jacke-pp/ai-wallet-binance)** · 27 pts · ★63 · 63.0★/day · MIT · new
-  - 让任何 AI 用你自己的币安 AI 钱包交易：秒买秒卖、狙击 Agent 专属发射台（Four、Flap、GANG）、AI 专属 Mint、本机交易页面。币安签名，不碰私钥。Let any AI trade with your own Binance AI wallet.
-  - hits: agent, agentic
+- **[nicobailon/pi-subagents](https://github.com/nicobailon/pi-subagents)** · 21 pts · ★4082 · 13.9★/day · MIT · trending
+  - Pi extension for async subagent delegation with truncation, artifacts, and session sharing
+  - hits: agent
+- **[home-assistant/core](https://github.com/home-assistant/core)** · 17 pts · ★91768 · 19.2★/day · Apache-2.0 · trending
+  - :house_with_garden: Open source home automation that puts local control and privacy first.
+  - hits: automation
