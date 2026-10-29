@@ -1,88 +1,85 @@
-# Repo Scout — 2026-10-28
+# Repo Scout — 2026-10-29
 
-Window: since 2026-10-25 · queries 164 · raw 446 · trending 62 · awesome-list adds 1 · new scored 30
+Window: since 2026-10-26 · queries 164 · raw 461 · trending 50 · awesome-list adds 0 · new scored 35
 
 ## PrompterQ (teleprompter software)
 
-- **[argmaxinc/argmax-oss-swift](https://github.com/argmaxinc/argmax-oss-swift)** · 25 pts · ★6427 · 6.4★/day · MIT · active
-  - On-device Speech AI for Apple Silicon
-  - hits: speech, whisper
-- **[oxnw/ai-phone](https://github.com/oxnw/ai-phone)** · 21 pts · ★82 · 82.0★/day · AGPL-3.0 · new ⚠ copyleft:agpl-3.0
-  - A SIP phone daemon with local speech and language models on Apple Silicon.
-  - hits: speech
-- **[juliangarnier/anime](https://github.com/juliangarnier/anime)** · 14 pts · ★73981 · 19.1★/day · MIT · trending
-  - JavaScript animation engine
+- **[akalikbergenov/cyclop](https://github.com/akalikbergenov/cyclop)** · 33 pts · ★378 · 4.4★/day · MIT · active
+  - The MacBook notch as a working tool — media controls, file shelf, clipboard history, snippets, calendar, offline translation and a teleprompter. Native SwiftUI, zero dependencies, no permissions. Free and open source.
+  - hits: teleprompter, prompter
+- **[ruvnet/RuView](https://github.com/ruvnet/RuView)** · 31 pts · ★101432 · 199.3★/day · MIT · trending
+  - π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.
   - hits: script
-- **[SimplifyJobs/Summer2027-Internships](https://github.com/SimplifyJobs/Summer2027-Internships)** · 13 pts · ★48202 · 20.5★/day · no license · trending ⚠ no-license
-  - Summer 2027 software engineering, data science, AI, quant, product management, and hardware internship postings. Updated daily by Simplify and Pitt CSC.
-  - hits: obs
-- **[galaxy-s10/billd-desk](https://github.com/galaxy-s10/billd-desk)** · 12 pts · ★8985 · 9.2★/day · MIT · trending
-  - 基于Vue3 + WebRTC + Nodejs + Flutter搭建的远程桌面控制、游戏串流
+- **[jmanico/grim-prompter](https://github.com/jmanico/grim-prompter)** · 25 pts · ★99 · 99.0★/day · MIT · new
+  - Threat modeling for AI coding agents: point Claude Code, Codex or any agent at your repo and get an evidence-traced threat model. 36 architectures, 29 methods, MIT.
+  - hits: prompter
+- **[DavidHDev/react-bits](https://github.com/DavidHDev/react-bits)** · 22 pts · ★50586 · 62.1★/day · NOASSERTION · trending ⚠ no-license
+  - The largest open-source library of animated, interactive, and customizable React & Next.js components for building standout web products and experiences. Built for humans and AI agents.
   - hits: script
-- **[MayaResearch/maya2-native](https://github.com/MayaResearch/maya2-native)** · 11 pts · ★17 · 8.5★/day · Apache-2.0 · new
-  - Maya TTS: streaming Indic + English text-to-speech (inference engine)
-  - hits: speech
-- **[processing/p5.js](https://github.com/processing/p5.js)** · 9 pts · ★24252 · 4.9★/day · LGPL-2.1 · trending ⚠ copyleft:lgpl-2.1
-  - p5.js is a client-side JS platform that empowers artists, designers, students, and anyone to learn to code and express themselves creatively on the web. It is based on the core principles of Processing. Looking for p5.js 2.0? http://beta.p5js.org
+- **[ParadevAI/Paradev](https://github.com/ParadevAI/Paradev)** · 16 pts · ★15706 · 42.1★/day · NOASSERTION · trending ⚠ no-license
+  - Paradev (formerly Superset) is an agentic IDE to orchestrate 100+ coding agents in parallel. Run any agent with your own subscription.
+  - hits: script
+- **[macro-inc/macro](https://github.com/macro-inc/macro)** · 13 pts · ★5617 · 15.8★/day · AGPL-3.0 · trending ⚠ copyleft:agpl-3.0
+  - Macro is a unified workspace for teams: email, chat, docs, tasks, agents, calls, and CRM — @-linked together with shared AI memory.
+  - hits: script
+- **[alchemy-run/alchemy](https://github.com/alchemy-run/alchemy)** · 11 pts · ★1794 · 4.8★/day · Apache-2.0 · trending
+  - Infrastructure as Effects
   - hits: script
 
 ## National Teleprompter (business: marketing, website, clients)
 
-_No new candidates._
+- **[shitagaki-lab/see-through](https://github.com/shitagaki-lab/see-through)** · 18 pts · ★5123 · 24.2★/day · Apache-2.0 · trending
+  - "Single-image Layer Decomposition for Anime Characters" (SIGGRAPH 2026 Conference Paper)
+  - hits: conference
 
 ## Wander Network / KWST / WTPA tour-affiliate sites
 
-- **[zhtyyx/codex-seo](https://github.com/zhtyyx/codex-seo)** · 37 pts · ★66 · 66.0★/day · MIT · new
-  - Free, open-source SEO audits inside OpenAI Codex CLI. Port of claude-seo: 26 skills, 19 specialist roles, technical SEO / schema / GEO / local / ecommerce.
-  - hits: seo, geo
-- **[viasite/site-audit-seo](https://github.com/viasite/site-audit-seo)** · 19 pts · ★305 · 0.1★/day · NOASSERTION · active ⚠ no-license
-  - Web service and CLI tool for SEO site audit: crawl site, lighthouse all pages, view public reports in browser. Also output to console, json, csv, xlsx
-  - hits: seo, lighthouse
+_No new candidates._
 
 ## New-project opportunities (diversification)
 
-- **[ChromeDevTools/chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp)** · 50 pts · ★54337 · 131.9★/day · Apache-2.0 · trending
-  - Chrome DevTools for coding agents
-  - hits: mcp, agent, browser
-- **[pbakaus/impeccable](https://github.com/pbakaus/impeccable)** · 44 pts · ★91208 · 263.6★/day · Apache-2.0 · active
-  - The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.
-  - hits: agent
-- **[ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd)** · 40 pts · ★59135 · 352.0★/day · MIT · trending
-  - A skill to stop your coding agent from burying the answer. ADHD-friendly output.
-  - hits: agent, claude
-- **[Mayzmei/anime-series-maker](https://github.com/Mayzmei/anime-series-maker)** · 40 pts · ★110 · 55.0★/day · MIT · new
-  - 2 character sheets + 1 line of story → a finished AI anime episode. Agent skill for Claude Code / Codex, powered by Renoise MCP.
-  - hits: mcp, agent, claude, video
-- **[video-db/call.md](https://github.com/video-db/call.md)** · 40 pts · ★1955 · 8.0★/day · no license · trending ⚠ no-license
-  - Turn meetings into live agent loops. Record, transcribe, and analyze meetings with real-time AI intelligence — before, during, and after calls.
-  - hits: mcp, agent, agentic, workflow, video
-- **[qybaihe/bla](https://github.com/qybaihe/bla)** · 38 pts · ★184 · 61.3★/day · MIT · new
-  - 🛡️ BLA (Blind LLM Agents) — Adversarial defense shield that protects binaries, Electron apps, JS bundles, Python, and WebAssembly against AI reverse-engineering agents like REA. Poison -> Exhaust -> Hallucinate.
+- **[mergisi/awesome-openclaw-agents](https://github.com/mergisi/awesome-openclaw-agents)** · 49 pts · ★4032 · 15.2★/day · MIT · active
+  - 196 production-ready AI agent templates for OpenClaw. SOUL.md configs across 24 categories. Submit yours!
+  - hits: mcp, agent, claude, llm, automation, production-ready, docker
+- **[MemTensor/memmy-agent](https://github.com/MemTensor/memmy-agent)** · 44 pts · ★2159 · 20.6★/day · MIT · active
+  - 🍙  A personal AI agent & local memory hub for all AI agents, gives every AI one shared, fully controlled memory and persistent context — all AI remember the same you. Now supports Claude Code, Codex, OpenClaw and Hermes Agent etc.
+  - hits: mcp, agent, agentic, claude, llm, api
+- **[agentlas-ai/Agentlas-OS](https://github.com/agentlas-ai/Agentlas-OS)** · 44 pts · ★1589 · 10.8★/day · Apache-2.0 · active
+  - Agent OS: keep specialist agents in a hub, spin up a temporary orchestrator per task. Local-first, works with any model.
+  - hits: mcp, agent, agentic, llm, workflow
+- **[davemessew/AgentFlux](https://github.com/davemessew/AgentFlux)** · 43 pts · ★201 · 100.5★/day · Apache-2.0 · new
+  - Agentic AI platform for visual workflows and autonomous agents. Run it with Docker on your own computer or server.
+  - hits: agent, agentic, workflow, self-hosted, docker
+- **[karanb192/awesome-claude-skills](https://github.com/karanb192/awesome-claude-skills)** · 41 pts · ★573 · 1.5★/day · MIT · active
+  - 🎯 The definitive collection of 50+ verified Awesome Claude Skills for Claude Code, Claude.ai, and API. Boost productivity with TDD, debugging, git workflows, document processing, and more. Community-driven, actively maintained.
+  - hits: agent, claude, llm, automation, workflow, api
+- **[KeygraphHQ/shannon](https://github.com/KeygraphHQ/shannon)** · 41 pts · ★50273 · 126.6★/day · AGPL-3.0 · trending ⚠ copyleft:agpl-3.0
+  - Shannon is an AI pentester for web applications and APIs. It analyzes your source code, identifies attack vectors, and executes real exploits to prove vulnerabilities before they reach production.
+  - hits: automation, api
+- **[aoci-spec/aoci-code](https://github.com/aoci-spec/aoci-code)** · 40 pts · ★1792 · 21.9★/day · NOASSERTION · active ⚠ no-license
+  - A persistent, Git-versioned map of your whole codebase and database schema that coding agents read before they touch anything. Local-first MCP server + CLI in Go: a governed repository index of code knowledge that gives Claude Code, Codex, Cursor, and opencode long-term context, memory, and code int
   - hits: mcp, agent, claude, llm
-- **[BoltzmannEntropy/MimikaStudio](https://github.com/BoltzmannEntropy/MimikaStudio)** · 37 pts · ★749 · 2.7★/day · GPL-3.0 · active ⚠ copyleft:gpl-3.0
-  - MimikaStudio - A local-first application for macOS (Apple Silicon) + Agentic MCP Support
-  - hits: mcp, agent, agentic, voice
-- **[codician-team/diffinery](https://github.com/codician-team/diffinery)** · 37 pts · ★60 · 20.0★/day · Apache-2.0 · new
-  - Open-source, agent-first GitHub and GitHub Actions alternative that runs on your own Cloudflare account: git hosting, pull requests, code review and drop-in GitHub Actions YAML on Workers, Durable Objects, R2 and Containers.
-  - hits: mcp, agent, agentic, self-hosted
-- **[nadimtuhin/claude-token-optimizer](https://github.com/nadimtuhin/claude-token-optimizer)** · 35 pts · ★634 · 1.8★/day · MIT · active
-  - Cut the tokens Claude Code loads at session start. CLI that sets up a small CLAUDE.md with on-demand docs, measures startup tokens, and keeps them small.
-  - hits: agent, claude, llm, automation
-- **[ChannelCooperStart/capri-ai](https://github.com/ChannelCooperStart/capri-ai)** · 34 pts · ★308 · 308.0★/day · no license · new ⚠ no-license
-  - 🌃 Capri — Edgerunners-inspired AI agent for your desktop. Works with Claude Code, Codex, Antigravity & more.
-  - hits: agent, claude, llm
-- **[konlu/story-studio](https://github.com/konlu/story-studio)** · 31 pts · ★291 · 145.5★/day · MIT · new
-  - 从选题到剪映草稿的一站式 AI 短视频内容创作 Agent Skill
+- **[axoviq-ai/synthadoc](https://github.com/axoviq-ai/synthadoc)** · 37 pts · ★1611 · 8.0★/day · AGPL-3.0 · active ⚠ copyleft:agpl-3.0
+  - Synthadoc: An open-source LLM knowledge compilation engine that turns raw documents into structured, local-first wikis. A transparent, human-readable alternative to traditional RAG, which can be self-managed and self-improved without the use of any tools.
+  - hits: agent, agentic, llm, alternative to
+- **[jakubkrehel/skills](https://github.com/jakubkrehel/skills)** · 35 pts · ★9085 · 81.8★/day · MIT · trending
+  - A collection of agent skills that help you build great interfaces.
   - hits: agent
-- **[NVIDIA/auto-ontology](https://github.com/NVIDIA/auto-ontology)** · 30 pts · ★437 · 2.4★/day · Apache-2.0 · trending
-  - Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.
-  - hits: agent, llm, workflow
-- **[HKUDS/AutoSwarm](https://github.com/HKUDS/AutoSwarm)** · 28 pts · ★2046 · 17.2★/day · MIT · trending
-  - AutoSwarm: All Your Agents, Working as One (Codex · Claude Code · DeepSeek Harness · Muse · Grok · WorkBuddy· nanobot · and more)
-  - hits: agent, claude
-- **[pablostanley/yoinks](https://github.com/pablostanley/yoinks)** · 25 pts · ★6385 · 61.4★/day · MIT · trending
-  - yoink any video from your terminal. no shady ads.
-  - hits: video
-- **[QCYTSN/dsh-dafeiyu](https://github.com/QCYTSN/dsh-dafeiyu)** · 18 pts · ★536 · 7.1★/day · MIT · trending
-  - Desktop-native BigFish companion for DeepSeek Harness — real Agent status, always on top on Windows.
-  - hits: agent
+- **[andyhuo520/vibe-knowledge](https://github.com/andyhuo520/vibe-knowledge)** · 33 pts · ★131 · 131.0★/day · MIT · new
+  - Vibe 知识大赏：一个知识点 → 一条有旁白、每句有出处的精品知识短片（Claude Code skill · 44 套风格 · 代码逐帧成片）
+  - hits: claude, video
+- **[StartupHakk/OpenMonoAgent.ai](https://github.com/StartupHakk/OpenMonoAgent.ai)** · 33 pts · ★1900 · 10.4★/day · NOASSERTION · active ⚠ no-license
+  - (BETA) AI shouldn't have a meter. Unlimited tokens. Forever. Your machine. Your agent. Use it from anywhere. Terminal-native coding agent powered by local LLMs — 100% open source, free forever, and installed with a single command. Proudly built on C#/.NET, because AI tooling should be infrastructure
+  - hits: agent, llm, subscription
+- **[AtomicBot-ai/Atomic-Chat](https://github.com/AtomicBot-ai/Atomic-Chat)** · 32 pts · ★1874 · 8.8★/day · NOASSERTION · active ⚠ no-license
+  - Local AI app and inference engine for agents. Run open-weight LLMs locally — private, 100% offline on your computer. Join our Discord: https://discord.com/invite/8wGSsvmg4V
+  - hits: mcp, agent, llm, self-hosted
+- **[androoAGI/starnet](https://github.com/androoAGI/starnet)** · 28 pts · ★1648 · 12.0★/day · MIT · active
+  - A living pixel-art station where real AI agents do real work. Local-first desktop agent harness - bring your own key, watch your crew actually run.
+  - hits: agent, llm
+- **[p-e-w/heretic](https://github.com/p-e-w/heretic)** · 25 pts · ★37035 · 91.9★/day · AGPL-3.0 · trending ⚠ copyleft:agpl-3.0
+  - Fully automatic censorship removal for language models
+  - hits: llm
+- **[win4r/video-director](https://github.com/win4r/video-director)** · 25 pts · ★51 · 51.0★/day · MIT · new
+  - A Claude skill for directing, building and verifying code-rendered videos (HTML/Canvas → MP4): principles, gated workflow, QA scripts and evals.
+  - hits: claude, workflow, video
