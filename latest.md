@@ -1,86 +1,123 @@
-# Repo Scout — 2026-10-31
+# Repo Scout — 2026-11-01
 
-Window: since 2026-10-28 · queries 164 · raw 461 · trending 49 · awesome-list adds 0 · new scored 37
+Window: since 2026-10-29 · queries 164 · raw 463 · trending 55 · awesome-list adds 18 · new scored 42
 
 ## PrompterQ (teleprompter software)
 
-- **[EntranceStarfish/VoiceStudioV2](https://github.com/EntranceStarfish/VoiceStudioV2)** · 27 pts · ★129 · 129.0★/day · MIT · new
-  - Local AI voice studio: real-time voice changer, text-to-speech, voice cloning & dubbing with a drop-in OpenAI-compatible API. 100% offline, no cloud, no API keys. Unofficial fork of VoiceStudio.
-  - hits: speech, voice
-- **[QwenLM/qwen-code](https://github.com/QwenLM/qwen-code)** · 25 pts · ★28842 · 58.6★/day · Apache-2.0 · trending
-  - An open-source AI coding agent that lives in your terminal.
-  - hits: script
-- **[langchain-ai/deepagents](https://github.com/langchain-ai/deepagents)** · 24 pts · ★30824 · 66.9★/day · MIT · trending
-  - The batteries-included agent harness.
-  - hits: script
-- **[espressif/esp-sr](https://github.com/espressif/esp-sr)** · 20 pts · ★1555 · 0.6★/day · NOASSERTION · active ⚠ no-license
-  - Speech recognition
-  - hits: speech, speech recognition
-- **[ErTasselli/OpenTerminal](https://github.com/ErTasselli/OpenTerminal)** · 16 pts · ★2175 · 22.9★/day · MIT · trending
-  - A Terminal-style trading dashboard built entirely on free public market data. No API keys, no subscriptions.
-  - hits: script
-- **[glincker/awesome-selfhosted-ai](https://github.com/glincker/awesome-selfhosted-ai)** · 15 pts · ★17 · 17.0★/day · CC0-1.0 · new
-  - Curated list of self-hosted open-source AI: local LLMs, chat UIs, agents, MCP servers, RAG, speech and image generation. Health-checked weekly, dead projects removed automatically.
+- **[anomalyco/hex](https://github.com/anomalyco/hex)** · 30 pts · ★2412 · 22.5★/day · MIT · active
+  - Local-first voice dictation for macOS. Hold a shortcut, speak, and paste into any app. Native Rust, on-device speech recognition, and a Linux beta.
+  - hits: speech, voice, speech recognition
+- **[UfukNode/meet-interpreter](https://github.com/UfukNode/meet-interpreter)** · 12 pts · ★34 · 11.3★/day · MIT · new
+  - Live two-way speech translation for Google Meet, as a Chrome extension
   - hits: speech
-- **[phaserjs/phaser](https://github.com/phaserjs/phaser)** · 14 pts · ★40610 · 8.2★/day · MIT · trending
-  - Phaser is a fun, free and fast 2D game framework for making HTML5 games for desktop and mobile web browsers, supporting Canvas and WebGL rendering.
+- **[jdkato/prose](https://github.com/jdkato/prose)** · 11 pts · ★3092 · 0.9★/day · NOASSERTION · active ⚠ no-license
+  - :book: A Golang library for text processing, including tokenization, part-of-speech tagging, and named-entity extraction.
+  - hits: speech
+- **[Xyloshadowcrest/rpocket-team-meeting-agent](https://github.com/Xyloshadowcrest/rpocket-team-meeting-agent)** · 9 pts · ★42 · 42.0★/day · no license · new ⚠ no-license
+  - AI notetaker that joins Microsoft Teams and Google Meet calls, understands Hindi, Telugu, English and mixed speech, and emails an English report card: decisions, action items, MOM, participation, mentions and attendance. Telegram check-in decides whether the bot joins.
+  - hits: speech, script
+- **[vladIDH/readable-by-ai](https://github.com/vladIDH/readable-by-ai)** · 2 pts · ★0 · 0.0★/day · MIT · awesome:teles/awesome-seo
+  - Check how much of a website AI assistants can actually read: JavaScript-only pages, robots.txt rules for AI crawlers, Cloudflare blocks, structured data, llms.txt.
   - hits: script
-- **[IamRamgarhia/Free-GST-Billing-Software](https://github.com/IamRamgarhia/Free-GST-Billing-Software)** · 14 pts · ★382 · 1.7★/day · MIT · trending
-  - Free invoice builder & GST billing software for India. Make GST invoices, quotations, bills of supply and credit notes as PDF; GSTR-1/3B reports. Free invoice maker for shops, freelancers & small businesses. Free Tally alternative: open source, 100% offline, no signup, no limits.
-  - hits: voice
+- **[reidifydesign/crawler-snapshot](https://github.com/reidifydesign/crawler-snapshot)** · 1 pts · ★0 · 0.0★/day · MIT · awesome:teles/awesome-seo
+  - Find out what AI and search crawlers really see on your JavaScript site, then save real HTML for them using your own Chrome. Free, self-hosted, no account.
+  - hits: script
+- **[malaysherasia-ai/google-search-console-connector-for-claude-code](https://github.com/malaysherasia-ai/google-search-console-connector-for-claude-code)** · 1 pts · ★0 · 0.0★/day · MIT · awesome:teles/awesome-seo
+  - Google Search Console MCP server and SEO dashboard for Claude Code, Antigravity and any MCP client. Sign in with Google in one click, export GSC performance reports to CSV with one command, inspect URLs, submit sitemaps, verify sites and split branded vs non-branded queries. Free, open source, runs 
+  - hits: script
+- **[hustlemarketers-art/seo-audit-toolkit](https://github.com/hustlemarketers-art/seo-audit-toolkit)** · 1 pts · ★0 · 0.0★/day · MIT · awesome:teles/awesome-seo
+  - Free Python technical SEO audit tool: crawl XML sitemaps and check status codes, titles, meta descriptions, H1s, canonicals, robots/noindex, JSON-LD schema and internal links, plus a Search Console query overlap finder for spotting possible keyword cannibalization.
+  - hits: script
+- **[Advance-Labs/aeo-toolkit](https://github.com/Advance-Labs/aeo-toolkit)** · 1 pts · ★3 · 0.0★/day · Apache-2.0 · awesome:teles/awesome-seo
+  - Open-source suite of ten AEO / technical-SEO / AI-visibility tools — a TypeScript monorepo (crawl→parse→score engine + MCP servers + content agents).
+  - hits: script
 
 ## National Teleprompter (business: marketing, website, clients)
 
-_No new candidates._
+- **[jawadjalal/free-growth-tools](https://github.com/jawadjalal/free-growth-tools)** · 6 pts · ★0 · 0.0★/day · MIT · awesome:teles/awesome-seo
+  - Five free, static growth tools for founders: UTM builder, cold email checker, SERP preview, headline analyzer, sales funnel calculator. No sign-up, no tracking.
+  - hits: cold email
 
 ## Wander Network / KWST / WTPA tour-affiliate sites
 
-_No new candidates._
+- **[zhuyansen/new-term-radar](https://github.com/zhuyansen/new-term-radar)** · 49 pts · ★2008 · 100.4★/day · MIT · awesome:teles/awesome-seo
+  - Daily radar for new AI terms: names of new models, products and repos, caught on X, Hugging Face, GitHub and sitemaps before keyword tools list them.
+  - hits: seo, sitemap
+- **[loootai/looot-seo](https://github.com/loootai/looot-seo)** · 33 pts · ★0 · 0.0★/day · MIT · awesome:teles/awesome-seo
+  - Self-hosted SEO workspace: rank tracking, keyword research, SERP snapshots, competitors and backlinks, with the price of every refresh shown before it runs. Next.js, Supabase and looot.
+  - hits: seo, backlink, keyword research, serp
+- **[ZensInk/awesome-open-source-seo](https://github.com/ZensInk/awesome-open-source-seo)** · 32 pts · ★33 · 0.5★/day · CC0-1.0 · awesome:teles/awesome-seo
+  - Open-source SEO tools only — crawlers, SERP, GEO/AI-search, CLI toolkits. No SaaS, no affiliate links.
+  - hits: seo, serp, affiliate, geo
+- **[bln-design/geo-audit](https://github.com/bln-design/geo-audit)** · 28 pts · ★0 · 0.0★/day · MIT · awesome:teles/awesome-seo
+  - Single-file, zero-dependency GEO audit: check if ChatGPT, Perplexity, Claude, Gemini, Copilot and Google AI Overviews can crawl, understand and cite your site.
+  - hits: seo, indexnow, geo
+- **[CometWeb-io/rankproof](https://github.com/CometWeb-io/rankproof)** · 26 pts · ★0 · 0.0★/day · MIT · awesome:teles/awesome-seo
+  - RankProof 8.1 — open search visibility & verified backlink auditor (Bing/DDG/Mojeek/Brave, no paid SEO APIs)
+  - hits: seo, backlink, serp
+- **[izzipizzy/gsc-hub](https://github.com/izzipizzy/gsc-hub)** · 24 pts · ★22 · 0.1★/day · MIT · awesome:teles/awesome-seo
+  - Self-hosted Google Search Console dashboard for multiple accounts and sites. Portfolio analytics, striking-distance keywords, cannibalization, content decay and MCP.
+  - hits: search console, gsc
+- **[spcaeo/toadstone](https://github.com/spcaeo/toadstone)** · 24 pts · ★10 · 0.8★/day · NOASSERTION · awesome:teles/awesome-seo ⚠ no-license
+  - A self-hosted alternative to Screaming Frog: your crawl, your machine, no per-URL pricing and no seats. 222 SEO checks — 180 of them proven to fire against a site built to be wrong. JS rendering, crawl diffing with stable issue ids, axe-core accessibility, server logs, Search Console, an HTTP API an
+  - hits: seo, search console
+- **[pchewlo/aeo-check](https://github.com/pchewlo/aeo-check)** · 23 pts · ★0 · 0.0★/day · MIT · awesome:teles/awesome-seo
+  - AEO Checker: flags what stops ChatGPT, Claude, Perplexity and Google's AI from reading, quoting or buying from your site
+  - hits: seo, geo
+- **[aivrar/serp-to-prompt-writer](https://github.com/aivrar/serp-to-prompt-writer)** · 20 pts · ★2 · 0.0★/day · MIT · awesome:teles/awesome-seo
+  - Desktop SEO tool that scrapes Google SERPs, runs ONNX-accelerated NLP (NER, BERT embeddings, zero-shot NLI), and generates optimized AI writing prompts. 8K lines of C11/Win32. Keyword in, data-backed system prompt out.
+  - hits: seo, serp
+- **[zhuyansen/backlink-guard](https://github.com/zhuyansen/backlink-guard)** · 19 pts · ★61 · 3.2★/day · MIT · awesome:teles/awesome-seo
+  - Check a link source before you submit to it, verify the listing, and audit your own backlinks for link-spam patterns. A CLI and an agent skill.
+  - hits: seo, backlink
+- **[Stephen-Psaradellis/local-site-audit](https://github.com/Stephen-Psaradellis/local-site-audit)** · 6 pts · ★0 · 0.0★/day · MIT · awesome:teles/awesome-seo
+  - Browser extension: one click on a small-business website gives a client-ready audit of real defects with evidence, plus a pitch email.
+  - hits: seo
 
 ## New-project opportunities (diversification)
 
-- **[dragonked2/alphacode](https://github.com/dragonked2/alphacode)** · 46 pts · ★516 · 8.6★/day · MIT · active
-  - Free MIT AI coding agent — no API key needed. Built-in free model, or bring Claude, GPT, Gemini, DeepSeek, Ollama +50 more. Swarm mode, 40+ tools, browser & desktop automation, built in Rust.
-  - hits: agent, agentic, claude, llm, automation, api, browser
-- **[MemPalace/mempalace](https://github.com/MemPalace/mempalace)** · 44 pts · ★60175 · 287.9★/day · MIT · trending
-  - The best-benchmarked open-source AI memory system. And it's free.
-  - hits: mcp, llm
-- **[Orkas-AI/Orkas](https://github.com/Orkas-AI/Orkas)** · 43 pts · ★5700 · 30.8★/day · MIT · trending
-  - Orkas is an open-source (MIT), local-first AI team for your desktop: a Commander turns your goal into to-dos and coordinates 16 built-in specialist agents plus Claude Code, Codex, OpenCode, OpenClaw and Hermes, with projects, scheduled automations and connectors. Free app for macOS & Windows; built-
-  - hits: agent, claude, automation, workflow
-- **[patch-gg/pixelfx](https://github.com/patch-gg/pixelfx)** · 37 pts · ★598 · 598.0★/day · MIT · new
-  - 232 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own.
-  - hits: agent, claude
-- **[NiazMorshed2007/reanimate](https://github.com/NiazMorshed2007/reanimate)** · 37 pts · ★246 · 123.0★/day · MIT · new
-  - A Claude Code skill that reverse-engineers any animation frame by frame, then proves the copy moves the same.
-  - hits: agent, claude
-- **[boardshogunfluctuate/Capri-AI](https://github.com/boardshogunfluctuate/Capri-AI)** · 36 pts · ★286 · 286.0★/day · MIT · new
-  - ⚡ Tell your PC what to do. Capri is a cyberpunk AI agent that works with your files, projects and code through Claude Code, Codex or Antigravity. Windows installer, no terminal. Fan-made, not affiliated with CD PROJEKT RED.
-  - hits: agent, claude
-- **[avibe-bot/avibe](https://github.com/avibe-bot/avibe)** · 36 pts · ★637 · 1.4★/day · MIT · active
-  - Make your computer a home for your AI partner. Avibe is the local-first Agent OS: Vibey, its built-in AI partner, works out of the box, and Claude Code, Codex & OpenCode run unchanged beside it — reach them from your browser, phone, or any chat app.
-  - hits: agent, claude, llm, browser
-- **[anthropics/skills](https://github.com/anthropics/skills)** · 35 pts · ★185632 · 459.5★/day · no license · trending ⚠ no-license
-  - Public repository for Agent Skills
+- **[paperclipai/paperclip](https://github.com/paperclipai/paperclip)** · 63 pts · ★109653 · 449.4★/day · MIT · trending
+  - The open-source app everyone uses to manage agents at work
+  - hits: mcp, agent, agentic, claude, llm, automation, workflow
+- **[THU-MAIC/OpenMAIC](https://github.com/THU-MAIC/OpenMAIC)** · 44 pts · ★42335 · 180.1★/day · MIT · trending
+  - Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click
   - hits: agent
-- **[unitshaperextol/Legion-os](https://github.com/unitshaperextol/Legion-os)** · 31 pts · ★75 · 37.5★/day · MIT · new
-  - Next-Gen Multi-Agent Swarm Orchestration Engine. Coordinate 50+ LLM nodes (GPT-6, Claude 5.5, DeepSeek-V4) in a high-speed mesh network.  "Redefining enterprise AI infrastructure. The operating system for collective machine intelligence in the AGI era."
-  - hits: agent, agentic, claude, llm, automation, workflow
-- **[open-gsd/gsd-core](https://github.com/open-gsd/gsd-core)** · 31 pts · ★11056 · 68.2★/day · MIT · trending
-  - Git. Ship. Done - Core
-  - hits: claude
-- **[BrowserMCP/mcp](https://github.com/BrowserMCP/mcp)** · 31 pts · ★7260 · 12.5★/day · Apache-2.0 · active
-  - Browser MCP is a Model Context Provider (MCP) server that allows AI applications to control your browser
-  - hits: mcp, claude, automation, browser
-- **[spaceamoeba-t/tapq](https://github.com/spaceamoeba-t/tapq)** · 31 pts · ★651 · 6.3★/day · Apache-2.0 · active
-  - Multi-modal voice agent for your AI agents. Talk with Claude Code, Codex, and others by voice: answer their prompts, give instructions, ask what they did. Or just nod.
-  - hits: agent, claude, voice
-- **[aa1143/NamiAgent](https://github.com/aa1143/NamiAgent)** · 29 pts · ★61 · 61.0★/day · MIT · new ⚠ pattern:tutorial
-  - 零基础入门 AI Agent 的基础教程。不只是教程，也是一个能在本地跑起来的 Agent：读写文件、执行命令、MCP、长期记忆，自带网页端看清每一步。从 100 行最小循环开始，一课加一个能力，最后拆解 Claude Code、Codex 等主流 Agent
-  - hits: mcp, agent, claude, llm
-- **[FigureSultanLast/roblox-ai-studio-agent](https://github.com/FigureSultanLast/roblox-ai-studio-agent)** · 29 pts · ★98 · 98.0★/day · MIT · new
-  - An AI agent in your terminal that builds Roblox places in Studio: parts, models, UI and Luau scripts. Place diff before every change, playtests with proof, one undo per turn.
+- **[ixartz/SaaS-Boilerplate](https://github.com/ixartz/SaaS-Boilerplate)** · 36 pts · ★7476 · 7.9★/day · MIT · active
+  - 🚀🎉📚 SaaS Boilerplate built with Next.js + Tailwind CSS + Shadcn UI + TypeScript. ⚡️ Full-stack React application with Auth, Multi-tenancy, Roles & Permissions, i18n, Landing Page, DB, Logging, Testing
+  - hits: saas, boilerplate, starter
+- **[wiva-hq/CodeRail](https://github.com/wiva-hq/CodeRail)** · 33 pts · ★54 · 54.0★/day · Apache-2.0 · new
+  - Self-hosted remote control for your coding agents: Claude Code and Codex chats, approvals, terminals, files, git and dev-server previews for every computer you own, from the browser or your phone. One Docker container on your own server.
+  - hits: agent, claude, self-hosted, browser, docker
+- **[daggerhashimoto/openclaw-nerve](https://github.com/daggerhashimoto/openclaw-nerve)** · 31 pts · ★876 · 3.4★/day · MIT · active
+  - Real-time web cockpit for OpenClaw: voice conversations, agent automated kanban board, workspace/file control, sub-agent sessions, inline charts, and usage visibility.
+  - hits: agent, claude, self-hosted, voice
+- **[techjarves/Mobile-Harness](https://github.com/techjarves/Mobile-Harness)** · 29 pts · ★766 · 10.5★/day · MIT · active
+  - Claude Code on Android:  AI-powered mobile coding IDE for Android — chat with a coding agent, run Linux commands, edit files, review diffs, and preview web apps directly from your phone. No root required.
+  - hits: agent, claude
+- **[0x0funky/agent-sprite-forge](https://github.com/0x0funky/agent-sprite-forge)** · 29 pts · ★4800 · 25.0★/day · MIT · trending
+  - Agent Skill for generating 2D sprite sheets and map, transparent PNG frames, and animated GIFs from prompts.
   - hits: agent
-- **[DolphinStronghold9/ai-minecraft-modmaker](https://github.com/DolphinStronghold9/ai-minecraft-modmaker)** · 27 pts · ★79 · 79.0★/day · MIT · new
-  - Describe a mod or a structure and this terminal agent builds it in Minecraft: ghost preview before placing, one-step undo, datapacks that reload clean, survival materials list.
+- **[hacksider/Deep-Live-Cam](https://github.com/hacksider/Deep-Live-Cam)** · 26 pts · ★97492 · 86.0★/day · AGPL-3.0 · trending ⚠ copyleft:agpl-3.0
+  - real time face swap and one-click video deepfake with only a single image
+  - hits: video
+- **[The-PR-Agent/pr-agent](https://github.com/The-PR-Agent/pr-agent)** · 26 pts · ★13851 · 11.4★/day · MIT · trending
+  - 🚀 PR Agent: The Original Open-Source PR Reviewer. This project is not the Qodo free tier.
   - hits: agent
+- **[ersinkoc/AI-Video-Factory](https://github.com/ersinkoc/AI-Video-Factory)** · 24 pts · ★78 · 26.0★/day · MIT · new
+  - AI video factory: from one topic to a finished, multilingual YouTube video. Claude agents write, plan, draw and review; a Studio keeps the human in charge.
+  - hits: agent, claude, video
+- **[apekshik/anyscene](https://github.com/apekshik/anyscene)** · 23 pts · ★125 · 62.5★/day · MIT · new
+  - Photoreal Blender scenes from a one-paragraph brief, built by AI agents: image→3D props on fal, scripted layout, lighting, camera and grade.
+  - hits: agent
+- **[nancyc0813-maker/agentid-sniper](https://github.com/nancyc0813-maker/agentid-sniper)** · 23 pts · ★122 · 40.7★/day · MIT · new
+  - Local monitor + auto-mint + take-profit for Binance .ai Agent ID exclusive mints on BSC (Binance Agentic Wallet / baw CLI)
+  - hits: agent, agentic
+- **[modelscope/FunClip](https://github.com/modelscope/FunClip)** · 23 pts · ★6481 · 5.1★/day · MIT · active
+  - FunASR-powered video transcription, subtitle generation, and LLM-assisted clipping tool with a local Gradio UI.
+  - hits: llm, video
+- **[zhanghao123vip/ai-manju-skills](https://github.com/zhanghao123vip/ai-manju-skills)** · 22 pts · ★77 · 77.0★/day · MIT · new
+  - 21 个题材的 AI 漫剧全流程 Skill：一句点子生成企划案、资产图提示词、分集剧本、分镜与视频提示词。可用于 Claude Code、WorkBuddy、DeepSeek
+  - hits: claude, video
+- **[kyy-logs/code-review-skill](https://github.com/kyy-logs/code-review-skill)** · 22 pts · ★92 · 30.7★/day · MIT · new
+  - Auditable code review skill for Claude Code and Codex: four independent probes, evidence-backed findings, and a JSON-derived merge gate.
+  - hits: agent, claude
