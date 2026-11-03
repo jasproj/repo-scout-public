@@ -1,21 +1,18 @@
-# Repo Scout — 2026-11-02
+# Repo Scout — 2026-11-03
 
-Window: since 2026-10-30 · queries 164 · raw 460 · trending 55 · awesome-list adds 4 · new scored 37
+Window: since 2026-10-31 · queries 164 · raw 460 · trending 56 · awesome-list adds 0 · new scored 25
 
 ## PrompterQ (teleprompter software)
 
-- **[JWM0203/MeetingCopilot](https://github.com/JWM0203/MeetingCopilot)** · 37 pts · ★383 · 3.3★/day · Apache-2.0 · active
-  - Real-time stealth meeting/interview copilot for Windows - streaming ASR (local FunASR / cloud) + first-person teleprompter answers via BYOK LLM, invisible to screen sharing
-  - hits: teleprompter, prompter
-- **[mvschwarz/openrig](https://github.com/mvschwarz/openrig)** · 21 pts · ★8556 · 39.8★/day · Apache-2.0 · trending
-  - Build your own network of agents from Claude Code, Codex and Pi: persistent teams with roles, shared context and owned work.
+- **[immich-app/immich](https://github.com/immich-app/immich)** · 21 pts · ★118079 · 68.1★/day · AGPL-3.0 · trending ⚠ copyleft:agpl-3.0
+  - High performance self-hosted photo and video management solution.
   - hits: script
-- **[moonshine-ai/moonshine](https://github.com/moonshine-ai/moonshine)** · 21 pts · ★11383 · 15.0★/day · NOASSERTION · active ⚠ no-license
-  - Very low latency speech to text, intent recognition, and text to speech, for building voice agents and interfaces
-  - hits: speech, voice
-- **[jackjin1997/markindex](https://github.com/jackjin1997/markindex)** · 1 pts · ★1 · 0.1★/day · MIT · awesome:punkpeye/awesome-mcp-servers
-  - Vectorless, structure-first retrieval over large Markdown libraries for AI agents — a TypeScript take on PageIndex for Markdown (CLI + MCP + AI SDK)
+- **[mattpocock/sandcastle](https://github.com/mattpocock/sandcastle)** · 18 pts · ★8809 · 38.1★/day · MIT · trending
+  - Orchestrate sandboxed coding agents in TypeScript with sandcastle.run()
   - hits: script
+- **[espeak-ng/espeak-ng](https://github.com/espeak-ng/espeak-ng)** · 12 pts · ★6992 · 1.8★/day · GPL-3.0 · active ⚠ copyleft:gpl-3.0
+  - eSpeak NG is an open source speech synthesizer that supports more than hundred languages and accents.
+  - hits: speech
 
 ## National Teleprompter (business: marketing, website, clients)
 
@@ -23,57 +20,52 @@ _No new candidates._
 
 ## Wander Network / KWST / WTPA tour-affiliate sites
 
-- **[YunYouJun/valaxy](https://github.com/YunYouJun/valaxy)** · 20 pts · ★1132 · 0.7★/day · MIT · active
-  - 🌌 为表达而生的静态博客框架 · A static blog framework for your voice. Vue 3 + Vite, AI-ready (Skills / MCP / llms.txt)
-  - hits: llms.txt
-- **[kornia/kornia](https://github.com/kornia/kornia)** · 13 pts · ★12082 · 4.0★/day · Apache-2.0 · trending
-  - 🐍 Geometric Computer Vision Library for Spatial AI
-  - hits: geo
+_No new candidates._
 
 ## New-project opportunities (diversification)
 
-- **[D4Vinci/Scrapling](https://github.com/D4Vinci/Scrapling)** · 56 pts · ★92644 · 123.5★/day · BSD-3-Clause · trending
-  - 🕷️ The BEST Web Scraping framework that handles everything from a single request to a full-scale crawl! Don't be shy, join here: https://discord.gg/EMgGbDceNQ and follow here for daily tips and tricks: https://x.com/Scrapling_dev
-  - hits: mcp, automation, api, scraper, scraping
-- **[beenuar/AiSOC](https://github.com/beenuar/AiSOC)** · 55 pts · ★6635 · 36.1★/day · MIT · trending
-  - Open-source AI Security Operations Center: alert fusion, LLM-agent triage, MITRE ATT&CK investigation, and a replayable decision ledger for every agent step. Self-hostable, runs with no API keys, MIT licensed. Ships an MCP server for Claude, Cursor and Continue.
-  - hits: mcp, agent, agentic, claude, llm, self-hosted, api
-- **[kgoedecke/doop](https://github.com/kgoedecke/doop)** · 48 pts · ★1545 · 21.5★/day · AGPL-3.0 · trending ⚠ copyleft:agpl-3.0
-  - The open-source alternative to Paper.design. A multiplayer design canvas where humans and AI agents design together, live. MCP built in.
-  - hits: mcp, agent, claude, alternative to, open-source alternative
-- **[Moh4696/open-3d-skills](https://github.com/Moh4696/open-3d-skills)** · 43 pts · ★183 · 91.5★/day · MIT · new
-  - Eight agent skills for 3D and animated websites: three.js scenes from code, scroll films, transparent video, cursor rigs, exploded views, AI motion assets, browser checks and 60 fps recording. Claude Code, Codex, Cursor, Gemini CLI.
-  - hits: agent, claude, browser, video
-- **[himovo/movo](https://github.com/himovo/movo)** · 43 pts · ★502 · 8.1★/day · NOASSERTION · active ⚠ no-license
-  - Turn DeepSeek Harness into a self-hosted enterprise Agent platform with knowledge, deep research, content generation, vibe coding, browser automation, governance, and admin controls.
-  - hits: mcp, agent, automation, workflow, self-hosted, browser
-- **[public-apis/public-apis](https://github.com/public-apis/public-apis)** · 42 pts · ★495466 · 127.7★/day · MIT · trending
-  - A collective list of free APIs
-  - hits: api
-- **[phone-harness/phone-harness](https://github.com/phone-harness/phone-harness)** · 39 pts · ★4070 · 46.8★/day · MIT · active
-  - let your agent control your phone
-  - hits: agent, automation, phone agent
-- **[hexabot-ai/Hexabot](https://github.com/hexabot-ai/Hexabot)** · 39 pts · ★1152 · 1.5★/day · NOASSERTION · active ⚠ no-license
-  - Hexabot v3 is an AI workflow automation platform, combining workflows, actions, agents, and conversational channels in one runtime.
-  - hits: agent, agentic, claude, llm, automation, workflow
-- **[SaarthurR/atticus-mac](https://github.com/SaarthurR/atticus-mac)** · 37 pts · ★560 · 24.3★/day · MIT · active
-  - Fast, free voice assistant for your Mac. No API key: runs on your Claude Pro or Max plan. Sends background agents for big jobs, remembers you and learns your shortcuts. Hold ⌃⌥Space and talk.
-  - hits: agent, claude, api, voice
-- **[Balanov/shim](https://github.com/Balanov/shim)** · 36 pts · ★81 · 81.0★/day · MIT · new
-  - Tiny local-first AI harness: any model, MCP and Agent Skills, natural-language CLI. Zero dependencies. MIT.
-  - hits: mcp, agent
-- **[vercel-labs/agent-desktop](https://github.com/vercel-labs/agent-desktop)** · 35 pts · ★9169 · 35.8★/day · Apache-2.0 · trending
-  - Computer use CLI for AI agents
-  - hits: mcp, agent, automation, api
-- **[vercel-labs/skills](https://github.com/vercel-labs/skills)** · 35 pts · ★37784 · 129.4★/day · MIT · trending
-  - The open agent skills tool - npx skills
+- **[blader/humanizer](https://github.com/blader/humanizer)** · 44 pts · ★64319 · 222.6★/day · MIT · trending
+  - Agent skill that removes signs of AI-generated writing from text
+  - hits: agent, claude, llm
+- **[jordan-gibbs/hyperresearch](https://github.com/jordan-gibbs/hyperresearch)** · 41 pts · ★4361 · 21.0★/day · MIT · trending
+  - Convert Claude Code or Codex into the most intelligent Deep Research Agent. Collect, search, and synthesize web research into a persistent, searchable wiki that builds on itself. Hosted API + MCP: hyperresearch.ai
+  - hits: mcp, agent, claude, api
+- **[floci-io/floci](https://github.com/floci-io/floci)** · 37 pts · ★28500 · 110.5★/day · MIT · trending
+  - Light, fluffy, and always free - The AWS Local Emulator alternative
+  - hits: docker
+- **[OpenRLHF/OpenRLHF](https://github.com/OpenRLHF/OpenRLHF)** · 35 pts · ★10138 · 8.5★/day · Apache-2.0 · active
+  - An Easy-to-use, Scalable and High-performance Agentic RL Framework based on Ray (PPO & DAPO & REINFORCE++ &  VLM & TIS & vLLM & Ray & Async  RL)
+  - hits: agent, agentic, llm
+- **[AminBlg/SimpleEnglish](https://github.com/AminBlg/SimpleEnglish)** · 34 pts · ★4195 · 40.0★/day · MIT · trending
+  - Agent skill: make LLMs write docs in ASD-STE100 Simplified Technical
+  - hits: agent, llm
+- **[webbrain-one/webbrain](https://github.com/webbrain-one/webbrain)** · 32 pts · ★1632 · 7.7★/day · NOASSERTION · trending ⚠ no-license
+  - Open-source AI browser agent for Chrome and Firefox (monorepo) 🧠 
+  - hits: agent, llm, automation, browser
+- **[MakazhanAlpamys/Soup](https://github.com/MakazhanAlpamys/Soup)** · 30 pts · ★10079 · 39.4★/day · Apache-2.0 · trending
+  - Fine-tune LLMs from one YAML. Layer streaming trains an 8B model on a 4 GB laptop GPU.
+  - hits: llm
+- **[leopard627/fire-your-seo-agency](https://github.com/leopard627/fire-your-seo-agency)** · 29 pts · ★992 · 14.4★/day · MIT · active
+  - Fire your SEO·GEO agency 🔥 A Claude Code skill that audits and optimizes SEO·AEO·GEO·LLMO·NEO(Naver) by itself — 월 50~350만 원짜리 'AI 검색 최적화' 대행, AI 에이전트가 대체합니다
+  - hits: claude, llm, agency
+- **[Balanov/verdict](https://github.com/Balanov/verdict)** · 27 pts · ★223 · 223.0★/day · Apache-2.0 · new
+  - A 197 KB local semantic verifier for AI agent tool calls. Exit code 0 is not proof.
   - hits: agent
-- **[maxwilsoneng2098t9/tiktok-comment-automation](https://github.com/maxwilsoneng2098t9/tiktok-comment-automation)** · 29 pts · ★296 · 296.0★/day · MIT · new
-  - TikTok Comment Automation Tool. Session-based workflow manager for engagement research and testing. Template rotation, rate limiting, lightweight
+- **[JDhruv14/ascii-diorama](https://github.com/JDhruv14/ascii-diorama)** · 25 pts · ★84 · 84.0★/day · MIT · new
+  - Claude Code skill for tilt-shift ASCII miniature videos rendered with Three.js
+  - hits: claude, video
+- **[skingko/PastAi](https://github.com/skingko/PastAi)** · 24 pts · ★51 · 51.0★/day · MIT · new
+  - Open-source AI clipboard manager and PopClip-style text selection toolbar for macOS. Clipboard history, OCR search, AI translation, an extension market and a bring-your-own-model agent. Native Swift, no dependencies.
+  - hits: agent, llm
+- **[brewed-ops/talking-explainer](https://github.com/brewed-ops/talking-explainer)** · 23 pts · ★50 · 50.0★/day · NOASSERTION · new ⚠ no-license
+  - A Claude Code skill that turns a topic into a narrated motion-design explainer, presented by a cartoon that lip-syncs to your voice.
+  - hits: claude, voice, video
+- **[Usagi-org/ai-goofish-monitor](https://github.com/Usagi-org/ai-goofish-monitor)** · 22 pts · ★16295 · 34.3★/day · MIT · trending
+  - 基于 Playwright 和AI实现的闲鱼多任务实时/定时监控与智能分析系统，配备了功能完善的后台管理UI。帮助用户从闲鱼海量商品中，找到心仪产品。
+  - hits: automation
+- **[voquill/voquill](https://github.com/voquill/voquill)** · 20 pts · ★1024 · 2.5★/day · NOASSERTION · active ⚠ no-license
+  - Open source voice dictation technology
+  - hits: agent, agentic, voice
+- **[EndBug/add-and-commit](https://github.com/EndBug/add-and-commit)** · 20 pts · ★1292 · 0.5★/day · MIT · active
+  - :octocat: Automatically commit changes made in your workflow run directly to your repo
   - hits: automation, workflow
-- **[justhalfbit/thinksmart-ubuntu-image](https://github.com/justhalfbit/thinksmart-ubuntu-image)** · 27 pts · ★72 · 72.0★/day · MIT · new
-  - 联想 ThinkSmart View（CD-18781Y）语音助手系统镜像：基于 rickx/ubuntu-thinksmart，开机直接进语音界面；含中英文刷机教程（写给人和 AI 助手）、出镜像脚本和设备修复服务｜Voice-assistant system image for Lenovo ThinkSmart View (CD-18781Y), based on rickx/ubuntu-thinksmart: boots straight into the voice UI; flashing guide in Chinese and English (for people and 
-  - hits: agent, voice
-- **[duyunzhoudyz/dyz-med-paper-skills](https://github.com/duyunzhoudyz/dyz-med-paper-skills)** · 26 pts · ★90 · 90.0★/day · NOASSERTION · new ⚠ no-license
-  - 医学论文写作与科研助手：面向中国医生和医学研究生的 32 个 Agent Skills，适用于 Claude Code、Codex，覆盖选题、PubMed 文献检索、中英写作、选刊投稿与审稿修回。Medical writing & research skills.
-  - hits: agent, claude, workflow
