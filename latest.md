@@ -1,20 +1,44 @@
-# Repo Scout — 2026-11-05
+# Repo Scout — 2026-11-06
 
-Window: since 2026-11-02 · queries 164 · raw 470 · trending 59 · awesome-list adds 0 · new scored 25
+Window: since 2026-11-03 · queries 164 · raw 454 · trending 85 · awesome-list adds 0 · new scored 35
 
 ## PrompterQ (teleprompter software)
 
-- **[microsoft/VibeVoice](https://github.com/microsoft/VibeVoice)** · 34 pts · ★55626 · 127.3★/day · MIT · trending
-  - Open-Source Frontier Voice AI
-  - hits: voice
-- **[Leaflet/Leaflet](https://github.com/Leaflet/Leaflet)** · 12 pts · ★45854 · 7.8★/day · BSD-2-Clause · trending
-  - 🍃 number one JavaScript library for interactive maps 🇺🇦
+- **[cactus-compute/engine](https://github.com/cactus-compute/engine)** · 21 pts · ★6183 · 11.0★/day · NOASSERTION · active ⚠ no-license
+  - 2bit quants, kernels and runtime for consumer devices. 
+  - hits: speech, whisper
+- **[ueberdosis/tiptap](https://github.com/ueberdosis/tiptap)** · 16 pts · ★38980 · 13.0★/day · MIT · trending
+  - The headless rich text editor framework for web artisans.
+  - hits: mirror, script
+- **[angular/angular](https://github.com/angular/angular)** · 15 pts · ★101217 · 22.8★/day · MIT · trending
+  - Deliver web apps with confidence 🚀
   - hits: script
-- **[chaolucky18/xuexitongScript](https://github.com/chaolucky18/xuexitongScript)** · 8 pts · ★3807 · 1.6★/day · no license · trending ⚠ no-license
-  - 学习通自动刷课脚本
+- **[vuejs/vue](https://github.com/vuejs/vue)** · 15 pts · ★212562 · 43.8★/day · MIT · trending ⚠ stale
+  - This is the repo for Vue 2. For Vue 3, go to https://github.com/vuejs/core
   - hits: script
-- **[VoxRT/LinnetTTS](https://github.com/VoxRT/LinnetTTS)** · 8 pts · ★17 · 8.5★/day · Apache-2.0 · new
-  - Lightweight on-device text-to-speech: flow LM over a continuous-latent codec, Rust runtime, Android/iOS/Linux/Python
+- **[appsmithorg/appsmith](https://github.com/appsmithorg/appsmith)** · 14 pts · ★41175 · 17.7★/day · Apache-2.0 · trending
+  - Platform to build admin panels, internal tools, and dashboards. Integrates with 25+ databases and any API.
+  - hits: script
+- **[mlflow/mlflow](https://github.com/mlflow/mlflow)** · 14 pts · ★28697 · 9.3★/day · Apache-2.0 · trending
+  - The open source AI engineering platform for agents, LLMs, and ML models. MLflow enables teams of all sizes to debug, evaluate, monitor, and optimize production-quality AI applications while controlling costs and managing access to models and data.
+  - hits: obs
+- **[solidjs/solid](https://github.com/solidjs/solid)** · 13 pts · ★36269 · 11.6★/day · MIT · trending
+  - A declarative, efficient, and flexible JavaScript library for building user interfaces.
+  - hits: script
+- **[expressjs/express](https://github.com/expressjs/express)** · 13 pts · ★69575 · 11.0★/day · MIT · trending
+  - Fast, unopinionated, minimalist web framework for node.
+  - hits: script
+- **[novuhq/novu](https://github.com/novuhq/novu)** · 13 pts · ★40295 · 21.2★/day · NOASSERTION · trending ⚠ no-license
+  - The open-source communication infrastructure for agents and products
+  - hits: script
+- **[Rikorose/DeepFilterNet](https://github.com/Rikorose/DeepFilterNet)** · 12 pts · ★4965 · 2.7★/day · NOASSERTION · active ⚠ no-license
+  - Noise supression using deep filtering
+  - hits: speech
+- **[HaD0Yun/CozyClay](https://github.com/HaD0Yun/CozyClay)** · 10 pts · ★1553 · 15.4★/day · AGPL-3.0 · trending ⚠ copyleft:agpl-3.0
+  - Open source previs software in the browser: block a scene, pose characters, author camera moves and cuts, then take the same shots to an AI video model.
+  - hits: script
+- **[ZhikangNiu/VoxCanvas](https://github.com/ZhikangNiu/VoxCanvas)** · 7 pts · ★21 · 7.0★/day · MIT · new
+  - VoxCanvas-41M: A Large-Scale Bilingual Dataset for Instruction-Based Speech Editing and Its Learning Dynamics
   - hits: speech
 
 ## National Teleprompter (business: marketing, website, clients)
@@ -23,54 +47,52 @@ _No new candidates._
 
 ## Wander Network / KWST / WTPA tour-affiliate sites
 
-- **[seranking/seo-skills](https://github.com/seranking/seo-skills)** · 33 pts · ★199 · 1.0★/day · MIT · active
-  - Claude SEO Skills — production Claude Agent Skills for the SE Ranking MCP server. Content briefs, AI Search share of voice, audits, backlink gaps, keyword clusters, schema, sitemap, GEO, and more.
-  - hits: seo, sitemap, backlink, geo
+_No new candidates._
 
 ## New-project opportunities (diversification)
 
-- **[wideeyededi/uncensored-nsfw-ai-video-api](https://github.com/wideeyededi/uncensored-nsfw-ai-video-api)** · 41 pts · ★424 · 141.3★/day · MIT · new
-  - Uncensored NSFW API for AI video generation — Seedance Spicy & Wan NSFW docs: 18+ text-to-video / image-to-video, async tasks, webhooks, credits billing. 成人向 AI 视频生成 API：Seedance Spicy、Wan NSFW、文生/图生视频、异步任务、积分计费、接入指南。
-  - hits: billing, api, video
-- **[google/skills](https://github.com/google/skills)** · 41 pts · ★22243 · 101.6★/day · Apache-2.0 · trending
-  - Agent Skills for Google products and technologies
+- **[HerdBuilderEstimate/roblox-studio-mcp](https://github.com/HerdBuilderEstimate/roblox-studio-mcp)** · 49 pts · ★427 · 427.0★/day · MIT · new
+  - Model Context Protocol server for Roblox Studio. Connect AI assistants (Claude, Cursor) to read object trees, edit scripts, and run playtests safely. Open-source and lightweight
+  - hits: mcp, model context protocol, claude, automation
+- **[cutetailbud/ff-ruyijs](https://github.com/cutetailbud/ff-ruyijs)** · 49 pts · ★838 · 93.1★/day · AGPL-3.0 · active ⚠ copyleft:agpl-3.0
+  - This is a lightweight, headless browser purpose-built for AI agents (such as Codex or Claude Code) to perform browser automation tasks; it is designed to navigate through various web protection systems, login processes, and reverse-engineering scenarios
+  - hits: agent, claude, automation, api, scraping, browser
+- **[pipeshub-ai/pipeshub-ai](https://github.com/pipeshub-ai/pipeshub-ai)** · 48 pts · ★4021 · 6.6★/day · Apache-2.0 · trending
+  - The open-source context layer for AI agents. PipesHub turns your company's knowledge (Slack, Drive, Jira, GitHub, Microsoft 365 and 50+ connectors) into a permission-aware workspace that agents can search, grep, navigate and cite. MCP, SDKs and built-in agents. Self-hosted.
+  - hits: mcp, agent, agentic, claude, llm, self-hosted
+- **[ABLingss/awesome-agent-loops](https://github.com/ABLingss/awesome-agent-loops)** · 46 pts · ★105 · 105.0★/day · MIT · new
+  - A practical directory of agent loop skills, workflow automations, and cloud delivery recipes for DSH, Codex, Claude Code, and compatible agents.
+  - hits: agent, claude, automation, workflow, directory
+- **[dgtlmoon/changedetection.io](https://github.com/dgtlmoon/changedetection.io)** · 45 pts · ★35589 · 16.9★/day · Apache-2.0 · trending
+  - Best and simplest tool for website change detection, web page monitoring, and website change alerts. Perfect for tracking content changes, price drops, restock alerts, and website defacement monitoring— MCP included! all for free or enjoy our SaaS plan!
+  - hits: mcp, self-hosted, saas, api, scraping
+- **[cactus-compute/cactus](https://github.com/cactus-compute/cactus)** · 39 pts · ★14502 · 56.9★/day · Apache-2.0 · active
+  - Sub-50mb agentic, voice and vision intelligence for consumer devices.
+  - hits: agent, agentic, llm, voice
+- **[tianma-if/edgeever](https://github.com/tianma-if/edgeever)** · 39 pts · ★3136 · 23.6★/day · AGPL-3.0 · active ⚠ copyleft:agpl-3.0
+  - AI-native knowledge base & Evernote/Obsidian alternative with instant sync & native MCP. Free on Cloudflare or self-hosted via Docker.
+  - hits: mcp, agent, self-hosted, docker
+- **[a2ui-project/a2ui](https://github.com/a2ui-project/a2ui)** · 37 pts · ★16999 · 41.7★/day · Apache-2.0 · active
+  - Open-source generative UI framework: agents stream layout data, and apps render it with native components in React, Angular, Lit, Flutter, SwiftUI and Jetpack Compose.
+  - hits: mcp, agent, llm
+- **[yucezerey/turkish-anti-ai-skill](https://github.com/yucezerey/turkish-anti-ai-skill)** · 36 pts · ★204 · 204.0★/day · MIT · new
+  - Türkçe metinlerdeki yapay zeka izlerini (AI slop, translationese, çeviri kokan cümle mimarisi ve TDK hatalarını) temizleyen Agent Skill ve Humanizer paketi.
+  - hits: agent, claude, llm
+- **[elder-plinius/T3MP3ST](https://github.com/elder-plinius/T3MP3ST)** · 35 pts · ★6933 · 54.6★/day · AGPL-3.0 · trending ⚠ copyleft:agpl-3.0
+  - autonomous red teaming platform; multi-agent offensive-security meta-harness
   - hits: agent
-- **[Glen-Web-App/best-agent-memory-mcp](https://github.com/Glen-Web-App/best-agent-memory-mcp)** · 40 pts · ★54 · 54.0★/day · CC0-1.0 · new
-  - Best Agent Memory MCP servers, ranked and compared: long-term memory for Claude Code, Codex, Cursor and any MCP client. Glen, Mem0, Supermemory, Zep, Hindsight, Basic Memory, claude-mem, Graphiti, Cognee, the official memory server and more, with storage, capture model, team sharing, license and liv
-  - hits: mcp, agent, claude, llm
-- **[sandbox-quantum/switch](https://github.com/sandbox-quantum/switch)** · 38 pts · ★3924 · 35.0★/day · NOASSERTION · trending ⚠ no-license
-  - Open-source AI teammates in Slack, Teams, Discord, Telegram and Mattermost. Self-host it, with any agent harness and any model.
-  - hits: mcp, agent, self-hosted
-- **[JosssphZhou/poki](https://github.com/JosssphZhou/poki)** · 35 pts · ★115 · 115.0★/day · AGPL-3.0 · new ⚠ copyleft:agpl-3.0
-  - Let AI agents operate a real iPhone. Local MCP server and agent, no jailbreak, no extra hardware.
-  - hits: mcp, agent, automation
-- **[HunYiSage/dsh-purge](https://github.com/HunYiSage/dsh-purge)** · 34 pts · ★19040 · 244.1★/day · Apache-2.0 · trending
-  - DeepSeek Harness 破甲：让所有模型都能破甲，不同模型可换不同提示词；默认提示词面向国模「小码酱」。Jailbreak for every model — swap prompts per model. 求 Star 收藏 ⭐ 如要二开，请查看署名要求部分
-  - hits: llm
-- **[southleft/figma-console-mcp](https://github.com/southleft/figma-console-mcp)** · 33 pts · ★3130 · 7.9★/day · MIT · trending
-  - Your design system as an API. Connect AI to Figma for extraction, creation, and debugging.
-  - hits: mcp, api
-- **[google-gemini/gemini-skills](https://github.com/google-gemini/gemini-skills)** · 32 pts · ★4400 · 16.2★/day · Apache-2.0 · trending
-  - Skills for the Gemini API, SDK and model/agent interactions
-  - hits: agent, api
-- **[relayworkslab/relayworks](https://github.com/relayworkslab/relayworks)** · 30 pts · ★106 · 106.0★/day · MIT · new
-  - The RelayWorks website and recovery console. Your AI agent quit at 70%, and Patch finishes the job. Plain HTML, CSS and ES modules with Three.js scenes, a hand-drawn SVG cast, Solana wallet sign-in and x402 USDC checkout.
-  - hits: agent, claude
-- **[gmpetrov/agent-screenplay](https://github.com/gmpetrov/agent-screenplay)** · 30 pts · ★64 · 21.3★/day · MIT · new
-  - Beautiful screen recordings, made by your favorite AI agent.
-  - hits: mcp, agent, claude, video
-- **[majorminorlabs/hermes-voice](https://github.com/majorminorlabs/hermes-voice)** · 27 pts · ★62 · 62.0★/day · MIT · new
-  - Talk to a Hermes Agent profile through Home Assistant Assist
-  - hits: agent, voice
-- **[sksarvesh007/antiglaude](https://github.com/sksarvesh007/antiglaude)** · 27 pts · ★51 · 25.5★/day · MIT · new
-  - Production compatibility gateway bridge & observability platform connecting Claude Code CLI with Google Antigravity & Gemini inference models via Anthropic Messages API
-  - hits: agent, claude, llm, api
-- **[phonny40rowle/rag-search](https://github.com/phonny40rowle/rag-search)** · 22 pts · ★50 · 50.0★/day · Apache-2.0 · new
-  - A self-hosted retrieval-augmented search API: web search, content extraction, embeddings, and answer generation.
-  - hits: llm, self-hosted, api
-- **[bytedance/axion1_0](https://github.com/bytedance/axion1_0)** · 22 pts · ★56 · 18.7★/day · Apache-2.0 · new
-  - Frontier-level agent capabilities with nothing more than high-quality data and a simple training recipe: 2 SFT + RL, no mid-training/DPO/OPD. Full recipe released.
-  - hits: agent, agentic, llm, workflow
-- **[threerocks/sweety-statechart-video](https://github.com/threerocks/sweety-statechart-video)** · 19 pts · ★51 · 25.5★/day · MIT · new
-  - 格物 · 蜡笔状态图：一句话做一部会动的蜡笔状态图短片。3:4、2-3 分钟、四款合成旁白（可加自己的声音）、每章一张海报；支持 Codex、Claude Code、Grok 等，可批量出片。
-  - hits: agent, claude, video
+- **[WJZ-P/gemini-skill](https://github.com/WJZ-P/gemini-skill)** · 34 pts · ★832 · 3.5★/day · MIT · active
+  - gemini drawing MCP & skill through browser, can be used in openclaw or any agent that supports MCP. Gemini画图 MCP和sill，支持龙虾或任何agent使用٩(๑>◡<๑)۶
+  - hits: mcp, agent, automation, browser
+- **[PatterAI/Patter](https://github.com/PatterAI/Patter)** · 34 pts · ★1083 · 5.1★/day · MIT · active
+  - Open-source voice-AI SDK. The Vapi/Retell alternative for builders who want to own the stack. Give your AI agent a phone number in 4 lines — Python and TypeScript, MIT licensed, Twilio, Telnyx, and Plivo.
+  - hits: agent, llm, api, voice
+- **[meta/astryx](https://github.com/meta/astryx)** · 28 pts · ★14043 · 46.7★/day · MIT · trending
+  - An open source design system that's fully customizable and agent ready
+  - hits: agent
+- **[imraywang/ray-sticker-shop](https://github.com/imraywang/ray-sticker-shop)** · 27 pts · ★290 · 290.0★/day · MIT · new
+  - 一张照片或角色图，生成一整套形象一致的动态表情包和微信投稿素材（Claude Code / Codex skill）
+  - hits: claude
+- **[TIGER-AI-Lab/WebsiteBench](https://github.com/TIGER-AI-Lab/WebsiteBench)** · 26 pts · ★82 · 41.0★/day · Apache-2.0 · new
+  - Can AI agents rebuild websites through browser exploration?
+  - hits: agent, llm, automation, browser
