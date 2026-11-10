@@ -1,117 +1,105 @@
-# Repo Scout — 2026-11-09
+# Repo Scout — 2026-11-10
 
-Window: since 2026-11-06 (niche profiles wider, see each section) · queries 164 · raw 562 · trending 49 · awesome-list adds 0 · new scored 308 · clones dropped 22 · lure READMEs dropped 3
+Window: since 2026-11-07 (niche profiles wider, see each section) · queries 164 · raw 532 · trending 49 · awesome-list adds 0 · new scored 272 · clones dropped 9 · lure READMEs dropped 3
 
 ## PrompterQ (teleprompter software)
 
-_Window: since 2026-10-10_
+_Window: since 2026-10-11_
 
-- **[remsky/Kokoro-FastAPI](https://github.com/remsky/Kokoro-FastAPI)** · 25 pts · ★5660 · 8.3★/day · Apache-2.0 · active
-  - Dockerized OpenAI-compatible wrapper for Kokoro-82M text-to-speech w/multiplatform CPU, AMD, NVIDIA GPU PyTorch; multi-speaker, clone-tuning, caption timestamps, SSML, websockets, optional readalong web UI
-  - hits: speech, voice, websocket
-- **[xorbitsai/inference](https://github.com/xorbitsai/inference)** · 22 pts · ★9649 · 7.8★/day · Apache-2.0 · active ⚠ pipe-to-shell installer
-  - Swap GPT for any LLM by changing a single line of code. Xinference lets you run open-source, speech, and multimodal models on cloud, on-prem, or your laptop — all through one unified, production-ready inference API.
-  - hits: speech, whisper
-- **[jame581/GodotPrompter](https://github.com/jame581/GodotPrompter)** · 22 pts · ★944 · 4.3★/day · MIT · active
-  - Agentic skills framework for Godot 4.x. Domain-specific skills for AI coding agents (Claude Code, Copilot, Antigravity, Cursor)
-  - hits: prompter, script
-- **[SWivid/F5-TTS](https://github.com/SWivid/F5-TTS)** · 22 pts · ★15545 · 20.4★/day · MIT · active
-  - Official code for "F5-TTS: A Fairytaler that Fakes Fluent and Faithful Speech with Flow Matching"
-  - hits: speech
-- **[BoumedineBillal/esp32-pie-asr](https://github.com/BoumedineBillal/esp32-pie-asr)** · 21 pts · ★55 · 3.7★/day · Apache-2.0 · new
-  - Live English speech recognition on the ESP32-P4: a 65.7M-parameter streaming transducer in 2/4-bit weights, faster than real time, on the chip alone. With six voice-control demos.
-  - hits: speech, voice, speech recognition
-- **[fishaudio/fish-speech](https://github.com/fishaudio/fish-speech)** · 20 pts · ★33640 · 29.9★/day · NOASSERTION · active ⚠ no-license
-  - SOTA Open Source TTS
-  - hits: speech
-- **[modulate-ai/speech-to-text-benchmark](https://github.com/modulate-ai/speech-to-text-benchmark)** · 18 pts · ★61 · 3.2★/day · MIT · new
-  - Reproducible speech-to-text benchmark: WER, latency and cost for Velma, Deepgram, AssemblyAI, Chirp 3, MAI-Transcribe 2, Moonshine and whisper.cpp on LibriSpeech, VoxPopuli and Common Voice.
-  - hits: speech, voice, whisper, script
-- **[OHF-Voice/piper1-gpl](https://github.com/OHF-Voice/piper1-gpl)** · 17 pts · ★6228 · 10.5★/day · GPL-3.0 · active ⚠ copyleft:gpl-3.0
-  - Fast and local neural text-to-speech engine
+- **[adventists-ai/sophon-realtime](https://github.com/adventists-ai/sophon-realtime)** · 18 pts · ★199 · 33.2★/day · Apache-2.0 · new
+  - Sophon-Realtime v1: open full-duplex voice models that hear your tone and speak with one. Tag and Flash run on one GPU with vLLM-Omni; E2E in preview.
   - hits: speech, voice
-- **[huggingface/datasets](https://github.com/huggingface/datasets)** · 16 pts · ★22122 · 9.1★/day · Apache-2.0 · active
-  - 🤗 The largest hub of ready-to-use datasets for AI models with fast, easy-to-use and efficient data manipulation tools
-  - hits: speech
-- **[AstraFoundry/Arion](https://github.com/AstraFoundry/Arion)** · 16 pts · ★172 · 6.1★/day · AGPL-3.0 · new ⚠ copyleft:agpl-3.0
-  - Local-first voice input for macOS and Windows. On-device speech recognition, offline dictation, and local polishing.
-  - hits: speech, voice, speech recognition
-- **[X-Square-Robot/X2Streaming-ASR](https://github.com/X-Square-Robot/X2Streaming-ASR)** · 16 pts · ★95 · 3.2★/day · Apache-2.0 · new
-  - X2Streaming-ASR is a streaming Automatic Speech Recognition (ASR) system characterized by ultra-low latency and high accuracy.
-  - hits: speech, speech recognition
-- **[hehehai/AudioSmith](https://github.com/hehehai/AudioSmith)** · 15 pts · ★229 · 8.5★/day · AGPL-3.0 · new ⚠ copyleft:agpl-3.0
-  - Speech, voices, stories, audiobooks, dubbing and transcription, made on your Mac. Free and open source.
-  - hits: speech, voice, script
-- **[sloria/TextBlob](https://github.com/sloria/TextBlob)** · 14 pts · ★9554 · 2.0★/day · MIT · active
-  - Simple, Pythonic, text processing--Sentiment analysis, part-of-speech tagging, noun phrase extraction, translation, and more.
-  - hits: speech
-- **[rany2/edge-tts](https://github.com/rany2/edge-tts)** · 14 pts · ★12494 · 6.2★/day · NOASSERTION · active ⚠ no-license
-  - Use Microsoft Edge's online text-to-speech service from Python WITHOUT needing Microsoft Edge
-  - hits: speech
-- **[maxwhipw/marmalade-stt-android](https://github.com/maxwhipw/marmalade-stt-android)** · 14 pts · ★73 · 2.5★/day · MIT · new
-  - Offline, private speech-to-text for Android: a voice input engine for FUTO Keyboard and other keyboards and apps. Audio never leaves the phone.
+- **[PedroMarinhoDev/ComfyUI-Drama3](https://github.com/PedroMarinhoDev/ComfyUI-Drama3)** · 14 pts · ★168 · 6.2★/day · GPL-3.0 · new ⚠ copyleft:gpl-3.0
+  - Fish Audio Drama 3 text to speech, natively in ComfyUI: voice cloning, dialogue and inline cues on cards from 8 GB, plus a native Qwen3-ASR. Built with Fish Audio.
   - hits: speech, voice
+- **[md-selim-dev/speak-in-progress](https://github.com/md-selim-dev/speak-in-progress)** · 13 pts · ★18 · 1.4★/day · no license · new ⚠ no-license
+  - Teleprompter Studio. Pro Record your faceless English speaking videos with effortless confidence. Read smoothly, rehearse without pressure, and retell in your own words at your own pace.
+  - hits: teleprompter, prompter
+- **[arbazsiddiqui/voxlock](https://github.com/arbazsiddiqui/voxlock)** · 11 pts · ★104 · 3.5★/day · Apache-2.0 · new
+  - The best performing voice isolator there is. Keeps the caller's voice and removes the other voices in the room before speech-to-text hears them. Open source, streaming, runs on CPU and in the browser. pip install voxlock
+  - hits: speech, voice
+- **[HamSanders/soundbox](https://github.com/HamSanders/soundbox)** · 11 pts · ★184 · 6.6★/day · NOASSERTION · new ⚠ no-license
+  - Free, open-source, local alternative to ElevenLabs and Suno. AI sound effects, music with lyrics, text-to-speech and voice cloning on your own GPU (Stable Audio, ACE-Step and more). No account, no credits, offline. Windows/macOS app, HTTP API and a 21-tool MCP server for Claude Code and Cursor.
+  - hits: speech, voice
+- **[PivisYYY/pivis-video-dubbing-agent-kit](https://github.com/PivisYYY/pivis-video-dubbing-agent-kit)** · 9 pts · ★103 · 5.7★/day · MIT · new
+  - Agent-ready video dubbing toolkit for Apple Silicon: local Chinese speech and bilingual subtitles. Single-speaker preview; human review required.
+  - hits: speech
+- **[sarang-cmd/lm-subs](https://github.com/sarang-cmd/lm-subs)** · 9 pts · ★49 · 2.9★/day · MIT · new
+  - Fast synchronized captions, multi-format transcripts (.srt/.vtt/.txt/.json), BYOK 12-provider speech-to-text failover, and encrypted Neon cloud sync for Google NotebookLM Video Overviews.
+  - hits: speech, script
+- **[MyAlfredAI-App/alfred-voice-assistant](https://github.com/MyAlfredAI-App/alfred-voice-assistant)** · 8 pts · ★48 · 4.0★/day · no license · new ⚠ no-license
+  - Alfred: a local-first voice assistant for Home Assistant, with no LLM. Control your smart home, Plex/Jellyfin and Spotify with natural speech. Private beta sign-up aiming for January. Watch this repo to follow along.
+  - hits: speech, voice
+- **[kandinskylab/kandinsky-s2v](https://github.com/kandinskylab/kandinsky-s2v)** · 7 pts · ★58 · 4.1★/day · MIT · new
+  - Speech-to-video inference: an avatar video generated from a reference frame and a speech track
+  - hits: speech
+- **[linpengishero/VideoFreeStudio](https://github.com/linpengishero/VideoFreeStudio)** · 5 pts · ★31 · 1.1★/day · AGPL-3.0 · new ⚠ copyleft:agpl-3.0
+  - A local AI video creation workspace and capability gateway: packages ComfyUI workflows, models, and prompt expertise into installable plugins, with unified management of projects, assets, and generation jobs; image, video, speech, and music capabilities serve both humans and agents reliably through 
+  - hits: speech, obs
+- **[ASLP-lab/DRAMA-Eval](https://github.com/ASLP-lab/DRAMA-Eval)** · 4 pts · ★58 · 2.9★/day · no license · new ⚠ no-license
+  - DRAMA-Eval is a comprehensive bilingual (English & Chinese) benchmark designed to evaluate context-aware, multi-turn, and multi-speaker speech generation systems. 
+  - hits: speech
 
 ## National Teleprompter (business: marketing, website, clients)
 
-_Window: since 2026-10-10_
+_Window: since 2026-10-11_
 
-_No new candidates._
+- **[customermates/customermates](https://github.com/customermates/customermates)** · 6 pts · ★219 · 0.9★/day · AGPL-3.0 · active ⚠ copyleft:agpl-3.0
+  - Follow up on every client conversation. The open-source CRM with LinkedIn and email beside every client, replies drafted by AI through MCP, and self-hosting.
+  - hits: crm
 
 ## Wander Network / KWST / WTPA tour-affiliate sites
 
-_Window: since 2026-10-10_
+_Window: since 2026-10-11_
 
-- **[opengeos/GeoLibre](https://github.com/opengeos/GeoLibre)** · 24 pts · ★8522 · 51.3★/day · MIT · trending
-  - A lightweight, cloud-native GIS platform for visualizing, exploring, and analyzing geospatial data. It runs in the web browser, on the desktop, on mobile, and inside Jupyter notebooks.
-  - hits: geo
+_No new candidates._
 
 ## New-project opportunities (diversification)
 
-_Window: since 2026-11-06_
+_Window: since 2026-11-07_
 
-- **[unclecode/crawl4ai](https://github.com/unclecode/crawl4ai)** · 59 pts · ★87146 · 95.3★/day · Apache-2.0 · active
-  - Official Crawl4AI Cloud: a hosted web scraping, extraction, and search API for AI agents. Free API key, 1,000 credits a month, no card. Fully open source: this repo is the Apache-2.0 crawler that powers it, and you can self-host it.
-  - hits: mcp, agent, llm, api, scraper, scraping
-- **[Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify)** · 53 pts · ★144965 · 658.9★/day · Apache-2.0 · active
-  - Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.
-  - hits: mcp, agent, claude, llm
-- **[rocketride-org/rocketride-server](https://github.com/rocketride-org/rocketride-server)** · 53 pts · ★20064 · 74.0★/day · MIT · active
-  - High-performance AI pipeline engine with a C++ core and 50+ Python-extensible nodes. Build, debug, and scale LLM workflows with 13+ model providers, 8+ vector databases, and agent orchestration, all from your IDE. Includes VS Code extension, TypeScript/Python SDKs, and Docker deployment.
-  - hits: mcp, agent, llm, workflow, docker
-- **[shanraisshan/claude-code-best-practice](https://github.com/shanraisshan/claude-code-best-practice)** · 53 pts · ★68893 · 184.2★/day · MIT · active
-  - from vibe coding to agentic engineering - practice makes claude perfect
-  - hits: agent, agentic, claude, workflow
-- **[cobusgreyling/loop-engineering](https://github.com/cobusgreyling/loop-engineering)** · 52 pts · ★11740 · 76.7★/day · MIT · active
-  - Practical patterns, starters & CLI tools for loop engineering with AI coding agents. Design systems that prompt and orchestrate agents (inspired by Addy Osmani and Boris Cherny). Includes loop-audit, loop-init, loop-cost.
-  - hits: mcp, agent, agentic, claude, llm, automation, starter
-- **[bytedance/deer-flow](https://github.com/bytedance/deer-flow)** · 52 pts · ★85193 · 154.6★/day · MIT · active
-  - An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.
-  - hits: agent, agentic, llm, workflow
-- **[hesreallyhim/awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code)** · 52 pts · ★57617 · 101.3★/day · NOASSERTION · active ⚠ no-license
-  - A hand-picked collection of the finest of resources for the most awesome of agents, Claude Code, the undisputed champion of coding companions, from the unstoppable team at Anthropic PBC (no affiliation). A delectable showcase of top tier skills, ambidextrous agents, scintillating status lines, top n
-  - hits: agent, agentic, claude, llm, workflow
-- **[tirth8205/code-review-graph](https://github.com/tirth8205/code-review-graph)** · 52 pts · ★32668 · 127.6★/day · MIT · active
-  - Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-repo workflows.
-  - hits: mcp, claude, llm, workflow
-- **[NanmiCoder/cc-haha](https://github.com/NanmiCoder/cc-haha)** · 51 pts · ★15369 · 68.9★/day · NOASSERTION · active ⚠ no-license
-  - 本地优先的跨平台 Claude Code / AI Agent 桌面工作台：多 Agent 协作、Git Worktree、代码 Diff、技能市场、多模型、Computer Use、桌面宠物；支持微信、飞书、钉钉及 H5 等远程访问。 | Local-first Claude Code / AI Agent desktop workspace: multi-agent teams, Git worktrees, diffs, skills marketplace, multi-model, Computer Use, task-aware desktop pets; remote via W
-  - hits: mcp, agent, claude, llm, marketplace, whatsapp
-- **[tigerless-labs/agent-memory](https://github.com/tigerless-labs/agent-memory)** · 51 pts · ★4315 · 62.5★/day · MIT · active
-  - Long-term memory runtime for AI agents — plain Markdown as the source of truth, local ranked retrieval, and an independent sleep-time Manage layer. Claude Code and Codex share one store. No API key.
-  - hits: mcp, agent, claude, llm, api
-- **[jeremylongshore/tons-of-skills-marketplace](https://github.com/jeremylongshore/tons-of-skills-marketplace)** · 51 pts · ★2909 · 7.4★/day · MIT · active
-  - Model-agnostic agent-skills platform with a harness-free canonical layer, verified adapters, and the ccpi package manager. Explore at tonsofskills.com.
-  - hits: mcp, agent, claude, llm, automation, saas, marketplace
-- **[Lifecycle-Innovations-Limited/claude-ops](https://github.com/Lifecycle-Innovations-Limited/claude-ops)** · 51 pts · ★549 · 2.6★/day · MIT · active
-  - Business operating system for Claude Code — 57 skills, 21 agents, smart daemon. Unified inbox (WhatsApp/Email/Slack/Telegram), autonomous PR merge, full-AWS monitoring, revenue (Stripe+RevenueCat), e-commerce (Shopify), marketing (Klaviyo/Meta/GA4), voice (Bland/ElevenLabs), APM (Datadog/NewRelic/OT
-  - hits: mcp, agent, claude, automation, stripe, voice, whatsapp
-- **[Anil-matcha/Open-Generative-AI](https://github.com/Anil-matcha/Open-Generative-AI)** · 51 pts · ★33634 · 26.3★/day · MIT · active
-  - Uncensored Open-source alternative to AI video platforms — Free AI image & video generation studio with 600+ models (Flux, Midjourney, Kling, Sora, Veo). No content filters. Self-hosted, MIT licensed.
-  - hits: llm, self-hosted, alternative to, open-source alternative, api, video
-- **[different-ai/openwork](https://github.com/different-ai/openwork)** · 51 pts · ★24463 · 81.8★/day · NOASSERTION · active ⚠ no-license
-  - The open-source alternative to Claude Cowork (powered by opencode)
-  - hits: claude, alternative to, open-source alternative
-- **[Mintplex-Labs/anything-llm](https://github.com/Mintplex-Labs/anything-llm)** · 51 pts · ★68112 · 54.3★/day · MIT · active
-  - Stop renting your intelligence. Own it with AnythingLLM. Everything you need for a powerful local-first agent experience 
-  - hits: agent, agentic, llm, workflow, self-hosted
+- **[relaticle/relaticle](https://github.com/relaticle/relaticle)** · 51 pts · ★1828 · 2.4★/day · AGPL-3.0 · active ⚠ copyleft:agpl-3.0
+  - Open-source CRM your AI agents can read and update: companies, people, opportunities, tasks and notes. REST API, self-hosted or cloud.
+  - hits: mcp, agent, claude, self-hosted, saas, api, sales, crm, docker
+- **[firecrawl/firecrawl](https://github.com/firecrawl/firecrawl)** · 50 pts · ★200431 · 213.5★/day · AGPL-3.0 · active ⚠ copyleft:agpl-3.0
+  - Supercharge your AI agents with data from the web and beyond. Building the library for superintelligence. 🔥
+  - hits: agent, llm, api, scraper, scraping
+- **[dagucloud/dagu](https://github.com/dagucloud/dagu)** · 50 pts · ★4580 · 2.8★/day · GPL-3.0 · active ⚠ copyleft:gpl-3.0, pipe-to-shell installer
+  - Self-hostable workflow orchestrator for teams whose main work isn't orchestration. Declarative YAML over your scripts, SSH commands, containers, etc; keep workflows separate from business logic. One binary, no database, runs on limited H/W resources. Alternative to Airflow / Cron / Job Scheduler.
+  - hits: mcp, agent, agentic, llm, automation, workflow, self-hosted, alternative to
+- **[mudler/LocalAI](https://github.com/mudler/LocalAI)** · 50 pts · ★50292 · 37.7★/day · MIT · active
+  - LocalAI is the open-source AI engine. Run any model - LLMs, vision, voice, image, video - on any hardware. No GPU required.
+  - hits: mcp, agent, llm, api, voice, video
+- **[NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)** · 49 pts · ★262373 · 551.2★/day · MIT · active
+  - The agent that grows with you
+  - hits: agent, claude, llm
+- **[nexu-io/open-design](https://github.com/nexu-io/open-design)** · 49 pts · ★106999 · 545.9★/day · Apache-2.0 · active
+  - The 1st Collaborative AI Design Agent Workspace. Local-first and open source. Create motion, prototypes, websites, apps, dashboards, presentations, images, and videos with your team and AI agents. Share work, exchange feedback, and iterate together in one workspace.
+  - hits: agent, claude, video
+- **[OpenMontageInc/OpenMontage](https://github.com/OpenMontageInc/OpenMontage)** · 49 pts · ★79367 · 351.2★/day · AGPL-3.0 · active ⚠ copyleft:agpl-3.0
+  - World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.
+  - hits: agent, agentic, claude, video
+- **[unslothai/unsloth](https://github.com/unslothai/unsloth)** · 49 pts · ★79286 · 73.6★/day · Apache-2.0 · active ⚠ pipe-to-shell installer
+  - Local UI to run and train LLMs and diffusion models. Supports GGUF, MLX, Qwen3.8, DeepSeek-V4.1, MiniMax-H3, Gemma 4, FLUX and more.
+  - hits: agent, llm, self-hosted
+- **[onehumanbeing/esp32-iphone-agent](https://github.com/onehumanbeing/esp32-iphone-agent)** · 49 pts · ★4803 · 160.1★/day · MIT · active
+  - Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak.
+  - hits: agent, llm, automation
+- **[eigent-ai/eigent](https://github.com/eigent-ai/eigent)** · 49 pts · ★15792 · 33.7★/day · Apache-2.0 · active
+  - Eigent: The Open Source Cowork Desktop - Local and Free Alternative to Claude Cowork and Codex
+  - hits: agent, agentic, claude, workflow, alternative to
+- **[EverMind-AI/EverOS](https://github.com/EverMind-AI/EverOS)** · 49 pts · ★13868 · 36.7★/day · Apache-2.0 · active
+  - One portable memory layer for every AI agent: local-first, Markdown-native, user-owned, and self-evolving across apps, tools, and workflows.
+  - hits: mcp, agent, agentic, llm, workflow
+- **[google-gemini/gemini-cli](https://github.com/google-gemini/gemini-cli)** · 48 pts · ★108761 · 190.1★/day · Apache-2.0 · active
+  - An open-source AI agent that brings the power of Gemini directly into your terminal.
+  - hits: mcp, agent, api
+- **[Egonex-AI/Understand-Anything](https://github.com/Egonex-AI/Understand-Anything)** · 48 pts · ★91861 · 382.8★/day · MIT · active ⚠ pipe-to-shell installer
+  - Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.
+  - hits: agent, claude, llm
+- **[Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill)** · 47 pts · ★112909 · 427.7★/day · MIT · active
+  - Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages
+  - hits: agent, claude, browser
+- **[OpenHands/OpenHands](https://github.com/OpenHands/OpenHands)** · 47 pts · ★93136 · 95.8★/day · MIT · active
+  - 🙌 OpenHands: AI-Driven Development
+  - hits: agent, claude, llm
