@@ -1,102 +1,97 @@
-# Repo Scout — 2026-11-11
+# Repo Scout — 2026-11-12
 
-Window: since 2026-11-08 (niche profiles wider, see each section) · queries 164 · raw 532 · trending 57 · awesome-list adds 0 · new scored 266 · clones dropped 0 · lure READMEs dropped 3
+Window: since 2026-11-09 (niche profiles wider, see each section) · queries 164 · raw 544 · trending 67 · awesome-list adds 0 · new scored 258 · clones dropped 0 · lure READMEs dropped 4
 
 ## PrompterQ (teleprompter software)
 
-_Window: since 2026-10-12_
+_Window: since 2026-10-13_
 
-- **[Alishahryar1/free-claude-code](https://github.com/Alishahryar1/free-claude-code)** · 30 pts · ★68592 · 239.0★/day · NOASSERTION · trending ⚠ no-license
-  - Use Claude Code, Codex, Antigravity, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser sessions (multi-harness + multi-model) like OpenClaw (voice supported + ToS friendly)
-  - hits: voice
-- **[openai/codex-security](https://github.com/openai/codex-security)** · 26 pts · ★11558 · 95.5★/day · Apache-2.0 · trending
-  - OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security
-  - hits: script
-- **[sgl-project/sglang-omni](https://github.com/sgl-project/sglang-omni)** · 22 pts · ★1756 · 5.7★/day · Apache-2.0 · trending
-  - High Performance Serving Runtime For Interactive Super Intelligence System
+- **[openai/whisper](https://github.com/openai/whisper)** · 45 pts · ★112584 · 74.2★/day · MIT · trending
+  - Robust Speech Recognition via Large-Scale Weak Supervision
+  - hits: speech, speech recognition, whisper
+- **[huggingface/transformers](https://github.com/huggingface/transformers)** · 30 pts · ★168909 · 57.5★/day · Apache-2.0 · trending
+  - 🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. 
   - hits: speech
-- **[third-intelligence/Haas-ASR](https://github.com/third-intelligence/Haas-ASR)** · 16 pts · ★43 · 2.1★/day · Apache-2.0 · new
-  - Inference code for Haas, fast and accurate Japanese speech recognition
-  - hits: speech, speech recognition
-- **[snakers4/silero-models](https://github.com/snakers4/silero-models)** · 13 pts · ★6189 · 2.7★/day · NOASSERTION · active ⚠ no-license
-  - Silero Models: pre-trained text-to-speech models made embarrassingly simple
-  - hits: speech
-- **[orailnoor/hush-studio](https://github.com/orailnoor/hush-studio)** · 11 pts · ★45 · 2.5★/day · Apache-2.0 · new
-  - Offline AI narration studio for Android: turn scripts into natural speech and clone your voice, all on-device. No cloud, no account.
-  - hits: speech, voice, script
-- **[tiagozip/cap](https://github.com/tiagozip/cap)** · 10 pts · ★8338 · 12.5★/day · NOASSERTION · trending ⚠ no-license
-  - The open-source, privacy-friendly CAPTCHA you host yourself. Bots and AI agents out, people in.
+- **[n8n-io/n8n](https://github.com/n8n-io/n8n)** · 24 pts · ★210309 · 77.9★/day · NOASSERTION · trending ⚠ no-license
+  - Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.
   - hits: script
-- **[fishjar/kiss-translator](https://github.com/fishjar/kiss-translator)** · 9 pts · ★13297 · 11.0★/day · GPL-3.0 · trending ⚠ copyleft:gpl-3.0
-  - A simple, open source bilingual translation extension & Greasemonkey script (一个简约、开源的 双语对照翻译扩展 & 油猴脚本)
+- **[appwrite/appwrite](https://github.com/appwrite/appwrite)** · 16 pts · ★58063 · 20.9★/day · BSD-3-Clause · trending
+  - The open-source cloud for agents & devs. Including Auth, Databases, Storage, Functions, Messaging, Hosting, Realtime, WAF and more
   - hits: script
+- **[axios/axios](https://github.com/axios/axios)** · 16 pts · ★109395 · 24.5★/day · MIT · trending
+  - Promise based HTTP client for the browser and node.js
+  - hits: script
+- **[nvm-sh/nvm](https://github.com/nvm-sh/nvm)** · 16 pts · ★95974 · 15.9★/day · MIT · trending
+  - Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions.
+  - hits: script
+- **[sunososobro-hub/tinglongwu](https://github.com/sunososobro-hub/tinglongwu)** · 16 pts · ★52 · 17.3★/day · MIT · new ⚠ pipe-to-shell installer
+  - Offline real-time speech translation for meetings and calls. Runs locally: no cloud, no recordings kept.
+  - hits: speech, whisper
+- **[RocketChat/Rocket.Chat](https://github.com/RocketChat/Rocket.Chat)** · 13 pts · ★46498 · 11.1★/day · NOASSERTION · trending ⚠ no-license
+  - The Secure CommsOS™ for mission-critical operations
+  - hits: script
+- **[KoljaB/RealtimeVAD](https://github.com/KoljaB/RealtimeVAD)** · 13 pts · ★46 · 9.2★/day · MIT · new
+  - Faster speech off signals for spec gen voice pipelines
+  - hits: speech, voice
 
 ## National Teleprompter (business: marketing, website, clients)
 
-_Window: since 2026-10-12_
+_Window: since 2026-10-13_
 
 _No new candidates._
 
 ## Wander Network / KWST / WTPA tour-affiliate sites
 
-_Window: since 2026-10-12_
+_Window: since 2026-10-13_
 
-- **[umutxyp/Seo-Promt-Master](https://github.com/umutxyp/Seo-Promt-Master)** · 44 pts · ★578 · 0.3★/day · MIT · active
-  - Open-source SEO & GEO audit: a zero-dependency CLI (npx), an agent skill for Claude Code, Cursor, Codex, Gemini & Copilot, 47 SEO prompts and a cited Google/Bing/AI-search knowledge base. Checks robots.txt, sitemaps, canonicals, hreflang, structured data, Core Web Vitals and AI crawlers — then fixes
-  - hits: seo, structured data, sitemap, core web vitals, geo
-- **[divriots/jampack](https://github.com/divriots/jampack)** · 16 pts · ★1696 · 1.1★/day · MIT · active
-  - Optimizes static websites for best user experience and best Core Web Vitals scores.
-  - hits: core web vitals
-- **[synectus/OpenGMB](https://github.com/synectus/OpenGMB)** · 12 pts · ★15 · 0.8★/day · MIT · new
-  - Open-source Google Business Profile manager: reviews, posts, profile edits and rank tracking for every location, with approval rules before anything goes live and an MCP server for AI agents. Self-host with Docker.
-  - hits: seo
+_No new candidates._
 
 ## New-project opportunities (diversification)
 
-_Window: since 2026-11-08_
+_Window: since 2026-11-09_
 
-- **[wasp-lang/open-saas](https://github.com/wasp-lang/open-saas)** · 49 pts · ★16295 · 15.1★/day · MIT · active
-  - A 100% free modern JS SaaS boilerplate (React, NodeJS, Prisma). Full-featured: Auth (email, google, github, slack, MS), Email sending, Background jobs, Landing page, Payments (Stripe, Polar.sh), Shadcn UI, S3 file upload. AI-ready with tailored AGENTS.md, skills, and Claude Code plugin. One cmd depl
-  - hits: agent, claude, saas, boilerplate, starter, stripe, api
-- **[omnigent-ai/omnigent](https://github.com/omnigent-ai/omnigent)** · 48 pts · ★11336 · 74.1★/day · Apache-2.0 · active
-  - Omnigent is an open-source AI agent framework and meta-harness: orchestrate Claude Code, Codex, Cursor, Pi, and custom agents — swap harnesses without rewriting, enforce policies and sandboxing, and collaborate in real time from any device.
-  - hits: agent, claude, llm
-- **[farion1231/cc-switch](https://github.com/farion1231/cc-switch)** · 48 pts · ★153639 · 331.1★/day · MIT · active
-  - A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode,DeepSeek Harness and more. Only official website: ccswitch.io
-  - hits: mcp, claude
-- **[assafelovic/gpt-researcher](https://github.com/assafelovic/gpt-researcher)** · 48 pts · ★30629 · 23.9★/day · Apache-2.0 · active
-  - An autonomous agent that conducts deep research on any data using any LLM providers
-  - hits: mcp, agent, llm, automation, api, scraping
-- **[vibheksoni/stealth-browser-mcp](https://github.com/vibheksoni/stealth-browser-mcp)** · 48 pts · ★3356 · 7.3★/day · MIT · active
-  - Stealth browser automation for AI agents over MCP and the Chrome DevTools Protocol: navigation, network hooks, DOM extraction, and pixel-accurate UI cloning.
-  - hits: mcp, agent, claude, automation, api, scraping, browser
-- **[VectifyAI/PageIndex](https://github.com/VectifyAI/PageIndex)** · 48 pts · ★40370 · 68.5★/day · MIT · active
-  - 📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG
+- **[agentes-chat/agentes-chat](https://github.com/agentes-chat/agentes-chat)** · 64 pts · ★1031 · 343.7★/day · AGPL-3.0 · new ⚠ copyleft:agpl-3.0
+  - Open-source, self-hosted Slack alternative where your team and AI agents work together in channels and DMs. Agents run on Claude, ChatGPT/Codex, Gemini or Grok, with MCP tools, their own computer and browser, routines, memory and approvals. Web, desktop and phone apps. Docker Compose + Postgres. AGP
+  - hits: mcp, agent, agentic, claude, llm, automation, self-hosted, browser, docker
+- **[xbtlin/ai-berkshire](https://github.com/xbtlin/ai-berkshire)** · 49 pts · ★17101 · 78.1★/day · MIT · active ⚠ pipe-to-shell installer
+  - AI 时代的伯克希尔：基于 Claude Code / Codex 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value investing research framework built for Claude Code / Codex. 4 masters' methodologies + multi-agent adversarial analysis.
+  - hits: mcp, agent, claude, llm
+- **[Tencent/WeKnora](https://github.com/Tencent/WeKnora)** · 47 pts · ★37310 · 78.1★/day · NOASSERTION · active ⚠ no-license
+  - Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.
   - hits: agent, agentic, llm
-- **[tt-a1i/archify](https://github.com/tt-a1i/archify)** · 47 pts · ★95587 · 455.2★/day · Apache-2.0 · active
-  - Turn any idea, plan, or codebase into a beautiful interactive diagram. An agent skill for Claude Code, Codex, and more.
+- **[infiniflow/ragflow](https://github.com/infiniflow/ragflow)** · 46 pts · ★94093 · 88.3★/day · Apache-2.0 · active
+  - RAGFlow is an agent-native database: a Retrieval-Augmented Generation (RAG) engine that grew into context infrastructure.
+  - hits: agent, agentic
+- **[Tencent/BrowserSkill](https://github.com/Tencent/BrowserSkill)** · 46 pts · ★10346 · 72.3★/day · MIT · active ⚠ pipe-to-shell installer
+  - Let AI agents use your real, logged-in browser without interrupting your work. CLI + extension for browser automation across any shell-capable AI agent.
+  - hits: agent, automation, browser
+- **[thedotmack/claude-mem](https://github.com/thedotmack/claude-mem)** · 46 pts · ★116496 · 266.0★/day · Apache-2.0 · active
+  - Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More
+  - hits: agent, claude
+- **[t8y2/dbx](https://github.com/t8y2/dbx)** · 46 pts · ★30180 · 153.2★/day · Apache-2.0 · active
+  - 25 MB lightweight cross-platform database client for 100+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | 轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 100+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和
+  - hits: mcp, docker
+- **[apify/apify-mcp-server](https://github.com/apify/apify-mcp-server)** · 46 pts · ★15958 · 23.5★/day · MIT · active
+  - The Apify MCP server enables your AI agents to extract data from social media, search engines, maps, e-commerce sites, or any other website using thousands of ready-made scrapers, crawlers, and automation tools available on the Apify Store.
+  - hits: mcp, agent, automation, api, scraper
+- **[mcp-use/mcp-use](https://github.com/mcp-use/mcp-use)** · 46 pts · ★10879 · 18.3★/day · MIT · active
+  - The fullstack MCP framework to develop MCP Apps for ChatGPT / Claude & MCP Servers for AI Agents.
+  - hits: mcp, agent, agentic, claude, llm
+- **[firecrawl/firecrawl-mcp-server](https://github.com/firecrawl/firecrawl-mcp-server)** · 46 pts · ★7810 · 11.1★/day · MIT · active
+  - Official Firecrawl MCP server, the context API for AI agents: search, scrape, and interact with the web, plus parse, crawl, map, Agent and Monitor, from any MCP client.
+  - hits: mcp, agent, claude, llm, api, scraping
+- **[Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)** · 46 pts · ★144500 · 155.9★/day · Apache-2.0 · active
+  - 100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.
+  - hits: agent, llm
+- **[Anil-matcha/suparagent](https://github.com/Anil-matcha/suparagent)** · 46 pts · ★7041 · 5.6★/day · Apache-2.0 · active
+  - Open-source, self-hosted alternative to Grok Bot, Claude Duet, OpenAI Dots, Meta Muse, Instinct, Manus Cue: AI coworkers (named agents) with instructions, memory, routines, their own isolated computer, and your approval before they act.
+  - hits: agent, agentic, claude, self-hosted, alternative to
+- **[simstudioai/sim](https://github.com/simstudioai/sim)** · 46 pts · ★30132 · 44.6★/day · Apache-2.0 · active
+  - Sim is the collaborative workspace to build, deploy, and monitor AI agents and workflows. Used by 100,000+ builders.
+  - hits: agent, agentic, automation, workflow
+- **[Dodaios/ste80-humanizer](https://github.com/Dodaios/ste80-humanizer)** · 45 pts · ★447 · 149.0★/day · MIT · new
+  - STE80 Humanizer: agent skill that removes AI tells and rewrites text 80% of the way to ASD-STE100 (Simplified Technical English), the method Andrej Karpathy shared.
   - hits: agent, claude, llm
-- **[asgeirtj/system_prompts_leaks](https://github.com/asgeirtj/system_prompts_leaks)** · 47 pts · ★71196 · 127.8★/day · CC0-1.0 · active
-  - Leaked system prompts of ChatGPT, Claude, Gemini and more. The hidden system prompt of every popular chatbot, in full, every version since May 2025. Also Anthropic Claude Code, OpenAI Codex, Google Antigravity, xAI Grok, Meta Muse, Moonshot Kimi, Alibaba Qwen, Z.ai GLM ZCode, MiniMax, Cursor, Perple
-  - hits: agent, claude, llm
-- **[msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents)** · 47 pts · ★167752 · 425.8★/day · MIT · active
-  - A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.
-  - hits: agent, agency
-- **[career-ops-hq/career-ops](https://github.com/career-ops-hq/career-ops)** · 47 pts · ★81931 · 370.7★/day · MIT · active
-  - Open-source AI job search agent and job finder: scan job boards, score each job 1-5 against your CV before you apply, tailor an ATS-friendly resume and cover letter, get interview prep and an application tracker. It helps you fill in each application; you press Submit. Runs locally in Codex, OpenCod
+- **[addyosmani/agent-skills](https://github.com/addyosmani/agent-skills)** · 45 pts · ★116533 · 431.6★/day · MIT · trending
+  - Production-grade engineering skills for AI coding agents.
   - hits: agent, claude
-- **[cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design)** · 47 pts · ★66490 · 318.1★/day · MIT · active
-  - Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 45 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.
-  - hits: agent, claude
-- **[K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills)** · 47 pts · ★56834 · 146.5★/day · MIT · active ⚠ pipe-to-shell installer
-  - Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigrav
-  - hits: agent, claude
-- **[ToolJet/ToolJet](https://github.com/ToolJet/ToolJet)** · 47 pts · ★41220 · 20.1★/day · AGPL-3.0 · active ⚠ copyleft:agpl-3.0
-  - Open-source foundation of ToolJet AI - the enterprise app generation platform for internal tools, dashboards, business applications, workflows and AI agents. Build visually, from a prompt, or from Claude Code, Codex and Cursor over MCP 🚀
-  - hits: mcp, agent, claude, automation, workflow, self-hosted, docker
-- **[skalesapp/skales](https://github.com/skalesapp/skales)** · 47 pts · ★2233 · 9.0★/day · NOASSERTION · active ⚠ no-license
-  - Personal AI agent harness for macOS, Windows, Linux, Android & iOS. New: Skales Scout, lasting AI agents that keep working on your desk, each optionally in its own virtual machine. Chat, coding (Skales Code), Flow, automations, computer use, browser, voice, MCP, local LLMs (Ollama). BYOK, 26 provide
-  - hits: mcp, agent, agentic, llm, automation, browser, voice, docker
-- **[EKKOLearnAI/ekko-studio](https://github.com/EKKOLearnAI/ekko-studio)** · 47 pts · ★11747 · 54.9★/day · NOASSERTION · active ⚠ no-license
-  - Ekko Studio is a local-first AI workspace for multi-agent chat, coding, and visual workflows, available on desktop and the web.
-  - hits: agent, llm, automation, workflow, self-hosted
