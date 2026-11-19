@@ -1,90 +1,93 @@
-# Repo Scout — 2026-11-18
+# Repo Scout — 2026-11-19
 
-Window: since 2026-11-15 (niche profiles wider, see each section) · queries 164 · raw 559 · trending 64 · awesome-list adds 0 · new scored 203 · clones dropped 20 · lure READMEs dropped 8
+Window: since 2026-11-16 (niche profiles wider, see each section) · queries 164 · raw 544 · trending 67 · awesome-list adds 0 · new scored 189 · clones dropped 19 · lure READMEs dropped 6
 
 ## PrompterQ (teleprompter software)
 
-_Window: since 2026-10-19_
+_Window: since 2026-10-20_
 
-- **[openvinotoolkit/openvino](https://github.com/openvinotoolkit/openvino)** · 19 pts · ★11280 · 3.8★/day · Apache-2.0 · trending
-  - OpenVINO™ is an open source toolkit for optimizing and deploying AI inference
-  - hits: speech
-- **[storybookjs/storybook](https://github.com/storybookjs/storybook)** · 15 pts · ★91632 · 23.5★/day · MIT · trending
-  - Storybook is the industry standard workshop for building, documenting, and testing UI components in isolation
-  - hits: script
-- **[pugarte7/spanish-top-tech-companies](https://github.com/pugarte7/spanish-top-tech-companies)** · 14 pts · ★601 · 7.1★/day · MIT · trending
-  - MCP con las mejores ofertas tech de España, para que tus agentes puedan aplicar por ti de forma automática.
-  - hits: obs
-- **[jquery/jquery](https://github.com/jquery/jquery)** · 14 pts · ★59989 · 9.3★/day · MIT · trending
-  - jQuery JavaScript Library
-  - hits: script
-- **[Dodaios/Dodaios](https://github.com/Dodaios/Dodaios)** · 12 pts · ★418 · 2.4★/day · Apache-2.0 · trending ⚠ pipe-to-shell installer
-  - One workspace for everything you do with AI: Claude Code, Codex and seven more coding agents side by side, one assistant that runs them, voice, and docs. Open source, on your computer, on your own plans and keys. Formerly Personal Jarvis.
+- **[agentscope-ai/agentscope](https://github.com/agentscope-ai/agentscope)** · 22 pts · ★36304 · 34.8★/day · Apache-2.0 · trending
+  - Build and run agents you can see, understand and trust.
   - hits: voice
-- **[schneider-j825791/accentize-dxrevive-setup-guide](https://github.com/schneider-j825791/accentize-dxrevive-setup-guide)** · 3 pts · ★56 · 3.3★/day · NOASSERTION · new ⚠ no-license
-  - Accentize dxRevive is a dialogue restoration plugin for Windows hosts that uses local neural processing to clean speech. It rebuilds missing frequencies, cuts noise and room tone, and smooths codec artifacts without sending audio online.
+- **[Tracer-Cloud/opensre](https://github.com/Tracer-Cloud/opensre)** · 21 pts · ★13029 · 42.0★/day · Apache-2.0 · trending
+  - The open-source agent for CI/CD reliability.
+  - hits: obs
+- **[inworld-ai/voice-isolator](https://github.com/inworld-ai/voice-isolator)** · 16 pts · ★92 · 30.7★/day · Apache-2.0 · new
+  - Voice isolation — separating clean speech from background noise and mixed audio.
+  - hits: speech, voice
+- **[micromatch/picomatch](https://github.com/micromatch/picomatch)** · 14 pts · ★1332 · 0.5★/day · MIT · trending
+  - Blazing fast and accurate glob matcher written JavaScript, with no dependencies and full support for standard and extended Bash glob features, including braces, extglobs, POSIX brackets, and regular expressions. Used by GraphQL, Jest, Astro, Snowpack, Storybook, bulma, Serverless, fdir, Netlify, AWS
+  - hits: obs, script
+- **[visgl/deck.gl](https://github.com/visgl/deck.gl)** · 12 pts · ★14779 · 3.7★/day · MIT · trending
+  - WebGL2 powered visualization framework
+  - hits: script
+- **[dkaraush/tinyasr](https://github.com/dkaraush/tinyasr)** · 9 pts · ★46 · 4.6★/day · GPL-3.0 · new ⚠ copyleft:gpl-3.0
+  - Rust library for running small Zipformer models, trained for speech recognition on device.
+  - hits: speech, speech recognition
+- **[naklecha/caramel](https://github.com/naklecha/caramel)** · 6 pts · ★37 · 4.1★/day · Apache-2.0 · new
+  - caramel-1, a full-duplex speech-to-speech model trained only on audio
   - hits: speech
 
 ## National Teleprompter (business: marketing, website, clients)
 
-_Window: since 2026-10-19_
-
-- **[ethanplusai/sellbird](https://github.com/ethanplusai/sellbird)** · 33 pts · ★6454 · 25.7★/day · AGPL-3.0 · trending ⚠ copyleft:agpl-3.0
-  - Sellbird (formerly Harvey): the open-source outreach platform that runs on your Claude or ChatGPT plan. Finds companies and decision makers, verifies emails, writes personal cold email, sends it and handles the replies.
-  - hits: prospecting, cold email, outreach
-
-## Wander Network / KWST / WTPA tour-affiliate sites
-
-_Window: since 2026-10-19_
+_Window: since 2026-10-20_
 
 _No new candidates._
 
+## Wander Network / KWST / WTPA tour-affiliate sites
+
+_Window: since 2026-10-20_
+
+- **[apache/airflow](https://github.com/apache/airflow)** · 20 pts · ★47556 · 11.2★/day · Apache-2.0 · trending
+  - Apache Airflow - A platform to programmatically author, schedule, and monitor workflows
+  - hits: programmatic
+
 ## New-project opportunities (diversification)
 
-_Window: since 2026-11-15_
+_Window: since 2026-11-16_
 
-- **[nanocoai/nanoclaw](https://github.com/nanocoai/nanoclaw)** · 56 pts · ★31121 · 106.9★/day · MIT · active
-  - Your own always-on AI assistant: self-hosted, open source, lightweight. Each agent runs in its own container on your machine, on the harness you choose (Claude Code, Codex, Cursor, OpenCode). Talk to it from Slack, WhatsApp, Telegram, Discord and more.
-  - hits: agent, claude, self-hosted, docker, whatsapp
-- **[bojieli/ai-agent-book](https://github.com/bojieli/ai-agent-book)** · 46 pts · ★58694 · 134.9★/day · Apache-2.0 · trending
-  - 《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码
-  - hits: mcp, agent, llm
-- **[BuilderIO/agent-native](https://github.com/BuilderIO/agent-native)** · 44 pts · ★7721 · 30.8★/day · MIT · active
-  - A framework for building agentic apps
-  - hits: mcp, agent, agentic
-- **[HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything)** · 44 pts · ★59553 · 233.5★/day · Apache-2.0 · trending
-  - "CLI-Anything: Making ALL Software Agent-Native" -- CLI-Hub: https://clianything.cc/
-  - hits: agent
-- **[mobile-next/mobile-mcp](https://github.com/mobile-next/mobile-mcp)** · 43 pts · ★10688 · 17.8★/day · Apache-2.0 · active
-  - Mobile MCP: let AI agents drive your iOS and Android apps. MCP server for simulators, emulators and real devices. Works with Claude Code, Codex, Cursor and any MCP client.
-  - hits: mcp, agent, claude, automation
-- **[wonderwhy-er/DesktopCommanderMCP](https://github.com/wonderwhy-er/DesktopCommanderMCP)** · 42 pts · ★10352 · 14.5★/day · MIT · active
-  - This is MCP server for Claude that gives it terminal control, file system search and diff file editing capabilities
-  - hits: mcp, agent, claude, automation
-- **[Open-Dev-Society/OpenStock](https://github.com/Open-Dev-Society/OpenStock)** · 42 pts · ★21726 · 52.2★/day · AGPL-3.0 · active ⚠ copyleft:agpl-3.0
-  - OpenStock is an open-source alternative to expensive market platforms. Track real-time prices, set personalized alerts, and explore detailed company insights — built openly, for everyone, forever free.
-  - hits: alternative to, open-source alternative
-- **[github/awesome-copilot](https://github.com/github/awesome-copilot)** · 41 pts · ★41319 · 78.7★/day · MIT · trending
-  - Community-contributed instructions, agents, skills, and configurations to help you make the most of GitHub Copilot.
-  - hits: agent
-- **[github/github-mcp-server](https://github.com/github/github-mcp-server)** · 41 pts · ★34567 · 55.4★/day · MIT · active
-  - GitHub's official MCP Server
-  - hits: mcp
-- **[casdoor/casdoor](https://github.com/casdoor/casdoor)** · 41 pts · ★14892 · 6.7★/day · Apache-2.0 · active
-  - An open-source Agent-first Identity and Access Management (IAM) /LLM MCP & agent gateway and auth server with web UI supporting OpenClaw, MCP, OAuth, OIDC, SAML, CAS, LDAP, SCIM, WebAuthn, TOTP, MFA, Face ID, Google Workspace, Azure AD
-  - hits: mcp, agent, agentic, llm
-- **[crewAIInc/crewAI](https://github.com/crewAIInc/crewAI)** · 41 pts · ★61077 · 54.6★/day · MIT · active ⚠ pipe-to-shell installer
-  - Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.
+- **[bookwjitchieni1986/blender-ai-mcp-addon](https://github.com/bookwjitchieni1986/blender-ai-mcp-addon)** · 51 pts · ★204 · 204.0★/day · MIT · new
+  - AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration.
+  - hits: mcp, agent, claude, llm, automation, workflow
+- **[iflytek/astron-rpa](https://github.com/iflytek/astron-rpa)** · 42 pts · ★5239 · 12.3★/day · Apache-2.0 · active
+  - Agent-ready RPA suite with out-of-the-box automation tools. Built for individuals and enterprises.
+  - hits: mcp, agent, llm, automation, self-hosted
+- **[zylon-ai/private-gpt](https://github.com/zylon-ai/private-gpt)** · 40 pts · ★57646 · 44.4★/day · Apache-2.0 · active ⚠ pipe-to-shell installer
+  - Complete API layer for private AI applications on local models: RAG, skills, tools, MCP, text-to-sql, and more. Works with any OpenAI-compatible inference server.
+  - hits: mcp, api
+- **[Imbad0202/academic-research-skills](https://github.com/Imbad0202/academic-research-skills)** · 40 pts · ★57747 · 217.1★/day · NOASSERTION · active ⚠ no-license
+  - Academic Research Skills for Claude Code: research → write → review → revise → finalize
+  - hits: claude
+- **[elementalsouls/Claude-BugHunter](https://github.com/elementalsouls/Claude-BugHunter)** · 40 pts · ★12210 · 61.7★/day · MIT · trending
+  - A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.
+  - hits: claude
+- **[Bodila51/gtavi-claudecode](https://github.com/Bodila51/gtavi-claudecode)** · 39 pts · ★660 · 660.0★/day · MIT · new
+  - Claude Code plugin that turns GTA 6 streams into paid vertical clips: live campaigns, trending videos, best moments, 9:16 cuts with hooks, captions and credits.
+  - hits: agent, claude, video
+- **[TencentCloud/TencentDB-Agent-Memory](https://github.com/TencentCloud/TencentDB-Agent-Memory)** · 39 pts · ★31039 · 137.3★/day · NOASSERTION · active ⚠ no-license
+  - TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusable memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph) that are governed, shared, and equipped across agents and frameworks.
   - hits: agent, llm
-- **[GetStream/Agents](https://github.com/GetStream/Agents)** · 41 pts · ★8215 · 17.7★/day · Apache-2.0 · active
-  - Quickly build text, voice and video agents. Fast, Go based Agent backend with SDKs for every language. Sensible defaults for search, knowledge, skills, telephony, sandboxes, memory and persistence. Sovereign AI. Take control of your AI.
-  - hits: agent, agentic, voice, video
-- **[coollabsio/coolify](https://github.com/coollabsio/coolify)** · 41 pts · ★66224 · 31.2★/day · Apache-2.0 · active
-  - An open-source, self-hostable PaaS alternative to Vercel, Heroku & Netlify that lets you easily deploy static sites, databases, full-stack applications and 360+ one-click services on your own servers.
-  - hits: self-hosted, alternative to, docker
-- **[langchain-ai/langchain](https://github.com/langchain-ai/langchain)** · 37 pts · ★149862 · 100.4★/day · MIT · active
-  - The agent engineering platform.
-  - hits: agent, llm
-- **[nanobrowser/nanobrowser](https://github.com/nanobrowser/nanobrowser)** · 37 pts · ★14344 · 20.9★/day · Apache-2.0 · active
-  - Open-source AI agent for web automation. Use your real, logged-in browser to automate daily tasks.
-  - hits: agent, automation, api, scraping, browser
+- **[triggerdotdev/trigger.dev](https://github.com/triggerdotdev/trigger.dev)** · 39 pts · ★16785 · 11.6★/day · Apache-2.0 · active
+  - Trigger.dev – build and deploy durable AI agents and workflows
+  - hits: mcp, agent, automation, workflow
+- **[figranium/figranium](https://github.com/figranium/figranium)** · 39 pts · ★790 · 2.4★/day · GPL-3.0 · active ⚠ copyleft:gpl-3.0
+  - Stack blocks visually to build complex browser workflows and execute them via API
+  - hits: agent, agentic, automation, workflow, api, scraping, browser
+- **[janhq/jan](https://github.com/janhq/jan)** · 39 pts · ★45859 · 38.5★/day · NOASSERTION · active ⚠ no-license
+  - Jan is an open source alternative to ChatGPT that runs 100% offline on your computer.
+  - hits: llm, self-hosted, alternative to
+- **[setyamickala/airdrop-agent](https://github.com/setyamickala/airdrop-agent)** · 37 pts · ★76 · 76.0★/day · MIT · new
+  - Autonomous airdrop operator: identities, wallets, socials, testnets, quests, radar — guarded CLI + MCP
+  - hits: mcp, agent, automation
+- **[apify/crawlee](https://github.com/apify/crawlee)** · 37 pts · ★26503 · 7.1★/day · Apache-2.0 · active
+  - Crawlee—A web scraping and browser automation library for Node.js to build reliable crawlers. In JavaScript and TypeScript. Extract data for AI, LLMs, RAG, or GPTs. Download HTML, PDF, JPG, PNG, and other files from websites. Works with Puppeteer, Playwright, Cheerio, JSDOM, and raw HTTP. Both headf
+  - hits: llm, automation, api, scraper, scraping, browser
+- **[Dokploy/dokploy](https://github.com/Dokploy/dokploy)** · 36 pts · ★38615 · 40.9★/day · NOASSERTION · active ⚠ no-license
+  - Open Source Alternative to Vercel, Netlify and Heroku.
+  - hits: agent, self-hosted, alternative to, docker
+- **[michael-denyer/pstack-claude](https://github.com/michael-denyer/pstack-claude)** · 36 pts · ★4570 · 25.8★/day · MIT · trending
+  - Antigravity, Claude Code, Codex, Copilot, Gemini, Muse, OpenCode, Pi, and Prime Agent versions of Poteto's pstack. Rigorous agent workflows with Cursor primitives translated for other harnesses.
+  - hits: agent, agentic, claude, workflow
+- **[zhouxiaoka/autoclip](https://github.com/zhouxiaoka/autoclip)** · 36 pts · ★11120 · 22.3★/day · MIT · active
+  - AutoClip｜一个链接，一键出片。开源 AI 视频剪辑桌面工具，将播客、访谈、课程等长视频自动剪成短视频，生成字幕、封面和发布文案，适配抖音、小红书、TikTok、Reels 与 YouTube Shorts。Open-source AI video clipping & content repurposing.
+  - hits: mcp, agent, video
