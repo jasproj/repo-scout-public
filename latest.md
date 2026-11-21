@@ -1,73 +1,78 @@
-# Repo Scout — 2026-11-20
+# Repo Scout — 2026-11-21
 
-Window: since 2026-11-17 (niche profiles wider, see each section) · queries 164 · raw 554 · trending 67 · awesome-list adds 0 · new scored 178 · clones dropped 18 · lure READMEs dropped 9
+Window: since 2026-11-18 (niche profiles wider, see each section) · queries 164 · raw 541 · trending 66 · awesome-list adds 0 · new scored 172 · clones dropped 0 · lure READMEs dropped 14
 
 ## PrompterQ (teleprompter software)
 
-_Window: since 2026-10-21_
+_Window: since 2026-10-22_
 
-- **[liuzhao1225/YouDub-Desktop](https://github.com/liuzhao1225/YouDub-Desktop)** · 30 pts · ★5873 · 5.5★/day · Apache-2.0 · active
-  - Open-source AI video localization and dubbing for YouTube/Bilibili: speech recognition, subtitle translation, voice cloning, audio mixing and rendering. 开源 AI 视频翻译配音工具。
-  - hits: speech, voice, speech recognition, whisper
+- **[locvel/voite](https://github.com/locvel/voite)** · 28 pts · ★46 · 46.0★/day · MIT · new
+  - Offline-first encrypted voice recorder and diary with local speech-to-text transcription
+  - hits: speech, voice, whisper, script
+- **[software-mansion-labs/Reverb-TTS](https://github.com/software-mansion-labs/Reverb-TTS)** · 10 pts · ★56 · 3.7★/day · Apache-2.0 · new
+  - A research project focused on developing a lightweight neural voice cloning and speech synthesis system, optimized for deployment on edge devices.
+  - hits: speech, voice
 
 ## National Teleprompter (business: marketing, website, clients)
 
-_Window: since 2026-10-21_
+_Window: since 2026-10-22_
 
 _No new candidates._
 
 ## Wander Network / KWST / WTPA tour-affiliate sites
 
-_Window: since 2026-10-21_
+_Window: since 2026-10-22_
 
-_No new candidates._
+- **[AsoBeast/asobeast](https://github.com/AsoBeast/asobeast)** · 11 pts · ★150 · 1.7★/day · AGPL-3.0 · active ⚠ copyleft:agpl-3.0
+  - Open-source ASO tool and keyword rank tracker for the App Store and Google Play. Try asobeast.com free for 7 days or self-host with Docker (AGPL-3.0). Built-in MCP server.
+  - hits: rank tracker
 
 ## New-project opportunities (diversification)
 
-_Window: since 2026-11-17_
+_Window: since 2026-11-18_
 
-- **[replit/amuse](https://github.com/replit/amuse)** · 40 pts · ★91 · 91.0★/day · Apache-2.0 · new
-  - Self-hosted personal AI agent: research, a live browser, reminders and small apps, with approvals before actions. Runs on your own computer with an OpenAI key.
-  - hits: agent, automation, self-hosted, browser
-- **[iamajmeena/neonclipping](https://github.com/iamajmeena/neonclipping)** · 39 pts · ★1163 · 1163.0★/day · MIT · new
-  - Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube captions, local LLM).
-  - hits: llm, video
-- **[ccfos/nightingale](https://github.com/ccfos/nightingale)** · 39 pts · ★13507 · 5.5★/day · Apache-2.0 · active
-  - Open-source, self-hosted alerting for metrics, logs, and databases. Includes a built-in AI agent and MCP server.
-  - hits: mcp, agent, self-hosted
-- **[AstrBotDevs/AstrBot](https://github.com/AstrBotDevs/AstrBot)** · 39 pts · ★47268 · 32.8★/day · AGPL-3.0 · active ⚠ copyleft:agpl-3.0
-  - AI Agent Assistant & development framework that integrates lots of IM platforms, LLMs, plugins and AI feature, and can be your openclaw alternative. ✨
-  - hits: mcp, agent, llm, docker
-- **[heilcheng/awesome-agent-skills](https://github.com/heilcheng/awesome-agent-skills)** · 39 pts · ★6416 · 19.7★/day · MIT · active ⚠ pattern:tutorial
-  - Tutorials, Guides and Agent Skills Directories
-  - hits: mcp, agent, claude, llm, automation
-- **[oxylabs/Agent-browser](https://github.com/oxylabs/Agent-browser)** · 39 pts · ★665 · 3.1★/day · no license · active ⚠ no-license
-  - Execute complex automation scripts via remote cloud sessions , featuring integrated residential proxies , automated CAPTCHA solving , and native JavaScript rendering for the toughest dynamic websites.
-  - hits: agent, automation, api, scraper, scraping, browser
-- **[osaurus-ai/osaurus](https://github.com/osaurus-ai/osaurus)** · 39 pts · ★8188 · 17.8★/day · MIT · active
-  - Own your AI. The open-source agent harness for macOS. Run local or cloud models with persistent memory, skills, tools, and autonomous execution. Built in Swift.
-  - hits: mcp, agent, llm
-- **[apify/crawlee-python](https://github.com/apify/crawlee-python)** · 35 pts · ★9679 · 9.3★/day · Apache-2.0 · active
-  - Crawlee—A web scraping and browser automation library for Python to build reliable crawlers. Extract structured data with LLMs via Pydantic AI, or control the browser in natural language with Stagehand. Works with BeautifulSoup, Parsel, Playwright, and raw HTTP. Download HTML, PDF, images, and other
-  - hits: llm, automation, api, scraper, scraping, browser
-- **[activepieces/activepieces](https://github.com/activepieces/activepieces)** · 35 pts · ★25644 · 17.7★/day · NOASSERTION · active ⚠ no-license
-  - AI Agents & MCPs & AI Workflow Automation • (~400 MCP servers for AI agents) • AI Automation / AI Agent with MCPs • AI Workflows & AI Agents • MCPs for AI Agents
-  - hits: mcp, agent, automation, workflow
-- **[ddalcu/mlx-serve](https://github.com/ddalcu/mlx-serve)** · 35 pts · ★2515 · 9.1★/day · NOASSERTION · active ⚠ no-license
-  - Native LLM inference server for Apple Silicon. OpenAI + Anthropic API compatible. No Python. Zig backend, Swift frontend macOS app with chat, music, voice, video generation.
-  - hits: agent, claude, llm, api, voice, video
-- **[jingyaogong/minimind](https://github.com/jingyaogong/minimind)** · 34 pts · ★67605 · 79.9★/day · Apache-2.0 · trending
-  - 🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.
-  - hits: llm
-- **[vincentsch/explainroo](https://github.com/vincentsch/explainroo)** · 34 pts · ★1385 · 24.7★/day · MIT · active
-  - Explainer videos and product demos made by your AI agent. Free and open source: a local voice (Kokoro), word timing (Whisper) and a canvas renderer turn a script into a narrated MP4.
-  - hits: agent, claude, voice, video
-- **[vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills)** · 34 pts · ★34598 · 99.7★/day · no license · trending ⚠ no-license
-  - Vercel's official collection of agent skills
+- **[w01fb0ss/PiBot](https://github.com/w01fb0ss/PiBot)** · 45 pts · ★121 · 121.0★/day · Apache-2.0 · new
+  - Open-source, local-first AI agent team for your desktop: multi-agent group chats, computer use, browser, MCP, routines and approvals. macOS, Windows, Linux + Android. Built on pi.
+  - hits: mcp, agent, llm, automation, self-hosted, browser
+- **[luongnv89/claude-howto](https://github.com/luongnv89/claude-howto)** · 41 pts · ★47488 · 125.3★/day · MIT · active ⚠ pattern:tutorial
+  - A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.
+  - hits: agent, claude
+- **[kyegomez/swarms](https://github.com/kyegomez/swarms)** · 39 pts · ★7387 · 5.7★/day · Apache-2.0 · active
+  - The Enterprise-Grade Multi-Agent Orchestration Framework. Website: https://swarms.ai
+  - hits: agent, agentic, claude, workflow
+- **[platonai/Browser4](https://github.com/platonai/Browser4)** · 38 pts · ★1186 · 0.4★/day · Apache-2.0 · active ⚠ pipe-to-shell installer
+  - Browser4 — an AI-native browser engine for autonomous agents, intelligent extraction, and large-scale web automation.
+  - hits: agent, agentic, automation, browser
+- **[chatwoot/chatwoot](https://github.com/chatwoot/chatwoot)** · 38 pts · ★40292 · 15.2★/day · NOASSERTION · active ⚠ no-license
+  - Open-source live-chat, email support, omni-channel desk. An alternative to Intercom, Zendesk, Salesforce Service Cloud etc. 🔥💬
+  - hits: alternative to, sales, docker, whatsapp
+- **[annayal-consumerxai/prod-FARM-IOS-Core](https://github.com/annayal-consumerxai/prod-FARM-IOS-Core)** · 35 pts · ★1891 · 22.0★/day · Apache-2.0 · active
+  - A farm of real iPhones, run from your Mac. Open-source iOS device automation with live control, a Postgres-backed scheduler, and TikTok workflows. Self-hosted, Apache-2.0. Built at Agniverse, by An Nayal.
+  - hits: agent, automation, workflow, self-hosted
+- **[pydantic/pydantic-ai](https://github.com/pydantic/pydantic-ai)** · 35 pts · ★21326 · 24.2★/day · MIT · active
+  - How Python does AI. Agents, realtime voice, image generation, embeddings. Every model, every interface, typed end to end.
+  - hits: agent, llm, voice
+- **[hoppscotch/hoppscotch](https://github.com/hoppscotch/hoppscotch)** · 32 pts · ★80864 · 30.5★/day · MIT · active
+  - Open-Source API Development Ecosystem • https://hoppscotch.io • Offline, On-Prem & Cloud • Web, Desktop & CLI • Open-Source Alternative to Postman, Insomnia
+  - hits: alternative to, open-source alternative, api
+- **[danielwh2/sprite-stacking](https://github.com/danielwh2/sprite-stacking)** · 32 pts · ★335 · 335.0★/day · MIT · new
+  - Agent skill: turn four pixel art views into fake-3D sprites you can spin. Works with Claude Code, Codex, Cursor, OpenCode, Gemini CLI, Pi.
+  - hits: agent, claude
+- **[localsend/localsend](https://github.com/localsend/localsend)** · 32 pts · ★100110 · 69.7★/day · Apache-2.0 · active
+  - An open-source cross-platform alternative to AirDrop
+  - hits: alternative to
+- **[nestjs/agent-skills](https://github.com/nestjs/agent-skills)** · 31 pts · ★127 · 127.0★/day · MIT · new
+  - Agent skills for Nest framework (node.js) 🕵️‍♂️
+  - hits: agent, claude
+- **[langchain-ai/langgraph](https://github.com/langchain-ai/langgraph)** · 31 pts · ★45229 · 37.7★/day · MIT · active
+  - Build resilient agents.
+  - hits: agent, llm
+- **[langchain4j/langchain4j](https://github.com/langchain4j/langchain4j)** · 30 pts · ★13430 · 10.7★/day · Apache-2.0 · active
+  - LangChain4j is an idiomatic, open-source Java library for building LLM-powered applications on the JVM. It offers a unified API over popular LLM providers and vector stores, and makes implementing tool calling (including MCP support), agents and RAG easy. It integrates seamlessly with enterprise Jav
+  - hits: mcp, agent, llm, api
+- **[open-slide/open-slide](https://github.com/open-slide/open-slide)** · 28 pts · ★9827 · 47.0★/day · MIT · active
+  - A slide framework built for agents.
   - hits: agent
-- **[anomalyco/opencode](https://github.com/anomalyco/opencode)** · 33 pts · ★228210 · 401.1★/day · MIT · trending
-  - The open source coding agent.
+- **[MoritzPindorek/Five-Laws-of-AI-Agents](https://github.com/MoritzPindorek/Five-Laws-of-AI-Agents)** · 27 pts · ★204 · 204.0★/day · Apache-2.0 · new
+  - Independent philosophical research on the Five Laws of AI Agents, delegated authority, non-entitlement and corrigibility. Zenodo DOI: 10.5281/zenodo.24417028
   - hits: agent
-- **[modelcontextprotocol/python-sdk](https://github.com/modelcontextprotocol/python-sdk)** · 33 pts · ★24915 · 31.7★/day · MIT · active
-  - The official Python SDK for Model Context Protocol servers and clients
-  - hits: mcp, model context protocol
