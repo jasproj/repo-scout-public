@@ -1,84 +1,81 @@
-# Repo Scout — 2026-11-24
+# Repo Scout — 2026-11-25
 
-Window: since 2026-11-21 (niche profiles wider, see each section) · queries 164 · raw 553 · trending 67 · awesome-list adds 3 · new scored 160 · clones dropped 0 · lure READMEs dropped 19
+Window: since 2026-11-22 (niche profiles wider, see each section) · queries 164 · raw 544 · trending 68 · awesome-list adds 1 · new scored 143 · clones dropped 0 · lure READMEs dropped 10
 
 ## PrompterQ (teleprompter software)
 
-_Window: since 2026-10-25_
+_Window: since 2026-10-26_
 
-- **[AliHesham2/Tarjuman](https://github.com/AliHesham2/Tarjuman)** · 12 pts · ★33 · 16.5★/day · GPL-3.0 · new ⚠ copyleft:gpl-3.0
-  - Real-time speech translation overlay for any meeting or video on your PC. Local Whisper + cloud translation. English to Arabic now, more languages planned.
-  - hits: speech, whisper
-- **[tuanpmt/vtts](https://github.com/tuanpmt/vtts)** · 9 pts · ★27 · 3.0★/day · Apache-2.0 · new
-  - Tiny multilingual text-to-speech that runs fully on ESP32-P4 and ESP32-S3: C99 int8 runtime, per-language front-ends, single-language and bilingual voices
+- **[leafrocksnow85/resemble-ai](https://github.com/leafrocksnow85/resemble-ai)** · 24 pts · ★142 · 142.0★/day · NOASSERTION · new ⚠ no-license
+  - Resemble Ai for Windows 10/11. Generates realistic synthetic speech from text and clones voices using short audio samples, then exports the results as audio files for videos, games and narration projects.
   - hits: speech, voice
-- **[hozosch/Reloq-C](https://github.com/hozosch/Reloq-C)** · 5 pts · ★30 · 1.1★/day · GPL-3.0 · new ⚠ copyleft:gpl-3.0
-  - Modern rebuild of the popular Eti-Eloquence Text to speech, based on the rules by Speech works, not IBM ViaVoice
-  - hits: speech, voice
-- **[pecopeko/mcp-public-intel](https://github.com/pecopeko/mcp-public-intel)** · 4 pts · ★0 · 0.0★/day · MIT · awesome:punkpeye/awesome-mcp-servers
-  - Zero-API-key Model Context Protocol (MCP) server for SEC EDGAR XBRL & Form D funding, Greenhouse/Lever/Ashby jobs, Shopify catalogs, Substack full-text Markdown, and Podcast transcripts.
-  - hits: obs, script
-- **[luca-network/spr](https://github.com/luca-network/spr)** · 3 pts · ★0 · 0.0★/day · Apache-2.0 · awesome:punkpeye/awesome-mcp-servers
-  - SPR, the Sealed Payment Record: an open format, library and SDKs for sealed accounting records of AI agent payments. Apache-2.0
-  - hits: script
+- **[Bear-best-45/mondly-desktop](https://github.com/Bear-best-45/mondly-desktop)** · 21 pts · ★143 · 143.0★/day · NOASSERTION · new ⚠ no-license
+  - Mondly Desktop for Windows 10/11. Learns vocabulary, phrases and grammar through bite-size daily lessons, spaced repetition, and speech practice across 40+ languages, tracking streaks and progress on your desktop.
+  - hits: speech
+- **[kaisye/vietnote-asr](https://github.com/kaisye/vietnote-asr)** · 21 pts · ★45 · 22.5★/day · Apache-2.0 · new
+  - VietNote ASR – Nhận dạng giọng nói tiếng Việt pha tiếng Anh (Vietnamese speech recognition, speech-to-text), streaming trên CPU. Zipformer 78M, ITN, dấu câu, fine-tune.
+  - hits: speech, voice, speech recognition
 
 ## National Teleprompter (business: marketing, website, clients)
 
-_Window: since 2026-10-25_
+_Window: since 2026-10-26_
 
-_No new candidates._
+- **[sumioshi/wacrew](https://github.com/sumioshi/wacrew)** · 7 pts · ★15 · 0.8★/day · Apache-2.0 · new
+  - Open-source WhatsApp AI automation: inbox sorted by wait time, replies in your own voice with human-paced delivery, client CRM, live 2D office and an MCP server for Claude Code and Codex.
+  - hits: crm
 
 ## Wander Network / KWST / WTPA tour-affiliate sites
 
-_Window: since 2026-10-25_
+_Window: since 2026-10-26_
 
-- **[Directoryops/directory-ops](https://github.com/Directoryops/directory-ops)** · 11 pts · ★16 · 2.7★/day · MIT · new
-  - An AI employee for your directory website: skills for Hermes Agent that keep listings accurate, find content that brings traffic, and route leads.
-  - hits: seo
-- **[Sliverkiss/egern](https://github.com/Sliverkiss/egern)** · 4 pts · ★15 · 3.8★/day · no license · new ⚠ no-license
-  - Egern 声明式模块仓库 · 去广告与解锁 · 零 scriptings · llms.txt 官方文档快照
-  - hits: llms.txt
+_No new candidates._
 
 ## New-project opportunities (diversification)
 
-_Window: since 2026-11-21_
+_Window: since 2026-11-22_
 
-- **[jub0t/Concat](https://github.com/jub0t/Concat)** · 52 pts · ★19984 · 219.6★/day · AGPL-3.0 · active ⚠ copyleft:agpl-3.0
-  - Beta: The open-source CapCut alternative. Scriptable through a JSON-RPC API & MCP.
-  - hits: mcp, automation, self-hosted, api, voice, video
-- **[Developing-Gamer/agent-sim](https://github.com/Developing-Gamer/agent-sim)** · 45 pts · ★531 · 177.0★/day · Apache-2.0 · new
-  - iOS simulators for AI agents, on Linux. The agent layer for x86Sim.
-  - hits: mcp, agent, claude
-- **[Deuz-AI/Deuz-SDK](https://github.com/Deuz-AI/Deuz-SDK)** · 39 pts · ★508 · 2.9★/day · MIT · active
-  - TypeScript AI SDK and agent framework with zero dependencies. Build production AI agents and multi-agent swarms: durable execution, long-term memory, hybrid RAG, MCP client/server, A2A, human-in-the-loop approvals, CodeAct sandboxes, realtime voice. One streaming API, 29 providers: Claude, GPT, Gemi
-  - hits: mcp, agent, claude, llm, api, voice
-- **[HKUDS/LightRAG](https://github.com/HKUDS/LightRAG)** · 36 pts · ★40847 · 52.2★/day · MIT · active ⚠ pipe-to-shell installer
-  - [EMNLP2025] LightRAG: Simple and Fast Retrieval-Augmented Generation
-  - hits: llm
-- **[awslabs/cli-agent-orchestrator](https://github.com/awslabs/cli-agent-orchestrator)** · 36 pts · ★1669 · 3.5★/day · Apache-2.0 · trending
-  - Multi-agent orchestration for AI coding CLIs — Claude Code, Kiro, Codex, and more, coordinated in isolated tmux sessions
-  - hits: mcp, agent, claude
-- **[SodovaFo7/claude-code-unlimited](https://github.com/SodovaFo7/claude-code-unlimited)** · 33 pts · ★68 · 68.0★/day · MIT · new
-  - Rotate Claude Code sessions automatically. Never hit the limit again.
-  - hits: agent, claude, llm, automation
-- **[budtmo/docker-android](https://github.com/budtmo/docker-android)** · 32 pts · ★16201 · 4.5★/day · NOASSERTION · active ⚠ no-license
-  - Android in docker solution with noVNC supported, video recording, mcp server and AI-agent
-  - hits: mcp, agent, llm, video, docker
-- **[wc4440222/google-ai-offer-subscription](https://github.com/wc4440222/google-ai-offer-subscription)** · 31 pts · ★72 · 72.0★/day · NOASSERTION · new ⚠ no-license
-  - Cross-agent skill: query and subscribe Google AI hidden offers via Play Billing on rooted Android emulator
-  - hits: agent, billing, subscription
-- **[z91772524-ai/pojia-next](https://github.com/z91772524-ai/pojia-next)** · 29 pts · ★1223 · 18.0★/day · MIT · active
-  - 四个 AI 客户端的内置提示词一键替换：DSH / WorkBuddy / ZCode / Codex。双击即用、可自证、改前备份、一键还原。免装 Python 单文件 exe；激活码在官方群内按公告领取。
-  - hits: agent, claude, llm, automation
-- **[whiteguo233/OpenBiliClaw](https://github.com/whiteguo233/OpenBiliClaw)** · 29 pts · ★3797 · 14.5★/day · MIT · active ⚠ pipe-to-shell installer
-  - 本地私有、开源的自进化跨平台 AI 内容发现 Agent：先理解你，再主动从 B站、小红书、抖音、YouTube、X、知乎、Reddit、微博等平台与开放 Web 寻找内容。（支持 deepseek harness 插件） | Local-first open-source cross-platform AI content discovery agent: understands you, then proactively finds content across Bilibili, Xiaohongshu, Douyin, YouTube, X, Zhihu, Reddit, Weibo 
+- **[matheusmongarde/garimpo](https://github.com/matheusmongarde/garimpo)** · 52 pts · ★166 · 166.0★/day · MIT · new
+  - Prospecção open source do Google Maps ao Pix: acha negócios no Maps, gera um site-prévia com o nome de cada um, conversa no WhatsApp e cobra por Pix, Mercado Pago ou Stripe. Pagou, fecha sozinho. Roda no seu PC, VPS ou Vercel, com API para agentes (Claude Code, Codex, n8n).
+  - hits: agent, claude, stripe, api, scraper, lead, whatsapp
+- **[mutonby/openshorts](https://github.com/mutonby/openshorts)** · 48 pts · ★9886 · 29.0★/day · MIT · active
+  - Open source AI clip generator: turns long videos into viral 9:16 shorts with AI moment detection, face tracking, subtitles and dubbing. Self-host free with Docker (MIT), or use the cloud with GPU speed from $12/mo. MCP server and API for AI agents.
+  - hits: mcp, agent, self-hosted, api, video, docker
+- **[matheusmongarde/skill-prospeccao](https://github.com/matheusmongarde/skill-prospeccao)** · 45 pts · ★69 · 69.0★/day · MIT · new
+  - Playbook operacional completo para transformar qualquer agente de IA (OpenBot, Claude Code, Codex, Cursor ou runtime próprio) em um operador comercial sênior de ponta a ponta.  Funciona para qualquer produto ou serviço (SaaS, software sob medida, agência, consultoria, profissionais liberais, indústr
+  - hits: agent, claude, automation, saas, whatsapp
+- **[Natively-AI-assistant/natively-cluely-ai-assistant](https://github.com/Natively-AI-assistant/natively-cluely-ai-assistant)** · 41 pts · ★3387 · 11.2★/day · NOASSERTION · active ⚠ no-license
+  - Natively — Free open-source AI meeting assistant, interview copilot, and note taker. The best alternative to Cluely, Otter, Granola, Final Round AI, Fireflies, and Interview Coder. Real-time transcription, AI meeting notes, lecture recording, local RAG, BYOK, and stealth mode. Runs locally. No subsc
+  - hits: agent, claude, llm, alternative to, subscription
+- **[livekit/agents](https://github.com/livekit/agents)** · 36 pts · ★15344 · 13.5★/day · Apache-2.0 · active
+  - A framework for building realtime voice AI agents 🤖🎙️📹 
+  - hits: agent, voice, video
+- **[MervinPraison/PraisonAI](https://github.com/MervinPraison/PraisonAI)** · 36 pts · ★9383 · 9.6★/day · MIT · active
+  - Private AI agents for highly regulated teams, and for anyone who wants AI on their own computer. Open-source Python agent framework that runs fully offline.
   - hits: agent, llm, self-hosted
-- **[thomiceli/opengist](https://github.com/thomiceli/opengist)** · 27 pts · ★3418 · 2.6★/day · AGPL-3.0 · active ⚠ copyleft:agpl-3.0
-  - Self-hosted pastebin powered by Git, open-source alternative to Github Gist.
-  - hits: self-hosted, alternative to, open-source alternative, docker
-- **[MaryCache/tsuzuri](https://github.com/MaryCache/tsuzuri)** · 25 pts · ★127 · 127.0★/day · MIT · new
-  - Claude Code・Codex・Antigravity などの AI コーディングエージェントに、執筆意図と文機能つきで一文ずつ日本語の文章を執筆・レビューさせるスキルと閲覧アプリ
+- **[Skyvern-AI/skyvern](https://github.com/Skyvern-AI/skyvern)** · 36 pts · ★23536 · 23.5★/day · AGPL-3.0 · active ⚠ copyleft:agpl-3.0
+  - Automate browser based workflows with AI
+  - hits: llm, automation, workflow, api, browser
+- **[LearningCircuit/local-deep-research](https://github.com/LearningCircuit/local-deep-research)** · 36 pts · ★9650 · 14.8★/day · MIT · active
+  -  ~95% on SimpleQA (e.g. Qwen3.6-27B on a 3090). Supports all local and cloud LLMs (llama.cpp, Ollama, Google, ...). 10+ search engines - arXiv, PubMed, your private documents. Everything Local & Encrypted.
+  - hits: llm, automation, self-hosted
+- **[GoogleChrome/modern-web-guidance-src](https://github.com/GoogleChrome/modern-web-guidance-src)** · 36 pts · ★11002 · 36.4★/day · Apache-2.0 · trending
+  - Keep your coding agent up to date with the latest web best practices
+  - hits: agent
+- **[mjmirza/app-store-compliance](https://github.com/mjmirza/app-store-compliance)** · 35 pts · ★6398 · 37.2★/day · NOASSERTION · trending ⚠ no-license
+  - Avoid common App Store and Google Play rejections. Open playbook and pre-submission guard with 124 documented rejection patterns and fixes, privacy manifest and Data safety checks, 114 tracked deadlines (EU AI Act, DSA, COPPA, age laws), and a skill for AI coding agents.
   - hits: agent, claude
-- **[rustdesk/rustdesk](https://github.com/rustdesk/rustdesk)** · 25 pts · ★131266 · 58.4★/day · AGPL-3.0 · active ⚠ copyleft:agpl-3.0
-  - An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.
-  - hits: alternative to
+- **[bhottu/cultiv-tiktok-ai-affiliate-platform](https://github.com/bhottu/cultiv-tiktok-ai-affiliate-platform)** · 33 pts · ★85 · 85.0★/day · MIT · new
+  - Platform SaaS berbasis AI untuk riset produk affiliate, analisis peluang, pembuatan konten promosi, video generation, dan otomasi workflow affiliate lintas kategori produk.
+  - hits: workflow, saas, video
+- **[kestra-io/kestra](https://github.com/kestra-io/kestra)** · 33 pts · ★30354 · 11.5★/day · Apache-2.0 · active
+  - Orchestrate everything, everywhere. The open-source control plane for workflows across data, infrastructure, business processes and AI agents. Declarative YAML, event-driven, any language, Git-versioned, scalable to millions of executions.
+  - hits: agent, automation, workflow
+- **[bytebuildsmall/claude-desktop](https://github.com/bytebuildsmall/claude-desktop)** · 32 pts · ★132 · 132.0★/day · NOASSERTION · new ⚠ no-license
+  - Claude Desktop for Windows 10/11. Chats with Claude AI to draft documents, analyze files and code, and answer questions from a native desktop app with quick access to your projects and conversations.
+  - hits: mcp, agent, claude, api
+- **[test-zeus-ai/testzeus-hercules](https://github.com/test-zeus-ai/testzeus-hercules)** · 32 pts · ★1254 · 1.7★/day · AGPL-3.0 · active ⚠ copyleft:agpl-3.0
+  - Hercules is the world’s first open-source testing agent, enabling UI, API, Security, Accessibility, and Visual validations – all without code or maintenance. Automate testing effortlessly and let Hercules handle the heavy lifting! ⚡
+  - hits: agent, agentic, automation, api, browser
+- **[Project-N-E-K-O/N.E.K.O](https://github.com/Project-N-E-K-O/N.E.K.O)** · 32 pts · ★3290 · 6.4★/day · Apache-2.0 · active
+  -  Open-source companion agents, and the community that raises them: realtime voice & vision, long-term memory, Live2D / 3D avatars, game companions, social visits and a plugin market. 🐱开源的伙伴 Agent，和一个人与猫娘共同生活的社区。
+  - hits: agent, voice, marketplace
